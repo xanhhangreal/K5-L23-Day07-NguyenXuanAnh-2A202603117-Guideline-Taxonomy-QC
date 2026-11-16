@@ -1,18 +1,67 @@
 {
-  "version": "v0",
+  "version": "v1.0",
   "ignore_class": "ignore_region",
   "classes": [
-    {"name": "car", "definition": "Ô tô con, SUV."},
-    {"name": "truck", "definition": "Xe tải, xe có thùng hàng riêng."},
-    {"name": "van", "definition": "Xe thùng kín cỡ nhỏ."},
-    {"name": "motorcycle", "definition": "Xe máy, mô tô."},
-    {"name": "person", "definition": "Người đi bộ hoặc người ngồi trên xe."},
-    {"name": "ignore_region", "definition": "Vùng bỏ qua (không phải vật): nơi không gán từng vật, bỏ sót ở đây không tính là lỗi."}
+    {
+      "name": "car",
+      "definition": "Ô tô con gồm sedan, hatchback, wagon và SUV; không có thùng hàng riêng kiểu bán tải."
+    },
+    {
+      "name": "truck",
+      "definition": "Xe chở hàng có cabin và khu vực hàng riêng, gồm xe tải, đầu kéo và bán tải; nắp thùng không tự đổi bán tải thành van."
+    },
+    {
+      "name": "van",
+      "definition": "Xe dạng van có khoang người hoặc hàng kín liền thân với khoang lái."
+    },
+    {
+      "name": "motorcycle",
+      "definition": "Xe máy, xe tay ga hoặc mô tô, gồm mô tô và sidecar gắn liền như một tổ hợp."
+    },
+    {
+      "name": "person",
+      "definition": "Người thật trong cảnh, gồm người đi bộ, người ngồi và người trên phương tiện; loại hình in, tượng và phản chiếu."
+    },
+    {
+      "name": "bus",
+      "definition": "Xe có kết cấu nhìn thấy nhận dạng được là xe buýt hoặc xe khách; không suy đoán số ghế."
+    },
+    {
+      "name": "tuk_tuk",
+      "definition": "Xe ba bánh có động cơ kiểu tuk-tuk hoặc auto rickshaw, có vị trí lái và khoang khách hoặc hàng phía sau."
+    },
+    {
+      "name": "ignore_region",
+      "definition": "Vùng kỹ thuật chứa vật mục tiêu cao dưới 20 px hoặc cụm không thể tách tin cậy; không phủ vật lớn rõ."
+    }
   ],
   "attributes": [
-    {"name": "occluded_level", "type": "select", "values": ["0", "1", "2", "3"], "default": "0"},
-    {"name": "truncated", "type": "select", "values": ["no", "yes"], "default": "no"},
-    {"name": "can_review", "type": "checkbox", "values": [], "default": "false"}
+    {
+      "name": "occluded_level",
+      "type": "select",
+      "values": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "truncated",
+      "type": "select",
+      "values": [
+        "no",
+        "yes"
+      ],
+      "default": "no"
+    },
+    {
+      "name": "can_review",
+      "type": "checkbox",
+      "values": [],
+      "default": "false"
+    }
   ],
   "rules": {
     "min_box_height_px": 20,

@@ -1,0 +1,28 @@
+{
+  "version": "v1.0",
+  "status": "locked",
+  "locked_at": "2026-11-16T19:21:52+07:00",
+  "authorization": "User instruction in chat: skip guideline 084, finalize guideline and assign tasks to everyone.",
+  "source_members": [
+    "117",
+    "133",
+    "150"
+  ],
+  "annotation_members": [
+    "084",
+    "117",
+    "133",
+    "150"
+  ],
+  "skipped_individual_guidelines": [
+    "084"
+  ],
+  "review_policy": "Apply R-10 independently for uncertain cases; resolve after all independent submissions. No image review or QC completion is claimed.",
+  "sha256": {
+    "submission/guidelines/guideline_v1.0_agreed.md": "5115013fd4ed52992ddccc685c7ec4da5897b4d45fbc5ae730b5ccfda6676524",
+    "submission/taxonomy.json": "f8600a6f1e953c35ad007b0001a0f46363443702918cb64bf12ed86cd5d663a2",
+    "cvat/labels_generated.json": "df91682113decfe8d6fa66c33caf3e2801619a3450fee78080ac3ac7901c084a",
+    "submission/qc/assignment.csv": "4e87cebe33554361f27a5b74c877a4ba495b0df67755cf93d4e05d838e60e61c"
+  },
+  "cvat_config_compatibility": "Verified via local CVAT Project #3 creation: rectangle label type and checkbox values containing the default; taxonomy rules and attribute schema unchanged."
+}
