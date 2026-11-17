@@ -13,6 +13,9 @@ submission\labels\133.json: hợp lệ về cấu trúc, 20 ảnh.
 [WARN] img_031.jpg #230: rà lại quy tắc vật nhỏ.
 [WARN] img_031.jpg #232: rà lại quy tắc vật nhỏ.
 [WARN] img_031.jpg #233: rà lại quy tắc vật nhỏ.
+submission\labels\150.json: hợp lệ về cấu trúc, 20 ảnh.
+[WARN] img_002.jpg #11: rà lại quy tắc vật nhỏ.
+[WARN] img_023.jpg #168: rà lại quy tắc vật nhỏ.
 Reviewer kiểm box có đúng vật, đúng lớp, ôm sát và có bỏ sót hay không.
 
 Exit code: 0

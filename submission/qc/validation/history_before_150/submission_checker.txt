@@ -1,0 +1,11 @@
+$ python scripts/check_submission.py --round 1
+
+LỖI: Thiếu hoặc trống: submission\individual_notes\084.md.
+LỖI: Thiếu hoặc trống: submission\labels\150.json.
+LỖI: Thiếu hoặc trống: submission\individual_notes\150.md.
+LỖI: Danh sách file nhãn phải khớp mã thành viên trong assignment.csv.
+LỖI: QC_REPORT.md cần ghi số vòng QC đang nộp.
+LỖI: Chưa đủ bằng chứng bàn giao: [Errno 2] No such file or directory: 'C:\\Users\\ad\\Desktop\\VinAI\\2. Lab\\K5-L23-Day07-NguyenXuanAnh-2A202603117-Guideline-Taxonomy-QC\\submission\\qc\\reviews\\round-01\\qc_result.json'.
+Tổng kết: 6 lỗi. Reviewer vẫn cần kiểm nội dung và mở thử gói bàn giao.
+
+Exit code: 1

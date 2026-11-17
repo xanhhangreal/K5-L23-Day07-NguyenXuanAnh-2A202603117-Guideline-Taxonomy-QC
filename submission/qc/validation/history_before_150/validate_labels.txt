@@ -1,0 +1,18 @@
+$ python scripts/validate_labels.py --all
+
+submission\labels\084.json: hợp lệ về cấu trúc, 20 ảnh.
+submission\labels\117.json: hợp lệ về cấu trúc, 20 ảnh.
+submission\labels\133.json: hợp lệ về cấu trúc, 20 ảnh.
+[WARN] img_005.jpg #29: rà lại quy tắc vật nhỏ.
+[WARN] img_021.jpg #127: rà lại quy tắc vật nhỏ.
+[WARN] img_024.jpg #167: rà lại quy tắc vật nhỏ.
+[WARN] img_025.jpg #182: rà lại quy tắc vật nhỏ.
+[WARN] img_025.jpg #183: rà lại quy tắc vật nhỏ.
+[WARN] img_025.jpg #184: rà lại quy tắc vật nhỏ.
+[WARN] img_031.jpg #224: rà lại quy tắc vật nhỏ.
+[WARN] img_031.jpg #230: rà lại quy tắc vật nhỏ.
+[WARN] img_031.jpg #232: rà lại quy tắc vật nhỏ.
+[WARN] img_031.jpg #233: rà lại quy tắc vật nhỏ.
+Reviewer kiểm box có đúng vật, đúng lớp, ôm sát và có bỏ sót hay không.
+
+Exit code: 0

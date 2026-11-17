@@ -1,0 +1,9 @@
+{
+  "source_archive": "coco_day07_150.zip",
+  "source_archive_sha256": "abd4a554d17394352b1deb992fbccac8ab7a5de4ca65591000512b4e38c7e9d1",
+  "zip_entry": "annotations/instances_default.json",
+  "json_sha256": "0b905cd0c5daa8c3db1c0e26857ad26a604e217706a6adf270aef86c2471209c",
+  "images": 20,
+  "annotations": 303,
+  "original_bytes_preserved": true
+}

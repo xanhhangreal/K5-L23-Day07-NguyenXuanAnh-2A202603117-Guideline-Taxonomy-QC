@@ -1,0 +1,1 @@
+Mã 999 dành riêng cho AI assistant trong vòng này, không phải thành viên nhóm. Đã xem overlay của đủ 40 ảnh sau sửa. khong nghĩa là chưa ghi nhận thêm lỗi chắc chắn trong lượt AI rà, không phủ nhận các ca còn can_review. Người sửa và người kiểm là cùng AI; chưa có QC người thật độc lập. Quyết định bắt buộc Hold khi còn các cờ và xác nhận này.

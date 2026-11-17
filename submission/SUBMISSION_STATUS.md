@@ -1,53 +1,30 @@
-# Bàn giao Day07 — Hold — 17/11/2026
+# Trạng thái bàn giao Day07 — 17/11/2026
 
-Bài nộp nằm trên nhánh mặc định `main`; các nhánh guideline giữ lịch sử làm việc. README/SUBMISSION.md yêu cầu link repo hoặc gói nén, không quy định tên nhánh.
+Bài ở nhánh `main`. Đã nhận đủ bốn COCO 084/117/133/150, 40/40 ảnh và 80/80 lượt theo phân công gốc. Các gói bổ sung 7/7/6 ảnh trước đây không còn cần cho việc bù thiếu thành viên 150; chỉ giữ làm lịch sử.
 
-Gói này nộp bằng chứng đã có theo nhánh Hold của `SUBMISSION.md`. Chưa đạt điều kiện bàn giao nhãn cuối và chưa có kết quả checker 0 lỗi. Không thay ngưỡng hay tạo nhãn/biên bản thay người chưa thực hiện.
+## Đã có trong bản này
 
-## Đã có
+- Guideline cá nhân bốn mã, v1.0 khóa và v1.1 làm rõ ví dụ có hỗ trợ AI; giữ nguyên taxonomy/ngưỡng.
+- Bản gốc ZIP 150 được ghi checksum, JSON gốc giữ ở `qc/imports/2026-11-17/member_150/original_150.json`. 150 thiếu hai thuộc tính ở cả 303 box; bản nhập đã bổ sung có ghi nguồn AI và giữ cờ review.
+- IAA toàn lô: 463 cặp, IoU 0,9504 và cùng lớp 96,98%; 784 ca trên 39 ảnh. Đồng thuận thuộc tính không phải bằng chứng độc lập sau khi sửa schema 150 bằng dữ liệu đối chiếu.
+- Nhật ký 824 dòng gồm 784 ca IAA và 40 kiểm tra toàn ảnh; tất cả ghi đúng người thực hiện là AI và chưa được nhóm xác nhận.
+- COCO/CSV sau xử lý 40 ảnh, 508 annotation, batch_manifest và các vòng QC 1–3; vòng 3 là hiện hành.
+- Mã reviewer 999 dành riêng cho AI, không mạo danh 084/117/133/150.
 
-- Đã có guideline cá nhân 084/117/133/150; guideline 084 được nhận từ commit 8817550 trên main khi hợp nhất bài nộp. Guideline nhóm v1.0 vẫn giữ nguyên bản đã khóa trước đó.
-- COCO 084: 20 ảnh/274 annotation; 117: 20 ảnh/203 annotation; 133: 20 ảnh/281 annotation. Giữ nguyên JSON đã nộp, cả ảnh không có annotation.
-- Task 117 đã chạy công cụ, được AI xem lại toàn bộ, export/validate và completed trên CVAT. Nguồn và lịch sử sửa được giữ ở `automation/` và `exports/history/`.
-- IAA một phần: 20 ảnh đủ hai lượt, 214 cặp box, IoU TB 0,944, cùng lớp 97,7%; 339 ca cần xem trên 19 ảnh.
-- Bảng coverage toàn lô, mẫu calibration chín cột, ảnh overlay và ba gói bổ sung; không dùng bài 150 cho lượt phân tích hiện tại.
+## Quyết định hiện tại: Hold
 
-## Chưa có và người xử lý
+Còn 128 box cần xác nhận trên 27 ảnh; chưa có QC độc lập của người thật và ghi chú trải nghiệm cá nhân 084/150. Các file ghi chú hai mã này là bảng tổng hợp bằng chứng, không phải tự thuật giả. Nhật ký calibration là đề xuất AI, không phải xác nhận đã họp nhóm. Đủ file đầu vào không tự động làm các điều kiện này hoàn tất.
 
-| Phần thiếu | Trạng thái thực tế | Việc tiếp theo |
-|---|---|---|
-| Đủ lượt gán | 60/80, 20 ảnh chỉ có một người | Ba thành viên làm 20 lượt bổ sung độc lập: 084: 7, 117: 7, 133: 6. |
-| Guideline/ghi chú cá nhân | 084 thiếu ghi chú; 150 chưa nộp nhãn/ghi chú | Người học tự viết hoặc coach ghi nhận phạm vi loại trừ; không tạo hồ sơ thay. |
-| Calibration | Chưa có quyết định nhóm cho 339 ca trong tập con | Xem overlay, chốt theo rule ID, ghi người chốt/bản sửa/kiểm lại. |
-| v1.1 và nhãn cuối | Chưa có vì calibration chưa xong | Thực hiện pha 5 với bộ đầu vào toàn lô sau bổ sung. |
-| QC toàn lô | Chưa có vòng QC, phiếu hay kết quả | Reviewer duyệt 40 ảnh sau khi có nhãn cuối, ghi đúng vòng và quyết định. |
+Xem [QC_REPORT.md](qc/QC_REPORT.md), [nhật ký sửa từng ảnh](automation/batch_review/review_log.json), [IAA toàn lô](qc/iaa_summary.md), [nhãn sau sửa](qc/labels_calibrated.json) và [phiếu QC hiện hành](qc/reviews/round-03/qc_review.csv).
 
-## Đọc kết quả
-
-- [Kiểm tra tiếp sau bản Hold](qc/assistant_review_2026-11-17.md): lỗi thực tế ở img_001 và sáu điều kiện còn thiếu; chưa coi là calibration đã duyệt.
-
-- [QC_REPORT.md](qc/QC_REPORT.md) ghi Hold và các giới hạn.
-- [PARTIAL_IAA_REPORT.md](qc/partial_2026-11-17_084_117_133/PARTIAL_IAA_REPORT.md) ghi rõ mẫu số. Con số 40/40 trong summary bên trong chỉ là lượt của tập con 20 ảnh, không phải toàn lô.
-- [CALIBRATION_HANDOFF.md](qc/partial_2026-11-17_084_117_133/CALIBRATION_HANDOFF.md) và `calibration_decisions_TEMPLATE.csv` chuẩn bị cho buổi chốt thực tế.
-- [Gói tải và task bổ sung](packages/README.md).
-- `submission_manifest.json` ghi SHA-256 các file đầu vào, gói và báo cáo; không phải batch_manifest nhãn cuối.
-- `qc/validation/` lưu kết quả lệnh đã chạy, gồm cả kiểm tra thất bại do thiếu bằng chứng.
-
-## Chạy lại
+## Kiểm lại
 
 ```powershell
 python -m unittest discover -s tests -v
 python scripts/validate_labels.py --all
-python scripts/qc_compare.py
-python scripts/check_submission.py --round 1
+python scripts/check_submission.py --round 3
 ```
 
-Hai lệnh cuối hiện được giữ nguyên để báo thiếu lượt và bằng chứng; không sửa code để biến Hold thành pass.
+Không chạy lại IAA sau khi sửa nhãn nguồn nếu chưa lưu/đổi phiên bản calibration; các mã băm hiện tại được giữ để reviewer kiểm ngược. Công cụ tái tạo bản sửa: `python tools/day07_legacy/build_assistant_batch.py` rồi `python scripts/build_final.py` (mở vòng QC mới nếu thay đổi đầu ra).
 
-Để tái hiện phép so sánh tập con mà không ghi đè bằng chứng đã nộp:
-
-```powershell
-python tools/day07_legacy/partial_compare.py --run-tag reviewer_replay_01
-```
-
-Lệnh tạo workspace tạm trong `work/` và báo cáo mới dưới `submission/qc/partial_reviewer_replay_01/`; tuyệt đối không tính ảnh chỉ có một lượt vào IAA. Không đưa `work/`, trọng số model hoặc thông tin đăng nhập vào gói nộp.
+Gói ZIP có manifest riêng theo nội dung archive; submission_manifest.json trên GitHub đối chiếu toàn bộ repo và SHA-256 của ZIP. Không đưa mã băm của chính ZIP vào nội dung ZIP.

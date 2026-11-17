@@ -1,0 +1,1902 @@
+{
+  "reviewed_images": 40,
+  "human_review_complete": false,
+  "reviewer_code": "999 (reserved for AI, not a group member)",
+  "images": [
+    {
+      "image": "img_001.jpg",
+      "source": "117",
+      "source_annotations": 7,
+      "final_annotation_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "remaining_can_review": [
+        4,
+        8
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "3": {
+            "box": [
+              125,
+              118,
+              229,
+              432
+            ],
+            "occluded_level": "1",
+            "can_review": true
+          }
+        },
+        "add": [
+          {
+            "class": "person",
+            "box": [
+              91,
+              98,
+              153,
+              248
+            ],
+            "occluded_level": "2",
+            "can_review": true
+          }
+        ],
+        "note": "Tách hai người bên trái, không gộp hai khuôn mặt trong một box. Phần thân người sau còn bị che, cần người kiểm lại."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_002.jpg",
+      "source": "084",
+      "source_annotations": 11,
+      "final_annotation_ids": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "remaining_can_review": [
+        15,
+        18,
+        19
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "4": {
+            "box": [
+              138,
+              139,
+              923,
+              535
+            ],
+            "occluded_level": "1"
+          },
+          "1": {
+            "occluded_level": "1"
+          },
+          "7": {
+            "occluded_level": "1"
+          },
+          "8": {
+            "occluded_level": "1"
+          },
+          "9": {
+            "can_review": true
+          },
+          "10": {
+            "can_review": true
+          },
+          "6": {
+            "can_review": true
+          }
+        },
+        "note": "Mở box xe vận chuyển tới đuôi rơ-moóc. Xe được chở xét riêng; ba xe trắng bên phải cần xác nhận kết cấu SUV/bán tải."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_003.jpg",
+      "source": "117",
+      "source_annotations": 30,
+      "final_annotation_ids": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Đối chiếu người thật, người bán hàng, xe máy, xe đạp và hàng rời. Giữ các phân biệt v1.0; vật xa và phần xe bị che còn cờ review nguồn."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_004.jpg",
+      "source": "133",
+      "source_annotations": 4,
+      "final_annotation_ids": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "remaining_can_review": [
+        50
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "0": {
+            "box": [
+              189,
+              128,
+              334,
+              418
+            ],
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "3": {
+            "occluded_level": "1"
+          }
+        },
+        "note": "Hai tuk-tuk và hai người lái. Mở box người lái trước để gồm chân nhìn thấy, không chỉ đầu/torso qua kính; liên kết phần chân cần kiểm lại."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_005.jpg",
+      "source": "117",
+      "source_annotations": 14,
+      "final_annotation_ids": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "remaining_can_review": [
+        60,
+        64
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Xem người đội mũ và xe máy từng instance, van ở nền; giữ các vùng bị che và mép ảnh của bản 117, không gộp người vào box xe."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_006.jpg",
+      "source": "084",
+      "source_annotations": 28,
+      "final_annotation_ids": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "remaining_can_review": [
+        70,
+        72,
+        76,
+        77,
+        80,
+        82
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "5": {
+            "occluded_level": "1"
+          },
+          "27": {
+            "occluded_level": "1"
+          },
+          "24": {
+            "occluded_level": "0"
+          },
+          "16": {
+            "occluded_level": "1"
+          },
+          "19": {
+            "occluded_level": "1"
+          },
+          "3": {
+            "occluded_level": "1"
+          },
+          "4": {
+            "occluded_level": "3",
+            "can_review": true
+          }
+        },
+        "note": "Rà ảnh đông xe: ba xe máy chính giữ riêng, không thêm box xe đạp. Chỉnh mức che người/xe chính; phần người nền nhỏ cần kiểm lại."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_007.jpg",
+      "source": "117",
+      "source_annotations": 2,
+      "final_annotation_ids": [
+        96,
+        97
+      ],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Hai xe tải thật gồm bán tải có thùng cao, không tạo thêm xe cho thùng gắn liền."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_008.jpg",
+      "source": "084",
+      "source_annotations": 28,
+      "final_annotation_ids": [
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "remaining_can_review": [
+        100,
+        101,
+        102,
+        104,
+        105,
+        114,
+        116
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "27": {
+            "occluded_level": "1"
+          },
+          "4": {
+            "can_review": true
+          },
+          "6": {
+            "can_review": true
+          },
+          "16": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "26": {
+            "occluded_level": "1"
+          }
+        },
+        "note": "Giữ người và xe máy riêng, các người nhỏ phía sau người áo đỏ là instance khác. Cặp box xe giữa ảnh và dãy xe phải cần xác nhận tránh tách cùng xe hoặc gộp nhiều xe."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_009.jpg",
+      "source": "133",
+      "source_annotations": 14,
+      "final_annotation_ids": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+      ],
+      "remaining_can_review": [
+        140
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "11": {
+            "occluded_level": "1"
+          },
+          "3": {
+            "occluded_level": "2"
+          },
+          "10": {
+            "occluded_level": "2"
+          },
+          "12": {
+            "occluded_level": "2"
+          }
+        },
+        "add": [
+          {
+            "class": "person",
+            "box": [
+              716,
+              416,
+              769,
+              468
+            ],
+            "occluded_level": "1",
+            "can_review": true
+          }
+        ],
+        "note": "Bus thật và xe máy riêng. Bổ sung người điều khiển xe giữa phía phải; vị trí người/xe nhỏ cần kiểm lại. Hành khách qua kính bị thân xe che."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_010.jpg",
+      "source": "117",
+      "source_annotations": 9,
+      "final_annotation_ids": [
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Người bán rau và người trên xe tách riêng. Xe đạp chở rau ngoài taxonomy; giữ xe máy thật và phần người cắt mép phải."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_011.jpg",
+      "source": "117",
+      "source_annotations": 15,
+      "final_annotation_ids": [
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "remaining_can_review": [
+        160,
+        164
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Predator và xe từ phế liệu là tượng/mô phỏng, không gán person/motorcycle. Giữ người thật và van nền; các người xa vẫn cần calibration."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_012.jpg",
+      "source": "084",
+      "source_annotations": 4,
+      "final_annotation_ids": [
+        165,
+        166,
+        167,
+        168
+      ],
+      "remaining_can_review": [
+        165,
+        168
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "0": {
+            "box": [
+              292,
+              245,
+              960,
+              640
+            ],
+            "can_review": true
+          },
+          "2": {
+            "truncated": "yes"
+          },
+          "3": {
+            "can_review": true
+          }
+        },
+        "note": "Box bán tải trước mở tới mép phải, không bao riêng hàng hóa; không đủ căn cứ xem là xe chủ. Truck nền bị che cần xác nhận extent, SUV trái truncated=yes."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_013.jpg",
+      "source": "117",
+      "source_annotations": 6,
+      "final_annotation_ids": [
+        169,
+        170,
+        171,
+        172,
+        173,
+        174
+      ],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Hai người đi bộ và xe thật nền; không gán tượng đá trước quán. Giữ cờ xe xa khó nhìn."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_014.jpg",
+      "source": "133",
+      "source_annotations": 7,
+      "final_annotation_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183
+      ],
+      "remaining_can_review": [
+        176,
+        177,
+        179,
+        180,
+        182,
+        183
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "1": {
+            "box": [
+              452,
+              309,
+              668,
+              503
+            ],
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "4": {
+            "can_review": true
+          },
+          "5": {
+            "can_review": true
+          },
+          "2": {
+            "can_review": true
+          }
+        },
+        "add": [
+          {
+            "class": "person",
+            "box": [
+              480,
+              180,
+              650,
+              359
+            ],
+            "occluded_level": "2",
+            "can_review": true
+          },
+          {
+            "class": "person",
+            "box": [
+              0,
+              180,
+              170,
+              413
+            ],
+            "occluded_level": "2",
+            "truncated": "yes",
+            "can_review": true
+          }
+        ],
+        "note": "Tách người khỏi box xe chuyển động giữa ảnh; bổ sung người mờ phía trái. Hai xe mờ mép phải cần xác nhận liên kết instance, giữ review."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_015.jpg",
+      "source": "117",
+      "source_annotations": 6,
+      "final_annotation_ids": [
+        184,
+        185,
+        186,
+        187,
+        188,
+        189
+      ],
+      "remaining_can_review": [
+        189
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Sáu phương tiện, gồm van nền; không gán ảnh phản chiếu trong cửa kính. Hai xe cắt mép giữ truncated."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_016.jpg",
+      "source": "133",
+      "source_annotations": 12,
+      "final_annotation_ids": [
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "remaining_can_review": [
+        193,
+        195
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "remove": [
+          4
+        ],
+        "modify": {
+          "3": {
+            "can_review": true
+          },
+          "6": {
+            "can_review": true
+          },
+          "5": {
+            "occluded_level": "1"
+          },
+          "10": {
+            "occluded_level": "1"
+          }
+        },
+        "note": "Loại box đầu người trùng với người lái xe tay ga. Giữ hai tuk-tuk và van; phân biệt tuk-tuk trái với bán tải nền cần người kiểm lại."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_017.jpg",
+      "source": "117",
+      "source_annotations": 0,
+      "final_annotation_ids": [],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Tượng người cưỡi ngựa, không gán person hay phương tiện. Ảnh giữ rỗng."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_018.jpg",
+      "source": "133",
+      "source_annotations": 7,
+      "final_annotation_ids": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207
+      ],
+      "remaining_can_review": [
+        201,
+        205,
+        206,
+        207
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "3": {
+            "class": "van",
+            "occluded_level": "1"
+          },
+          "2": {
+            "class": "van",
+            "occluded_level": "1"
+          },
+          "0": {
+            "box": [
+              573,
+              550,
+              837,
+              669
+            ],
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "5": {
+            "box": [
+              744,
+              544,
+              960,
+              670
+            ],
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "6": {
+            "can_review": true
+          }
+        },
+        "note": "Không gán chân dung trên biển. Xe khoang kín liền thân đổi van; sửa extent hai xe sau hàng rào, mảnh xe xa bên phải còn cần xác nhận trùng instance."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_019.jpg",
+      "source": "133",
+      "source_annotations": 18,
+      "final_annotation_ids": [
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "remaining_can_review": [
+        226
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "10": {
+            "can_review": false
+          },
+          "16": {
+            "occluded_level": "3"
+          }
+        },
+        "add": [
+          {
+            "class": "person",
+            "box": [
+              821,
+              352,
+              960,
+              643
+            ],
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": true
+          }
+        ],
+        "note": "Xe diễu hành thật có bánh/biển số là car; chú chuột mô phỏng không phải person. Thêm người cắt mép phải, đám đông dày đặc còn cần kiểm bỏ sót và box thân bị che, chưa xác nhận sạch."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_020.jpg",
+      "source": "117",
+      "source_annotations": 0,
+      "final_annotation_ids": [],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Chỉ gương xe chủ và phản chiếu; giữ ảnh rỗng theo R-07/R-08."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_021.jpg",
+      "source": "133",
+      "source_annotations": 55,
+      "final_annotation_ids": [
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281
+      ],
+      "remaining_can_review": [
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281
+      ],
+      "small_objects_to_ignore": [
+        {
+          "source_class": "car",
+          "box": [
+            758.0,
+            210.0,
+            800.0,
+            226.0
+          ]
+        }
+      ],
+      "actions": {
+        "modify": {
+          "0": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "1": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "2": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "3": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "4": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "5": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "6": {
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "7": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "8": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "9": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "10": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "11": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "12": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "13": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "14": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "15": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "16": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "17": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "18": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "19": {
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "20": {
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "21": {
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "22": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "23": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "24": {
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "25": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "26": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "27": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "28": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "29": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "30": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "31": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "32": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "33": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "34": {
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "35": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "36": {
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "37": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "38": {
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "39": {
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "40": {
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "41": {
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "42": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "43": {
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "44": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "45": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "46": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "47": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "48": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "49": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "50": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "51": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "52": {
+            "occluded_level": "1",
+            "can_review": true
+          },
+          "53": {
+            "occluded_level": "3",
+            "can_review": true
+          },
+          "54": {
+            "occluded_level": "1",
+            "can_review": true
+          }
+        },
+        "note": "Ảnh kẹt xe rất dày: mức che 0 cho toàn bộ đám đông không phù hợp. Đặt mức che AI ước lượng theo mức lộ thân nhìn thấy, giữ cờ cho toàn ảnh; chưa kết luận hết bỏ sót/trùng xe. Các xe dưới ngưỡng chuyển ignore ở bước build."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_022.jpg",
+      "source": "117",
+      "source_annotations": 1,
+      "final_annotation_ids": [
+        282
+      ],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Một mô tô kèm sidecar, không tách sidecar thành xe riêng, không có người thật."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_023.jpg",
+      "source": "117",
+      "source_annotations": 19,
+      "final_annotation_ids": [
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301
+      ],
+      "remaining_can_review": [
+        294
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Xích lô ngoài taxonomy, giữ người đạp riêng; phân biệt người mép phải và dãy xe máy. Giữ cờ mảnh xe khó thấy."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_024.jpg",
+      "source": "133",
+      "source_annotations": 9,
+      "final_annotation_ids": [
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310
+      ],
+      "remaining_can_review": [
+        304,
+        309
+      ],
+      "small_objects_to_ignore": [
+        {
+          "source_class": "person",
+          "box": [
+            767.74,
+            193.77,
+            779.61,
+            206.97
+          ]
+        }
+      ],
+      "actions": {
+        "modify": {
+          "7": {
+            "can_review": true
+          }
+        },
+        "note": "Giữ xe thật phía dưới; hình xe vàng trên nóc cần xác nhận xe nguyên chiếc hay vỏ rời, giữ review. Người nền cao dưới 20 px chuyển ignore_region theo R-09."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_025.jpg",
+      "source": "133",
+      "source_annotations": 24,
+      "final_annotation_ids": [
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334
+      ],
+      "remaining_can_review": [
+        311,
+        312,
+        324
+      ],
+      "small_objects_to_ignore": [
+        {
+          "source_class": "person",
+          "box": [
+            572.0,
+            353.0,
+            581.0,
+            370.0
+          ]
+        },
+        {
+          "source_class": "person",
+          "box": [
+            567.0,
+            353.0,
+            573.0,
+            369.0
+          ]
+        },
+        {
+          "source_class": "person",
+          "box": [
+            580.0,
+            354.0,
+            587.0,
+            371.0
+          ]
+        }
+      ],
+      "actions": {
+        "modify": {
+          "0": {
+            "class": "truck",
+            "can_review": true
+          },
+          "1": {
+            "can_review": true
+          }
+        },
+        "note": "Phân biệt người thật với ghế bãi biển. Xe trắng bên phải có dấu hiệu bán tải, chuyển truck và giữ cờ; cấu trúc xe máy/xe hàng cạnh đó cần xác nhận. Vật dưới 20 px chuyển ignore."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_026.jpg",
+      "source": "117",
+      "source_annotations": 3,
+      "final_annotation_ids": [
+        335,
+        336,
+        337
+      ],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Hai người trên một xe máy thành ba box, không gán hình in trên tường. Giữ box xe gồm gương, truncated ở mép dưới."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_027.jpg",
+      "source": "133",
+      "source_annotations": 1,
+      "final_annotation_ids": [],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "remove": [
+          0
+        ],
+        "note": "Tượng bán tải trên mộ không gán truck. Vệt đỏ/trắng trái ảnh không đủ bằng chứng là người, bỏ box person suy đoán và ghi vấn đề cấp ảnh để người kiểm lại."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_028.jpg",
+      "source": "117",
+      "source_annotations": 2,
+      "final_annotation_ids": [
+        338,
+        339
+      ],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Xe tải thật chở tượng ngựa, không bao tượng như vật mục tiêu; SUV đỏ bị truck che, giữ riêng."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_029.jpg",
+      "source": "117",
+      "source_annotations": 11,
+      "final_annotation_ids": [
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350
+      ],
+      "remaining_can_review": [
+        341,
+        342
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Xe đạp không gán phương tiện; giữ người trên xe đạp và xe máy thật. Thanh hàng dài không nằm trong box phương tiện; mảnh xe nền giữ review."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_030.jpg",
+      "source": "133",
+      "source_annotations": 14,
+      "final_annotation_ids": [
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364
+      ],
+      "remaining_can_review": [
+        351,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "0": {
+            "can_review": true
+          },
+          "2": {
+            "can_review": true
+          },
+          "3": {
+            "can_review": true
+          },
+          "4": {
+            "can_review": true
+          },
+          "5": {
+            "can_review": true
+          },
+          "6": {
+            "can_review": true
+          },
+          "7": {
+            "can_review": true
+          },
+          "8": {
+            "can_review": true
+          },
+          "9": {
+            "can_review": true
+          },
+          "10": {
+            "can_review": true
+          },
+          "12": {
+            "can_review": true
+          },
+          "13": {
+            "can_review": true
+          },
+          "11": {
+            "can_review": true,
+            "occluded_level": "3"
+          }
+        },
+        "note": "Bãi xe có nhiều instance chồng nhau; không gán hình chân dung in phía sau. Giữ hai người có căn cứ, các box xe cần rà liên kết bánh/ghi-đông và loại trùng; chưa xác nhận sạch."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_031.jpg",
+      "source": "133",
+      "source_annotations": 21,
+      "final_annotation_ids": [
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385
+      ],
+      "remaining_can_review": [
+        378
+      ],
+      "small_objects_to_ignore": [
+        {
+          "source_class": "person",
+          "box": [
+            470.0,
+            361.0,
+            485.0,
+            377.0
+          ]
+        },
+        {
+          "source_class": "person",
+          "box": [
+            449.0,
+            363.0,
+            468.0,
+            376.0
+          ]
+        },
+        {
+          "source_class": "person",
+          "box": [
+            362.0,
+            355.0,
+            378.0,
+            372.0
+          ]
+        },
+        {
+          "source_class": "person",
+          "box": [
+            387.0,
+            358.0,
+            399.0,
+            374.0
+          ]
+        }
+      ],
+      "actions": {
+        "note": "Xe bus và ô tô thật dưới ánh đèn; không gán biển quảng cáo. Vật dưới 20 px chuyển ignore, người và xe nhỏ trong tối giữ review khi chưa đủ rõ."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_032.jpg",
+      "source": "117",
+      "source_annotations": 36,
+      "final_annotation_ids": [
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421
+      ],
+      "remaining_can_review": [
+        388,
+        395,
+        399
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Tách người đứng xếp hàng khỏi hình in trên biển; giữ van và xe thật phía sau. Cờ các mảnh xe sau nhiều người được giữ để tránh khẳng định sai instance."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_033.jpg",
+      "source": "117",
+      "source_annotations": 0,
+      "final_annotation_ids": [],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Ma-nơ-canh và phản chiếu qua kính; không gán person hoặc xe phản chiếu. Ảnh giữ rỗng."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_034.jpg",
+      "source": "133",
+      "source_annotations": 26,
+      "final_annotation_ids": [
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447
+      ],
+      "remaining_can_review": [
+        443,
+        444,
+        445
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "2": {
+            "occluded_level": "1"
+          },
+          "13": {
+            "occluded_level": "1"
+          },
+          "10": {
+            "occluded_level": "1"
+          }
+        },
+        "note": "Người đi bộ chính không bị che; người trên xe mép phải và xe bị che một phần. Giữ người/xe xa riêng nếu đủ 20 px, dưới ngưỡng chuyển ignore."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_035.jpg",
+      "source": "117",
+      "source_annotations": 17,
+      "final_annotation_ids": [
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463,
+        464
+      ],
+      "remaining_can_review": [
+        453
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Hai tuk-tuk, xe máy và người thật riêng. Hàng chở rời không tính vào box tuk-tuk; người sau kính tối còn giữ cờ."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_036.jpg",
+      "source": "084",
+      "source_annotations": 12,
+      "final_annotation_ids": [
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476
+      ],
+      "remaining_can_review": [
+        470,
+        476
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "11": {
+            "can_review": true
+          }
+        },
+        "note": "Xe tải cabin-thùng tách, không đổi van. Dãy xe máy tách từng xe; mảnh person sau góc cabin cần xác nhận là vật thật thay vì hình in."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_037.jpg",
+      "source": "117",
+      "source_annotations": 4,
+      "final_annotation_ids": [
+        477,
+        478,
+        479,
+        480
+      ],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Bán tải có nắp cao vẫn truck; giữ hai bus, không đổi lớp theo nắp thùng. Người trái riêng."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_038.jpg",
+      "source": "133",
+      "source_annotations": 0,
+      "final_annotation_ids": [],
+      "remaining_can_review": [],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Toàn bộ xe trong tủ là đồ chơi. Bản cuối giữ ảnh rỗng; 23 box car của nguồn 150 không chuyển vào nhãn sau calibration theo R-07."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_039.jpg",
+      "source": "117",
+      "source_annotations": 21,
+      "final_annotation_ids": [
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500,
+        501
+      ],
+      "remaining_can_review": [
+        482
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "note": "Giữ người đạp xe nhưng loại xe đạp ngoài taxonomy. Phân biệt các xe máy thật ở cửa hàng tối; van và mảnh xe nền vẫn có cờ."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    },
+    {
+      "image": "img_040.jpg",
+      "source": "133",
+      "source_annotations": 7,
+      "final_annotation_ids": [
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508
+      ],
+      "remaining_can_review": [
+        506,
+        508
+      ],
+      "small_objects_to_ignore": [],
+      "actions": {
+        "modify": {
+          "4": {
+            "class": "tuk_tuk",
+            "occluded_level": "2",
+            "can_review": true
+          },
+          "0": {
+            "box": [
+              103,
+              0,
+              470,
+              245
+            ],
+            "occluded_level": "2"
+          },
+          "1": {
+            "truncated": "yes"
+          },
+          "5": {
+            "occluded_level": "1"
+          }
+        },
+        "note": "Đổi phương tiện vàng/xanh giữa từ bus thành tuk-tuk, giữ cờ ranh giới bị che. Mở box bus nền tới phần thân nhìn thấy dưới; xe taxi và người tách riêng."
+      },
+      "reviewer": "AI assistant",
+      "human_review_complete": false
+    }
+  ]
+}

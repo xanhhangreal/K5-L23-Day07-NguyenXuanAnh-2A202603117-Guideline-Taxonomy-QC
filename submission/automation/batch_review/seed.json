@@ -1,0 +1,8013 @@
+{
+  "img_001.jpg": {
+    "source": "117",
+    "source_image_id": 1,
+    "sha256": "74b15d37b53d99d6cb8b3f7648d064ff89fedf0662df5ca1594c2c9c8454ba88",
+    "size": [
+      960,
+      640
+    ],
+    "objects": [
+      {
+        "source_id": 1,
+        "class": "person",
+        "box": [
+          234.0,
+          200.0,
+          385.0,
+          640.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 2,
+        "class": "person",
+        "box": [
+          378.0,
+          114.0,
+          529.0,
+          319.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 3,
+        "class": "person",
+        "box": [
+          220.0,
+          90.0,
+          322.0,
+          240.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 4,
+        "class": "person",
+        "box": [
+          105.0,
+          113.0,
+          228.0,
+          401.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 5,
+        "class": "person",
+        "box": [
+          524.0,
+          114.0,
+          645.0,
+          305.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 6,
+        "class": "person",
+        "box": [
+          324.0,
+          115.0,
+          423.0,
+          309.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 7,
+        "class": "truck",
+        "box": [
+          357.0,
+          95.0,
+          960.0,
+          640.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_002.jpg": {
+    "source": "084",
+    "source_image_id": 1,
+    "sha256": "7cfa98eb24c504aa15496a82a714e28cc318447d77d0cb3881f91d649374d3de",
+    "size": [
+      960,
+      578
+    ],
+    "objects": [
+      {
+        "source_id": 1,
+        "class": "car",
+        "box": [
+          531.0,
+          255.0,
+          593.0,
+          381.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 2,
+        "class": "car",
+        "box": [
+          154.0,
+          50.0,
+          508.0,
+          209.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 3,
+        "class": "person",
+        "box": [
+          860.0,
+          315.0,
+          890.0,
+          425.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 4,
+        "class": "car",
+        "box": [
+          557.0,
+          252.0,
+          704.0,
+          367.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 5,
+        "class": "truck",
+        "box": [
+          140.0,
+          138.0,
+          749.0,
+          534.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 6,
+        "class": "ignore_region",
+        "box": [
+          887.0,
+          303.0,
+          935.0,
+          319.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 7,
+        "class": "car",
+        "box": [
+          820.0,
+          174.0,
+          892.0,
+          264.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 8,
+        "class": "car",
+        "box": [
+          483.0,
+          91.0,
+          633.0,
+          217.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 9,
+        "class": "car",
+        "box": [
+          615.0,
+          121.0,
+          740.0,
+          219.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 10,
+        "class": "car",
+        "box": [
+          719.0,
+          151.0,
+          827.0,
+          247.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 11,
+        "class": "car",
+        "box": [
+          726.0,
+          273.0,
+          825.0,
+          392.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_003.jpg": {
+    "source": "117",
+    "source_image_id": 2,
+    "sha256": "8c2682682b89753bfa9de78b9dea93abb91937d2baed53fbf8c9fce6aa6a604a",
+    "size": [
+      960,
+      720
+    ],
+    "objects": [
+      {
+        "source_id": 8,
+        "class": "car",
+        "box": [
+          276.0,
+          38.0,
+          357.0,
+          87.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 9,
+        "class": "person",
+        "box": [
+          440.0,
+          13.0,
+          461.0,
+          48.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 10,
+        "class": "person",
+        "box": [
+          739.0,
+          0.0,
+          806.0,
+          57.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 11,
+        "class": "motorcycle",
+        "box": [
+          451.0,
+          44.0,
+          495.0,
+          103.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 12,
+        "class": "motorcycle",
+        "box": [
+          808.0,
+          0.0,
+          901.0,
+          107.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 13,
+        "class": "motorcycle",
+        "box": [
+          477.0,
+          182.0,
+          572.0,
+          341.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 14,
+        "class": "motorcycle",
+        "box": [
+          870.0,
+          13.0,
+          960.0,
+          112.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 15,
+        "class": "person",
+        "box": [
+          113.0,
+          65.0,
+          129.0,
+          107.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 16,
+        "class": "person",
+        "box": [
+          0.0,
+          156.0,
+          81.0,
+          241.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 17,
+        "class": "person",
+        "box": [
+          496.0,
+          0.0,
+          706.0,
+          392.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 18,
+        "class": "person",
+        "box": [
+          95.0,
+          55.0,
+          116.0,
+          111.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 19,
+        "class": "person",
+        "box": [
+          101.0,
+          0.0,
+          311.0,
+          568.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 20,
+        "class": "motorcycle",
+        "box": [
+          924.0,
+          44.0,
+          960.0,
+          113.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 21,
+        "class": "motorcycle",
+        "box": [
+          754.0,
+          39.0,
+          821.0,
+          172.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 22,
+        "class": "person",
+        "box": [
+          186.0,
+          39.0,
+          225.0,
+          110.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 23,
+        "class": "motorcycle",
+        "box": [
+          844.0,
+          0.0,
+          929.0,
+          109.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 24,
+        "class": "person",
+        "box": [
+          450.0,
+          17.0,
+          488.0,
+          102.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 25,
+        "class": "person",
+        "box": [
+          684.0,
+          6.0,
+          783.0,
+          242.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 26,
+        "class": "person",
+        "box": [
+          236.0,
+          63.0,
+          361.0,
+          192.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 27,
+        "class": "person",
+        "box": [
+          239.0,
+          36.0,
+          269.0,
+          121.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 28,
+        "class": "motorcycle",
+        "box": [
+          238.0,
+          74.0,
+          274.0,
+          122.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 29,
+        "class": "person",
+        "box": [
+          406.0,
+          28.0,
+          425.0,
+          51.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 30,
+        "class": "motorcycle",
+        "box": [
+          435.0,
+          55.0,
+          453.0,
+          79.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 31,
+        "class": "motorcycle",
+        "box": [
+          88.0,
+          106.0,
+          166.0,
+          222.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 32,
+        "class": "motorcycle",
+        "box": [
+          27.0,
+          114.0,
+          103.0,
+          249.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 33,
+        "class": "motorcycle",
+        "box": [
+          390.0,
+          36.0,
+          450.0,
+          79.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 34,
+        "class": "car",
+        "box": [
+          254.0,
+          42.0,
+          282.0,
+          75.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 35,
+        "class": "motorcycle",
+        "box": [
+          348.0,
+          40.0,
+          385.0,
+          75.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 36,
+        "class": "person",
+        "box": [
+          391.0,
+          24.0,
+          406.0,
+          49.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 37,
+        "class": "person",
+        "box": [
+          467.0,
+          56.0,
+          563.0,
+          338.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_004.jpg": {
+    "source": "133",
+    "source_image_id": 2,
+    "sha256": "dcda047904cbf2cedbe55ce1e179c94e7630cc6bef7fbec597df1472ce2889b7",
+    "size": [
+      960,
+      640
+    ],
+    "objects": [
+      {
+        "source_id": 10,
+        "class": "person",
+        "box": [
+          238.0,
+          127.0,
+          334.0,
+          240.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 11,
+        "class": "tuk_tuk",
+        "box": [
+          71.0,
+          49.0,
+          487.0,
+          595.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 12,
+        "class": "tuk_tuk",
+        "box": [
+          431.0,
+          94.0,
+          853.0,
+          447.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 13,
+        "class": "person",
+        "box": [
+          582.0,
+          148.0,
+          666.0,
+          348.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_005.jpg": {
+    "source": "117",
+    "source_image_id": 3,
+    "sha256": "8807a048e945b0eff1a6489a66f3cf97751da88f95b6b661e5912e9d8f1793a4",
+    "size": [
+      960,
+      640
+    ],
+    "objects": [
+      {
+        "source_id": 38,
+        "class": "person",
+        "box": [
+          0.0,
+          333.0,
+          46.0,
+          571.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 39,
+        "class": "person",
+        "box": [
+          321.0,
+          117.0,
+          487.0,
+          274.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 40,
+        "class": "person",
+        "box": [
+          619.0,
+          77.0,
+          924.0,
+          487.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 41,
+        "class": "motorcycle",
+        "box": [
+          0.0,
+          300.0,
+          209.0,
+          639.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 42,
+        "class": "car",
+        "box": [
+          0.0,
+          75.0,
+          80.0,
+          176.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 43,
+        "class": "person",
+        "box": [
+          902.0,
+          102.0,
+          943.0,
+          170.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 44,
+        "class": "person",
+        "box": [
+          424.0,
+          32.0,
+          646.0,
+          588.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 45,
+        "class": "person",
+        "box": [
+          540.0,
+          149.0,
+          960.0,
+          640.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 46,
+        "class": "car",
+        "box": [
+          0.0,
+          139.0,
+          93.0,
+          287.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 47,
+        "class": "person",
+        "box": [
+          35.0,
+          222.0,
+          538.0,
+          639.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 48,
+        "class": "motorcycle",
+        "box": [
+          758.0,
+          321.0,
+          960.0,
+          640.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 49,
+        "class": "person",
+        "box": [
+          936.0,
+          104.0,
+          960.0,
+          198.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 50,
+        "class": "van",
+        "box": [
+          72.0,
+          28.0,
+          960.0,
+          352.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 51,
+        "class": "person",
+        "box": [
+          604.0,
+          42.0,
+          686.0,
+          155.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_006.jpg": {
+    "source": "084",
+    "source_image_id": 3,
+    "sha256": "0d5ba9d4e419511a0d7a937eec2a2f4a2a22a095964718e75ca8600250fea203",
+    "size": [
+      960,
+      540
+    ],
+    "objects": [
+      {
+        "source_id": 16,
+        "class": "person",
+        "box": [
+          898.0,
+          160.0,
+          942.0,
+          229.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 17,
+        "class": "motorcycle",
+        "box": [
+          432.0,
+          209.0,
+          520.0,
+          313.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 18,
+        "class": "car",
+        "box": [
+          96.0,
+          123.0,
+          131.0,
+          146.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 19,
+        "class": "motorcycle",
+        "box": [
+          586.0,
+          200.0,
+          746.0,
+          472.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 20,
+        "class": "person",
+        "box": [
+          732.0,
+          166.0,
+          762.0,
+          214.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 21,
+        "class": "person",
+        "box": [
+          172.0,
+          95.0,
+          281.0,
+          378.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 22,
+        "class": "person",
+        "box": [
+          474.0,
+          165.0,
+          496.0,
+          200.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 23,
+        "class": "person",
+        "box": [
+          684.0,
+          139.0,
+          733.0,
+          258.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 24,
+        "class": "person",
+        "box": [
+          561.0,
+          168.0,
+          586.0,
+          210.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 25,
+        "class": "person",
+        "box": [
+          246.0,
+          174.0,
+          261.0,
+          199.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 26,
+        "class": "ignore_region",
+        "box": [
+          0.0,
+          236.0,
+          17.0,
+          255.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 27,
+        "class": "motorcycle",
+        "box": [
+          321.0,
+          214.0,
+          338.0,
+          238.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 28,
+        "class": "person",
+        "box": [
+          324.0,
+          175.0,
+          340.0,
+          214.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 29,
+        "class": "person",
+        "box": [
+          435.0,
+          143.0,
+          495.0,
+          271.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 30,
+        "class": "motorcycle",
+        "box": [
+          251.0,
+          192.0,
+          270.0,
+          221.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 31,
+        "class": "person",
+        "box": [
+          497.0,
+          164.0,
+          522.0,
+          236.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 32,
+        "class": "motorcycle",
+        "box": [
+          312.0,
+          237.0,
+          464.0,
+          483.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 33,
+        "class": "person",
+        "box": [
+          575.04,
+          158.91,
+          624.04,
+          332.90999999999997
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 34,
+        "class": "person",
+        "box": [
+          294.0,
+          177.0,
+          317.0,
+          232.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 35,
+        "class": "motorcycle",
+        "box": [
+          94.0,
+          178.0,
+          282.0,
+          488.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 36,
+        "class": "person",
+        "box": [
+          515.0,
+          140.0,
+          583.0,
+          280.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 37,
+        "class": "person",
+        "box": [
+          915.0,
+          144.0,
+          960.0,
+          408.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 38,
+        "class": "car",
+        "box": [
+          0.0,
+          144.0,
+          115.0,
+          346.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 39,
+        "class": "person",
+        "box": [
+          104.0,
+          92.0,
+          280.0,
+          395.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 40,
+        "class": "person",
+        "box": [
+          732.0,
+          74.0,
+          913.0,
+          512.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 41,
+        "class": "person",
+        "box": [
+          571.0,
+          124.0,
+          721.0,
+          445.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 42,
+        "class": "person",
+        "box": [
+          457.0,
+          166.0,
+          479.0,
+          194.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 43,
+        "class": "person",
+        "box": [
+          338.0,
+          93.0,
+          477.0,
+          397.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_007.jpg": {
+    "source": "117",
+    "source_image_id": 4,
+    "sha256": "183d1b9fd10fd764eb6ba12eacee42d09cdbbcf7f0b7bc0ccf80f615ffabdb6d",
+    "size": [
+      960,
+      640
+    ],
+    "objects": [
+      {
+        "source_id": 52,
+        "class": "truck",
+        "box": [
+          641.0,
+          57.0,
+          960.0,
+          447.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 53,
+        "class": "truck",
+        "box": [
+          384.0,
+          131.0,
+          645.0,
+          410.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_008.jpg": {
+    "source": "084",
+    "source_image_id": 4,
+    "sha256": "0006963df478decb7a93189f896c715f329e67ca51e1e767894a7579948929cb",
+    "size": [
+      960,
+      640
+    ],
+    "objects": [
+      {
+        "source_id": 44,
+        "class": "motorcycle",
+        "box": [
+          77.0,
+          252.0,
+          391.0,
+          639.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 45,
+        "class": "motorcycle",
+        "box": [
+          310.0,
+          362.0,
+          438.0,
+          559.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 46,
+        "class": "truck",
+        "box": [
+          631.0,
+          163.0,
+          750.0,
+          280.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 47,
+        "class": "person",
+        "box": [
+          220.0,
+          196.0,
+          240.0,
+          232.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 48,
+        "class": "motorcycle",
+        "box": [
+          530.0,
+          268.0,
+          582.0,
+          337.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 49,
+        "class": "person",
+        "box": [
+          457.0,
+          199.0,
+          495.0,
+          283.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 50,
+        "class": "motorcycle",
+        "box": [
+          451.0,
+          237.0,
+          585.0,
+          336.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 51,
+        "class": "person",
+        "box": [
+          193.0,
+          199.0,
+          228.0,
+          253.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 52,
+        "class": "person",
+        "box": [
+          855.0,
+          188.0,
+          877.0,
+          229.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 53,
+        "class": "motorcycle",
+        "box": [
+          162.0,
+          223.0,
+          218.0,
+          297.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 54,
+        "class": "person",
+        "box": [
+          373.0,
+          178.0,
+          419.0,
+          229.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 55,
+        "class": "truck",
+        "box": [
+          597.0,
+          177.0,
+          642.0,
+          223.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 56,
+        "class": "person",
+        "box": [
+          930.0,
+          208.0,
+          960.0,
+          292.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 57,
+        "class": "motorcycle",
+        "box": [
+          936.0,
+          245.0,
+          960.0,
+          297.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 58,
+        "class": "motorcycle",
+        "box": [
+          0.0,
+          563.0,
+          177.0,
+          640.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 59,
+        "class": "motorcycle",
+        "box": [
+          0.0,
+          188.0,
+          148.0,
+          412.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 60,
+        "class": "motorcycle",
+        "box": [
+          856.0,
+          237.0,
+          931.0,
+          284.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 61,
+        "class": "person",
+        "box": [
+          417.0,
+          195.0,
+          448.0,
+          243.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 62,
+        "class": "motorcycle",
+        "box": [
+          630.0,
+          214.0,
+          667.0,
+          284.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 63,
+        "class": "person",
+        "box": [
+          582.0,
+          204.0,
+          602.0,
+          257.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 64,
+        "class": "motorcycle",
+        "box": [
+          681.0,
+          259.0,
+          720.0,
+          314.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 65,
+        "class": "person",
+        "box": [
+          544.0,
+          196.0,
+          572.0,
+          252.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 66,
+        "class": "person",
+        "box": [
+          503.0,
+          190.0,
+          547.0,
+          265.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 67,
+        "class": "person",
+        "box": [
+          669.0,
+          203.0,
+          724.0,
+          295.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 68,
+        "class": "motorcycle",
+        "box": [
+          366.0,
+          307.0,
+          550.0,
+          491.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 69,
+        "class": "person",
+        "box": [
+          198.0,
+          181.0,
+          317.0,
+          401.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 70,
+        "class": "motorcycle",
+        "box": [
+          575.0,
+          283.0,
+          960.0,
+          639.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 71,
+        "class": "person",
+        "box": [
+          609.0,
+          152.0,
+          855.0,
+          639.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_009.jpg": {
+    "source": "133",
+    "source_image_id": 5,
+    "sha256": "c393715075640aae17a8268f85f63bea2f35970a2299082e688e6f9d59cac8ab",
+    "size": [
+      960,
+      540
+    ],
+    "objects": [
+      {
+        "source_id": 33,
+        "class": "motorcycle",
+        "box": [
+          868.0,
+          435.0,
+          907.0,
+          481.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 34,
+        "class": "person",
+        "box": [
+          420.0,
+          405.0,
+          436.0,
+          427.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 35,
+        "class": "motorcycle",
+        "box": [
+          691.0,
+          431.0,
+          714.0,
+          466.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 36,
+        "class": "person",
+        "box": [
+          598.0,
+          403.0,
+          620.0,
+          423.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 37,
+        "class": "motorcycle",
+        "box": [
+          703.0,
+          439.0,
+          777.0,
+          477.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 38,
+        "class": "bus",
+        "box": [
+          357.0,
+          369.0,
+          667.0,
+          494.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 39,
+        "class": "motorcycle",
+        "box": [
+          813.0,
+          466.0,
+          960.0,
+          540.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 40,
+        "class": "motorcycle",
+        "box": [
+          155.0,
+          443.0,
+          193.0,
+          483.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 41,
+        "class": "person",
+        "box": [
+          311.0,
+          431.0,
+          329.0,
+          472.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 42,
+        "class": "motorcycle",
+        "box": [
+          916.0,
+          431.0,
+          960.0,
+          502.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 43,
+        "class": "person",
+        "box": [
+          561.0,
+          400.0,
+          581.0,
+          423.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 44,
+        "class": "person",
+        "box": [
+          156.0,
+          422.0,
+          182.0,
+          482.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 45,
+        "class": "person",
+        "box": [
+          374.0,
+          399.0,
+          391.0,
+          428.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 46,
+        "class": "motorcycle",
+        "box": [
+          774.0,
+          431.0,
+          797.0,
+          469.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_010.jpg": {
+    "source": "117",
+    "source_image_id": 5,
+    "sha256": "1b1398bd5221f9d72989af0fc1d8a8ee87df8af03343bb1d68ce365412224d3c",
+    "size": [
+      960,
+      641
+    ],
+    "objects": [
+      {
+        "source_id": 54,
+        "class": "person",
+        "box": [
+          920.0,
+          267.0,
+          960.0,
+          474.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 55,
+        "class": "person",
+        "box": [
+          238.0,
+          88.0,
+          430.0,
+          347.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 56,
+        "class": "motorcycle",
+        "box": [
+          584.0,
+          244.0,
+          886.0,
+          621.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 57,
+        "class": "person",
+        "box": [
+          562.0,
+          128.0,
+          796.0,
+          587.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 58,
+        "class": "person",
+        "box": [
+          119.0,
+          119.0,
+          313.0,
+          505.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 59,
+        "class": "person",
+        "box": [
+          303.0,
+          114.0,
+          439.0,
+          512.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 60,
+        "class": "motorcycle",
+        "box": [
+          152.0,
+          308.0,
+          313.0,
+          537.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 61,
+        "class": "motorcycle",
+        "box": [
+          781.0,
+          190.0,
+          957.0,
+          442.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 62,
+        "class": "motorcycle",
+        "box": [
+          11.0,
+          162.0,
+          117.0,
+          358.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_011.jpg": {
+    "source": "117",
+    "source_image_id": 6,
+    "sha256": "9d9623913e497ed050fece0d3278a3030d455fb5d1443f67094d98e35f91d0b7",
+    "size": [
+      960,
+      640
+    ],
+    "objects": [
+      {
+        "source_id": 63,
+        "class": "person",
+        "box": [
+          101.0,
+          355.0,
+          167.0,
+          471.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 64,
+        "class": "person",
+        "box": [
+          196.0,
+          335.0,
+          228.0,
+          403.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 65,
+        "class": "person",
+        "box": [
+          49.0,
+          365.0,
+          105.0,
+          481.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 66,
+        "class": "person",
+        "box": [
+          266.0,
+          339.0,
+          283.0,
+          391.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 67,
+        "class": "person",
+        "box": [
+          360.0,
+          340.0,
+          385.0,
+          402.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 68,
+        "class": "person",
+        "box": [
+          171.0,
+          335.0,
+          191.0,
+          405.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 69,
+        "class": "van",
+        "box": [
+          516.0,
+          326.0,
+          625.0,
+          407.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 70,
+        "class": "person",
+        "box": [
+          306.0,
+          337.0,
+          321.0,
+          387.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 71,
+        "class": "person",
+        "box": [
+          84.0,
+          337.0,
+          102.0,
+          396.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 72,
+        "class": "person",
+        "box": [
+          32.0,
+          344.0,
+          58.0,
+          403.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 73,
+        "class": "person",
+        "box": [
+          282.0,
+          338.0,
+          297.0,
+          373.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 74,
+        "class": "person",
+        "box": [
+          421.0,
+          332.0,
+          434.0,
+          382.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 75,
+        "class": "person",
+        "box": [
+          324.0,
+          338.0,
+          339.0,
+          384.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 76,
+        "class": "person",
+        "box": [
+          405.0,
+          335.0,
+          418.0,
+          369.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 77,
+        "class": "person",
+        "box": [
+          496.0,
+          333.0,
+          505.0,
+          359.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      }
+    ]
+  },
+  "img_012.jpg": {
+    "source": "084",
+    "source_image_id": 6,
+    "sha256": "a9ba9d8d92cb54db7abc4665870083b008712103427a0a85a2c13dad60b58b24",
+    "size": [
+      960,
+      640
+    ],
+    "objects": [
+      {
+        "source_id": 88,
+        "class": "truck",
+        "box": [
+          292.0,
+          253.0,
+          910.0,
+          639.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 89,
+        "class": "car",
+        "box": [
+          296.0,
+          296.0,
+          320.0,
+          324.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 90,
+        "class": "car",
+        "box": [
+          0.0,
+          287.0,
+          248.0,
+          461.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 91,
+        "class": "truck",
+        "box": [
+          298.0,
+          207.0,
+          478.0,
+          398.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_013.jpg": {
+    "source": "117",
+    "source_image_id": 7,
+    "sha256": "4063d2f8a838d04664e02f42e31a7e5b8dc708113d85bc98a99cd625febcc783",
+    "size": [
+      960,
+      640
+    ],
+    "objects": [
+      {
+        "source_id": 78,
+        "class": "car",
+        "box": [
+          162.0,
+          422.0,
+          198.0,
+          449.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 79,
+        "class": "person",
+        "box": [
+          350.0,
+          423.0,
+          378.0,
+          502.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 80,
+        "class": "person",
+        "box": [
+          380.0,
+          417.0,
+          416.0,
+          499.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 81,
+        "class": "car",
+        "box": [
+          274.0,
+          418.0,
+          328.0,
+          445.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 82,
+        "class": "car",
+        "box": [
+          240.0,
+          420.0,
+          280.0,
+          443.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 83,
+        "class": "motorcycle",
+        "box": [
+          234.0,
+          434.0,
+          324.0,
+          486.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_014.jpg": {
+    "source": "133",
+    "source_image_id": 7,
+    "sha256": "571ec1c8214e87c2b4da520d25acd68d3726d667939e9351c49f51aa971f6dbb",
+    "size": [
+      960,
+      712
+    ],
+    "objects": [
+      {
+        "source_id": 68,
+        "class": "person",
+        "box": [
+          265.0,
+          122.0,
+          484.0,
+          706.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 69,
+        "class": "motorcycle",
+        "box": [
+          451.0,
+          181.0,
+          667.0,
+          500.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 70,
+        "class": "motorcycle",
+        "box": [
+          0.0,
+          308.0,
+          311.0,
+          696.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 71,
+        "class": "person",
+        "box": [
+          871.28,
+          186.08,
+          960.0,
+          345.14
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 72,
+        "class": "motorcycle",
+        "box": [
+          807.85,
+          326.21,
+          960.0,
+          480.53999999999996
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 73,
+        "class": "motorcycle",
+        "box": [
+          851.2,
+          364.27,
+          960.0,
+          598.92
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "yes",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 74,
+        "class": "person",
+        "box": [
+          656.0,
+          185.0,
+          805.0,
+          676.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_015.jpg": {
+    "source": "117",
+    "source_image_id": 8,
+    "sha256": "5a07a909f2ae8af04524db6a66176d1c77c3a6b76d9cc849d65e842e73e9291c",
+    "size": [
+      960,
+      578
+    ],
+    "objects": [
+      {
+        "source_id": 84,
+        "class": "car",
+        "box": [
+          60.0,
+          126.0,
+          219.0,
+          205.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 85,
+        "class": "car",
+        "box": [
+          770.0,
+          61.0,
+          960.0,
+          430.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 86,
+        "class": "car",
+        "box": [
+          0.0,
+          175.0,
+          280.0,
+          542.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 87,
+        "class": "car",
+        "box": [
+          0.0,
+          120.0,
+          56.0,
+          181.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 88,
+        "class": "car",
+        "box": [
+          403.0,
+          122.0,
+          600.0,
+          202.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 89,
+        "class": "van",
+        "box": [
+          230.0,
+          116.0,
+          403.0,
+          205.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": true
+        }
+      }
+    ]
+  },
+  "img_016.jpg": {
+    "source": "133",
+    "source_image_id": 8,
+    "sha256": "270e18faba9576023e5217827726b453c34cf9940303aa6bed8af255fff327d0",
+    "size": [
+      960,
+      720
+    ],
+    "objects": [
+      {
+        "source_id": 75,
+        "class": "tuk_tuk",
+        "box": [
+          651.0,
+          324.0,
+          960.0,
+          674.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 76,
+        "class": "van",
+        "box": [
+          542.0,
+          271.0,
+          960.0,
+          494.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 77,
+        "class": "person",
+        "box": [
+          777.0,
+          444.0,
+          960.0,
+          719.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 78,
+        "class": "motorcycle",
+        "box": [
+          324.0,
+          415.0,
+          591.0,
+          569.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 79,
+        "class": "person",
+        "box": [
+          410.0,
+          321.0,
+          511.0,
+          545.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 80,
+        "class": "tuk_tuk",
+        "box": [
+          0.0,
+          307.5,
+          325.0,
+          659.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 81,
+        "class": "truck",
+        "box": [
+          1.21,
+          279.0,
+          326.21,
+          527.3
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 82,
+        "class": "person",
+        "box": [
+          851.0,
+          403.0,
+          918.0,
+          471.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 83,
+        "class": "person",
+        "box": [
+          4.0,
+          379.0,
+          132.0,
+          481.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 84,
+        "class": "car",
+        "box": [
+          423.0,
+          306.0,
+          599.0,
+          407.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 85,
+        "class": "person",
+        "box": [
+          412.0,
+          334.0,
+          442.0,
+          385.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 86,
+        "class": "person",
+        "box": [
+          0.0,
+          659.0,
+          79.0,
+          719.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_017.jpg": {
+    "source": "117",
+    "source_image_id": 9,
+    "sha256": "7b2720ef410aca132b0c78bc1ac9c4f44d3667801f0f38ce47de8626121e0aee",
+    "size": [
+      768,
+      1024
+    ],
+    "objects": []
+  },
+  "img_018.jpg": {
+    "source": "133",
+    "source_image_id": 9,
+    "sha256": "756e1f147b4f6581e72f4dcb63b108b420cee0e8e4f88bb5870462a3be75b51d",
+    "size": [
+      960,
+      854
+    ],
+    "objects": [
+      {
+        "source_id": 87,
+        "class": "car",
+        "box": [
+          573.0,
+          551.0,
+          838.0,
+          668.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 88,
+        "class": "car",
+        "box": [
+          389.0,
+          544.0,
+          605.0,
+          666.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 89,
+        "class": "car",
+        "box": [
+          0.0,
+          532.0,
+          116.0,
+          643.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 90,
+        "class": "truck",
+        "box": [
+          166.0,
+          498.0,
+          369.0,
+          669.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 91,
+        "class": "van",
+        "box": [
+          147.0,
+          534.0,
+          188.0,
+          605.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 92,
+        "class": "car",
+        "box": [
+          742.0,
+          544.0,
+          960.0,
+          639.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 93,
+        "class": "car",
+        "box": [
+          920.0,
+          558.0,
+          960.0,
+          586.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_019.jpg": {
+    "source": "133",
+    "source_image_id": 10,
+    "sha256": "6d1f1ceb0e058b8783b262aae50f94a6994a6297833f80bf795f4bf6ab98db78",
+    "size": [
+      960,
+      643
+    ],
+    "objects": [
+      {
+        "source_id": 94,
+        "class": "person",
+        "box": [
+          236.0,
+          103.0,
+          313.0,
+          197.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 95,
+        "class": "person",
+        "box": [
+          0.0,
+          127.0,
+          26.0,
+          251.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 96,
+        "class": "person",
+        "box": [
+          375.0,
+          83.0,
+          419.0,
+          140.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 97,
+        "class": "person",
+        "box": [
+          545.0,
+          121.0,
+          593.0,
+          195.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 98,
+        "class": "person",
+        "box": [
+          33.0,
+          106.0,
+          134.0,
+          192.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 99,
+        "class": "person",
+        "box": [
+          638.0,
+          115.0,
+          684.0,
+          184.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 100,
+        "class": "person",
+        "box": [
+          479.0,
+          115.0,
+          536.0,
+          195.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 101,
+        "class": "person",
+        "box": [
+          225.0,
+          67.0,
+          328.0,
+          116.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 102,
+        "class": "person",
+        "box": [
+          331.0,
+          122.0,
+          382.0,
+          306.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 103,
+        "class": "person",
+        "box": [
+          453.0,
+          198.0,
+          511.0,
+          289.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 104,
+        "class": "car",
+        "box": [
+          123.9,
+          211.0,
+          874.0,
+          624.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 105,
+        "class": "person",
+        "box": [
+          755.0,
+          133.0,
+          800.0,
+          196.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 106,
+        "class": "person",
+        "box": [
+          0.0,
+          47.0,
+          36.0,
+          175.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 107,
+        "class": "person",
+        "box": [
+          121.0,
+          66.0,
+          167.0,
+          157.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 108,
+        "class": "person",
+        "box": [
+          85.0,
+          4.0,
+          141.0,
+          99.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 109,
+        "class": "person",
+        "box": [
+          926.0,
+          152.0,
+          960.0,
+          290.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 110,
+        "class": "person",
+        "box": [
+          531.0,
+          239.0,
+          589.0,
+          304.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 111,
+        "class": "person",
+        "box": [
+          140.0,
+          120.0,
+          231.0,
+          386.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_020.jpg": {
+    "source": "117",
+    "source_image_id": 10,
+    "sha256": "abee5ee5a5067ef5c1f2303a2262ab5adab4b482aeacb757710d0bed0c4d24da",
+    "size": [
+      768,
+      1024
+    ],
+    "objects": []
+  },
+  "img_021.jpg": {
+    "source": "133",
+    "source_image_id": 11,
+    "sha256": "d035d96b613f152a27c6eec55b6a2aa5117ac09725b8a6e302832980dd98b6fa",
+    "size": [
+      960,
+      643
+    ],
+    "objects": [
+      {
+        "source_id": 112,
+        "class": "bus",
+        "box": [
+          831.0,
+          185.0,
+          919.0,
+          216.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 113,
+        "class": "person",
+        "box": [
+          603.0,
+          246.0,
+          641.0,
+          307.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 114,
+        "class": "person",
+        "box": [
+          442.0,
+          244.0,
+          493.0,
+          304.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 115,
+        "class": "motorcycle",
+        "box": [
+          241.0,
+          435.0,
+          456.0,
+          585.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 116,
+        "class": "person",
+        "box": [
+          386.0,
+          265.0,
+          413.0,
+          312.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 117,
+        "class": "person",
+        "box": [
+          539.0,
+          225.0,
+          559.0,
+          272.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 118,
+        "class": "person",
+        "box": [
+          846.0,
+          231.0,
+          881.0,
+          312.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 119,
+        "class": "motorcycle",
+        "box": [
+          0.0,
+          593.0,
+          36.0,
+          643.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 120,
+        "class": "motorcycle",
+        "box": [
+          103.0,
+          328.0,
+          162.0,
+          404.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 121,
+        "class": "car",
+        "box": [
+          350.0,
+          216.0,
+          404.0,
+          239.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 122,
+        "class": "person",
+        "box": [
+          556.0,
+          235.0,
+          583.0,
+          290.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 123,
+        "class": "person",
+        "box": [
+          700.0,
+          239.0,
+          730.0,
+          280.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 124,
+        "class": "motorcycle",
+        "box": [
+          251.0,
+          549.0,
+          448.0,
+          643.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 125,
+        "class": "motorcycle",
+        "box": [
+          449.0,
+          297.0,
+          486.0,
+          341.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 126,
+        "class": "person",
+        "box": [
+          426.0,
+          261.0,
+          473.0,
+          328.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 127,
+        "class": "car",
+        "box": [
+          758.0,
+          210.0,
+          800.0,
+          226.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 128,
+        "class": "person",
+        "box": [
+          458.0,
+          238.0,
+          493.0,
+          282.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 129,
+        "class": "motorcycle",
+        "box": [
+          671.0,
+          308.0,
+          705.0,
+          343.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 130,
+        "class": "person",
+        "box": [
+          673.0,
+          243.0,
+          723.0,
+          312.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 131,
+        "class": "person",
+        "box": [
+          345.0,
+          275.0,
+          401.0,
+          368.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 132,
+        "class": "person",
+        "box": [
+          754.0,
+          235.0,
+          789.0,
+          320.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 133,
+        "class": "person",
+        "box": [
+          641.0,
+          294.0,
+          725.0,
+          396.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 134,
+        "class": "person",
+        "box": [
+          307.0,
+          249.0,
+          340.0,
+          324.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 135,
+        "class": "motorcycle",
+        "box": [
+          796.0,
+          288.0,
+          860.0,
+          365.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 136,
+        "class": "person",
+        "box": [
+          151.0,
+          257.0,
+          191.0,
+          341.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 137,
+        "class": "motorcycle",
+        "box": [
+          452.0,
+          414.0,
+          579.0,
+          526.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 138,
+        "class": "person",
+        "box": [
+          505.0,
+          290.0,
+          585.0,
+          456.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 139,
+        "class": "person",
+        "box": [
+          178.0,
+          260.0,
+          207.0,
+          325.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 140,
+        "class": "motorcycle",
+        "box": [
+          745.0,
+          274.0,
+          779.0,
+          330.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 141,
+        "class": "motorcycle",
+        "box": [
+          47.0,
+          479.0,
+          145.0,
+          636.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 142,
+        "class": "car",
+        "box": [
+          252.0,
+          238.0,
+          374.0,
+          301.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 143,
+        "class": "person",
+        "box": [
+          336.0,
+          259.0,
+          362.0,
+          330.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 144,
+        "class": "person",
+        "box": [
+          470.0,
+          304.0,
+          567.0,
+          460.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 145,
+        "class": "motorcycle",
+        "box": [
+          0.0,
+          431.0,
+          74.0,
+          554.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 146,
+        "class": "person",
+        "box": [
+          37.0,
+          262.0,
+          115.0,
+          387.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 147,
+        "class": "person",
+        "box": [
+          0.0,
+          300.0,
+          68.0,
+          460.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 148,
+        "class": "person",
+        "box": [
+          568.0,
+          256.0,
+          616.0,
+          362.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 149,
+        "class": "motorcycle",
+        "box": [
+          0.0,
+          351.0,
+          138.0,
+          461.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 150,
+        "class": "person",
+        "box": [
+          397.0,
+          271.0,
+          473.0,
+          391.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 151,
+        "class": "person",
+        "box": [
+          805.0,
+          242.0,
+          861.0,
+          349.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 152,
+        "class": "person",
+        "box": [
+          200.0,
+          270.0,
+          262.0,
+          363.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 153,
+        "class": "person",
+        "box": [
+          159.0,
+          324.0,
+          232.0,
+          449.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 154,
+        "class": "person",
+        "box": [
+          259.0,
+          329.0,
+          424.0,
+          546.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 155,
+        "class": "person",
+        "box": [
+          258.0,
+          263.0,
+          336.0,
+          362.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 156,
+        "class": "car",
+        "box": [
+          0.0,
+          240.0,
+          161.0,
+          337.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 157,
+        "class": "person",
+        "box": [
+          699.0,
+          258.0,
+          758.0,
+          409.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 158,
+        "class": "person",
+        "box": [
+          107.0,
+          438.0,
+          410.0,
+          642.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 159,
+        "class": "person",
+        "box": [
+          582.0,
+          303.0,
+          758.0,
+          614.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 160,
+        "class": "person",
+        "box": [
+          83.0,
+          249.0,
+          151.0,
+          316.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 161,
+        "class": "motorcycle",
+        "box": [
+          538.0,
+          491.0,
+          697.0,
+          643.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 162,
+        "class": "car",
+        "box": [
+          421.0,
+          220.0,
+          528.0,
+          246.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 163,
+        "class": "person",
+        "box": [
+          644.0,
+          239.0,
+          673.0,
+          298.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 164,
+        "class": "motorcycle",
+        "box": [
+          708.0,
+          351.0,
+          753.0,
+          426.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 165,
+        "class": "person",
+        "box": [
+          499.0,
+          255.0,
+          568.0,
+          321.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 166,
+        "class": "motorcycle",
+        "box": [
+          342.0,
+          357.0,
+          523.0,
+          450.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      }
+    ]
+  },
+  "img_022.jpg": {
+    "source": "117",
+    "source_image_id": 11,
+    "sha256": "b8b20c676e22b8a396473e792867a0928c50ec1da8dd69021b3bdede10eb0a41",
+    "size": [
+      960,
+      811
+    ],
+    "objects": [
+      {
+        "source_id": 90,
+        "class": "motorcycle",
+        "box": [
+          489.0,
+          466.0,
+          686.0,
+          621.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_023.jpg": {
+    "source": "117",
+    "source_image_id": 12,
+    "sha256": "88d5cf72ad87df5af3d59421c3148f463addc4efb0a3e032949ada8c1c39f2b0",
+    "size": [
+      960,
+      540
+    ],
+    "objects": [
+      {
+        "source_id": 91,
+        "class": "car",
+        "box": [
+          35.0,
+          154.0,
+          429.0,
+          404.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 92,
+        "class": "person",
+        "box": [
+          622.0,
+          9.0,
+          751.0,
+          436.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 93,
+        "class": "person",
+        "box": [
+          506.0,
+          160.0,
+          548.0,
+          272.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 94,
+        "class": "person",
+        "box": [
+          60.0,
+          126.0,
+          104.0,
+          255.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 95,
+        "class": "car",
+        "box": [
+          791.0,
+          176.0,
+          827.0,
+          204.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 96,
+        "class": "motorcycle",
+        "box": [
+          508.0,
+          211.0,
+          549.0,
+          272.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 97,
+        "class": "person",
+        "box": [
+          751.0,
+          164.0,
+          783.0,
+          249.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 98,
+        "class": "person",
+        "box": [
+          897.0,
+          199.0,
+          960.0,
+          309.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 99,
+        "class": "person",
+        "box": [
+          920.0,
+          234.0,
+          960.0,
+          325.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 100,
+        "class": "ignore_region",
+        "box": [
+          782.0,
+          176.0,
+          793.0,
+          189.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 101,
+        "class": "person",
+        "box": [
+          91.0,
+          130.0,
+          118.0,
+          193.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 102,
+        "class": "motorcycle",
+        "box": [
+          901.0,
+          224.0,
+          930.0,
+          288.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 103,
+        "class": "motorcycle",
+        "box": [
+          427.0,
+          174.0,
+          455.0,
+          224.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 104,
+        "class": "motorcycle",
+        "box": [
+          477.0,
+          174.0,
+          495.0,
+          221.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 105,
+        "class": "motorcycle",
+        "box": [
+          395.0,
+          177.0,
+          430.0,
+          227.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 106,
+        "class": "motorcycle",
+        "box": [
+          814.0,
+          190.0,
+          865.0,
+          237.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 107,
+        "class": "person",
+        "box": [
+          770.0,
+          170.0,
+          785.0,
+          191.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 108,
+        "class": "motorcycle",
+        "box": [
+          454.0,
+          173.0,
+          477.0,
+          222.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 109,
+        "class": "motorcycle",
+        "box": [
+          593.0,
+          183.0,
+          613.0,
+          213.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_024.jpg": {
+    "source": "133",
+    "source_image_id": 12,
+    "sha256": "d99ea4b3c4918ff0837ab9861707410dd486c40fd612e01399f04766ce50e914",
+    "size": [
+      960,
+      720
+    ],
+    "objects": [
+      {
+        "source_id": 167,
+        "class": "person",
+        "box": [
+          767.74,
+          193.77,
+          779.61,
+          206.97
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 168,
+        "class": "car",
+        "box": [
+          76.4,
+          233.16,
+          836.29,
+          698.9
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 169,
+        "class": "car",
+        "box": [
+          0.0,
+          542.0,
+          186.0,
+          719.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "yes",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 170,
+        "class": "car",
+        "box": [
+          0.0,
+          207.0,
+          225.0,
+          437.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 171,
+        "class": "car",
+        "box": [
+          697.0,
+          220.0,
+          925.0,
+          402.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 172,
+        "class": "car",
+        "box": [
+          672.0,
+          209.0,
+          721.0,
+          247.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 173,
+        "class": "car",
+        "box": [
+          172.0,
+          207.0,
+          312.0,
+          269.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 174,
+        "class": "car",
+        "box": [
+          242.0,
+          47.0,
+          699.0,
+          248.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 175,
+        "class": "car",
+        "box": [
+          836.0,
+          212.0,
+          960.0,
+          329.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_025.jpg": {
+    "source": "133",
+    "source_image_id": 13,
+    "sha256": "b91b1887166f807e1e29da59454433c5e3e67575f55acd82fa521576a6270141",
+    "size": [
+      960,
+      639
+    ],
+    "objects": [
+      {
+        "source_id": 176,
+        "class": "van",
+        "box": [
+          851.8,
+          341.0,
+          960.0,
+          416.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 177,
+        "class": "person",
+        "box": [
+          350.0,
+          370.0,
+          363.0,
+          391.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 178,
+        "class": "person",
+        "box": [
+          203.0,
+          372.0,
+          224.0,
+          394.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 179,
+        "class": "person",
+        "box": [
+          246.0,
+          378.0,
+          266.0,
+          406.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 180,
+        "class": "person",
+        "box": [
+          151.0,
+          369.0,
+          172.0,
+          393.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 181,
+        "class": "car",
+        "box": [
+          645.0,
+          354.0,
+          669.0,
+          375.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 182,
+        "class": "person",
+        "box": [
+          572.0,
+          353.0,
+          581.0,
+          370.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 183,
+        "class": "person",
+        "box": [
+          567.0,
+          353.0,
+          573.0,
+          369.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 184,
+        "class": "person",
+        "box": [
+          580.0,
+          354.0,
+          587.0,
+          371.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 185,
+        "class": "person",
+        "box": [
+          367.0,
+          362.0,
+          385.0,
+          389.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 186,
+        "class": "person",
+        "box": [
+          431.0,
+          358.0,
+          448.0,
+          396.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 187,
+        "class": "person",
+        "box": [
+          33.0,
+          383.0,
+          85.0,
+          430.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 188,
+        "class": "person",
+        "box": [
+          225.0,
+          362.0,
+          236.0,
+          385.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 189,
+        "class": "car",
+        "box": [
+          788.0,
+          352.0,
+          823.0,
+          387.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 190,
+        "class": "motorcycle",
+        "box": [
+          806.0,
+          386.0,
+          866.0,
+          443.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 191,
+        "class": "car",
+        "box": [
+          665.0,
+          353.0,
+          697.0,
+          383.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 192,
+        "class": "person",
+        "box": [
+          385.0,
+          361.0,
+          407.0,
+          401.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 193,
+        "class": "car",
+        "box": [
+          687.0,
+          357.0,
+          710.0,
+          391.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 194,
+        "class": "person",
+        "box": [
+          414.0,
+          360.0,
+          438.0,
+          400.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 195,
+        "class": "person",
+        "box": [
+          814.0,
+          352.0,
+          858.0,
+          442.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 196,
+        "class": "person",
+        "box": [
+          491.0,
+          347.0,
+          507.0,
+          393.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 197,
+        "class": "person",
+        "box": [
+          452.0,
+          331.0,
+          483.0,
+          433.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 198,
+        "class": "car",
+        "box": [
+          745.0,
+          349.0,
+          809.0,
+          406.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 199,
+        "class": "person",
+        "box": [
+          536.0,
+          342.0,
+          563.0,
+          413.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_026.jpg": {
+    "source": "117",
+    "source_image_id": 13,
+    "sha256": "1dcec1a169e2a679a778b8e3ccff6536f0568fcdf0735492c0ded2c28dffb939",
+    "size": [
+      784,
+      1024
+    ],
+    "objects": [
+      {
+        "source_id": 110,
+        "class": "motorcycle",
+        "box": [
+          233.0,
+          718.0,
+          708.0,
+          1024.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 111,
+        "class": "person",
+        "box": [
+          273.0,
+          537.0,
+          503.0,
+          1007.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 112,
+        "class": "person",
+        "box": [
+          368.0,
+          541.0,
+          601.0,
+          1007.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_027.jpg": {
+    "source": "133",
+    "source_image_id": 14,
+    "sha256": "fefcd3f9031c759e4ebd0bb23d08933f5272d1ca792b72b7f95f9a86dd3cc472",
+    "size": [
+      960,
+      720
+    ],
+    "objects": [
+      {
+        "source_id": 200,
+        "class": "person",
+        "box": [
+          23.0,
+          268.0,
+          33.0,
+          292.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      }
+    ]
+  },
+  "img_028.jpg": {
+    "source": "117",
+    "source_image_id": 14,
+    "sha256": "55ba80c2744eb867756de7aecb67ee1b82c19c10b714c2b7291ea8fef15b2fda",
+    "size": [
+      960,
+      720
+    ],
+    "objects": [
+      {
+        "source_id": 113,
+        "class": "truck",
+        "box": [
+          42.0,
+          302.0,
+          930.0,
+          700.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 114,
+        "class": "car",
+        "box": [
+          628.0,
+          335.0,
+          897.0,
+          421.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_029.jpg": {
+    "source": "117",
+    "source_image_id": 15,
+    "sha256": "7c11f73db3534502ba10e56f82c13e6fad35e9acd303f908a04e0f142726376a",
+    "size": [
+      960,
+      414
+    ],
+    "objects": [
+      {
+        "source_id": 115,
+        "class": "person",
+        "box": [
+          616.0,
+          110.0,
+          729.0,
+          395.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 116,
+        "class": "car",
+        "box": [
+          285.0,
+          195.0,
+          305.0,
+          232.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 117,
+        "class": "car",
+        "box": [
+          250.0,
+          195.0,
+          267.0,
+          223.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 118,
+        "class": "person",
+        "box": [
+          276.0,
+          190.0,
+          301.0,
+          257.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 119,
+        "class": "person",
+        "box": [
+          0.0,
+          191.0,
+          8.0,
+          234.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 120,
+        "class": "person",
+        "box": [
+          218.0,
+          183.0,
+          244.0,
+          257.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 121,
+        "class": "person",
+        "box": [
+          347.0,
+          188.0,
+          368.0,
+          217.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 122,
+        "class": "person",
+        "box": [
+          114.0,
+          181.0,
+          149.0,
+          271.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 123,
+        "class": "person",
+        "box": [
+          183.0,
+          173.0,
+          225.0,
+          297.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 124,
+        "class": "motorcycle",
+        "box": [
+          332.0,
+          198.0,
+          560.0,
+          376.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 125,
+        "class": "person",
+        "box": [
+          412.0,
+          160.0,
+          495.0,
+          377.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_030.jpg": {
+    "source": "133",
+    "source_image_id": 15,
+    "sha256": "e71909d06b63f7892add0e3f6d4313b81268cfa5c482112c5433e2632b3e3e19",
+    "size": [
+      960,
+      720
+    ],
+    "objects": [
+      {
+        "source_id": 201,
+        "class": "motorcycle",
+        "box": [
+          351.0,
+          267.0,
+          917.0,
+          719.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 202,
+        "class": "person",
+        "box": [
+          699.0,
+          26.0,
+          778.0,
+          270.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 203,
+        "class": "motorcycle",
+        "box": [
+          834.0,
+          112.0,
+          960.0,
+          225.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 204,
+        "class": "motorcycle",
+        "box": [
+          1.05,
+          165.79,
+          137.74,
+          358.84000000000003
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 205,
+        "class": "motorcycle",
+        "box": [
+          292.5,
+          131.39,
+          489.51,
+          281.1
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 206,
+        "class": "motorcycle",
+        "box": [
+          457.31,
+          177.51,
+          562.71,
+          261.66999999999996
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 207,
+        "class": "motorcycle",
+        "box": [
+          438.94,
+          124.46,
+          602.0,
+          285.71
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 208,
+        "class": "motorcycle",
+        "box": [
+          99.3,
+          149.2,
+          253.0,
+          328.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 209,
+        "class": "motorcycle",
+        "box": [
+          383.0,
+          166.4,
+          695.0,
+          402.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 210,
+        "class": "motorcycle",
+        "box": [
+          0.0,
+          169.0,
+          326.0,
+          437.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 211,
+        "class": "motorcycle",
+        "box": [
+          688.0,
+          220.0,
+          960.0,
+          403.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 212,
+        "class": "person",
+        "box": [
+          698.0,
+          55.0,
+          728.0,
+          87.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 213,
+        "class": "motorcycle",
+        "box": [
+          0.0,
+          372.0,
+          462.0,
+          719.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 214,
+        "class": "motorcycle",
+        "box": [
+          190.2,
+          126.7,
+          363.5,
+          346.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_031.jpg": {
+    "source": "133",
+    "source_image_id": 16,
+    "sha256": "c0a1dc1b08e031704dfdcf36a3f9d90f487a148cc50706a74a01415cd81f2c9d",
+    "size": [
+      960,
+      640
+    ],
+    "objects": [
+      {
+        "source_id": 215,
+        "class": "car",
+        "box": [
+          267.0,
+          365.0,
+          408.0,
+          477.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 216,
+        "class": "car",
+        "box": [
+          429.0,
+          374.0,
+          506.0,
+          430.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 217,
+        "class": "car",
+        "box": [
+          521.0,
+          374.0,
+          611.0,
+          448.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 218,
+        "class": "bus",
+        "box": [
+          571.0,
+          315.0,
+          683.0,
+          434.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 219,
+        "class": "car",
+        "box": [
+          492.0,
+          364.0,
+          541.0,
+          416.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 220,
+        "class": "person",
+        "box": [
+          161.0,
+          373.0,
+          181.0,
+          428.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 221,
+        "class": "person",
+        "box": [
+          750.0,
+          356.0,
+          788.0,
+          486.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 222,
+        "class": "motorcycle",
+        "box": [
+          235.0,
+          390.0,
+          260.0,
+          433.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 223,
+        "class": "motorcycle",
+        "box": [
+          64.0,
+          403.0,
+          106.0,
+          460.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 224,
+        "class": "person",
+        "box": [
+          470.0,
+          361.0,
+          485.0,
+          377.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 225,
+        "class": "person",
+        "box": [
+          191.0,
+          362.0,
+          208.0,
+          425.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 226,
+        "class": "person",
+        "box": [
+          60.0,
+          376.0,
+          106.0,
+          457.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 227,
+        "class": "motorcycle",
+        "box": [
+          405.0,
+          374.0,
+          429.0,
+          419.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 228,
+        "class": "motorcycle",
+        "box": [
+          718.0,
+          368.0,
+          733.0,
+          390.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 229,
+        "class": "person",
+        "box": [
+          201.0,
+          367.0,
+          213.0,
+          420.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 230,
+        "class": "person",
+        "box": [
+          449.0,
+          363.0,
+          468.0,
+          376.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 231,
+        "class": "person",
+        "box": [
+          378.0,
+          356.0,
+          389.0,
+          379.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 232,
+        "class": "person",
+        "box": [
+          362.0,
+          355.0,
+          378.0,
+          372.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 233,
+        "class": "person",
+        "box": [
+          387.0,
+          358.0,
+          399.0,
+          374.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 234,
+        "class": "person",
+        "box": [
+          214.0,
+          376.0,
+          227.0,
+          417.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 235,
+        "class": "person",
+        "box": [
+          236.0,
+          374.0,
+          260.0,
+          431.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_032.jpg": {
+    "source": "117",
+    "source_image_id": 16,
+    "sha256": "e7fe782b17f629d305a1c354d3cb4a00bb75c79dd8ae33c711cc435b4fa86087",
+    "size": [
+      960,
+      600
+    ],
+    "objects": [
+      {
+        "source_id": 126,
+        "class": "person",
+        "box": [
+          659.0,
+          275.0,
+          690.0,
+          367.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 127,
+        "class": "person",
+        "box": [
+          612.0,
+          276.0,
+          630.0,
+          365.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 128,
+        "class": "car",
+        "box": [
+          840.0,
+          275.0,
+          892.0,
+          324.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 129,
+        "class": "car",
+        "box": [
+          204.0,
+          276.0,
+          255.0,
+          340.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 130,
+        "class": "person",
+        "box": [
+          154.0,
+          263.0,
+          173.0,
+          355.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 131,
+        "class": "person",
+        "box": [
+          0.0,
+          266.0,
+          18.0,
+          318.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 132,
+        "class": "person",
+        "box": [
+          517.0,
+          258.0,
+          545.0,
+          362.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 133,
+        "class": "van",
+        "box": [
+          691.0,
+          270.0,
+          755.0,
+          330.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 134,
+        "class": "car",
+        "box": [
+          920.0,
+          277.0,
+          960.0,
+          336.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 135,
+        "class": "car",
+        "box": [
+          86.0,
+          273.0,
+          107.0,
+          319.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 136,
+        "class": "car",
+        "box": [
+          387.0,
+          270.0,
+          442.0,
+          341.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 137,
+        "class": "person",
+        "box": [
+          494.0,
+          270.0,
+          524.0,
+          365.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 138,
+        "class": "person",
+        "box": [
+          41.0,
+          258.0,
+          68.0,
+          334.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 139,
+        "class": "car",
+        "box": [
+          882.0,
+          282.0,
+          904.0,
+          314.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 140,
+        "class": "person",
+        "box": [
+          59.0,
+          272.0,
+          90.0,
+          340.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 141,
+        "class": "person",
+        "box": [
+          378.0,
+          274.0,
+          405.0,
+          362.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 142,
+        "class": "person",
+        "box": [
+          593.0,
+          269.0,
+          616.0,
+          366.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 143,
+        "class": "person",
+        "box": [
+          102.0,
+          260.0,
+          122.0,
+          346.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 144,
+        "class": "person",
+        "box": [
+          338.0,
+          268.0,
+          356.0,
+          356.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 145,
+        "class": "person",
+        "box": [
+          285.0,
+          260.0,
+          315.0,
+          359.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 146,
+        "class": "person",
+        "box": [
+          112.0,
+          258.0,
+          140.0,
+          356.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 147,
+        "class": "person",
+        "box": [
+          135.0,
+          264.0,
+          165.0,
+          356.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 148,
+        "class": "person",
+        "box": [
+          249.0,
+          263.0,
+          283.0,
+          360.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 149,
+        "class": "car",
+        "box": [
+          0.0,
+          313.0,
+          152.0,
+          463.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 150,
+        "class": "person",
+        "box": [
+          399.0,
+          268.0,
+          427.0,
+          364.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 151,
+        "class": "person",
+        "box": [
+          782.0,
+          272.0,
+          818.0,
+          369.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 152,
+        "class": "person",
+        "box": [
+          205.0,
+          271.0,
+          233.0,
+          356.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 153,
+        "class": "person",
+        "box": [
+          833.0,
+          281.0,
+          863.0,
+          371.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 154,
+        "class": "person",
+        "box": [
+          312.0,
+          264.0,
+          345.0,
+          362.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 155,
+        "class": "person",
+        "box": [
+          171.0,
+          260.0,
+          198.0,
+          356.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 156,
+        "class": "person",
+        "box": [
+          471.0,
+          266.0,
+          498.0,
+          363.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 157,
+        "class": "person",
+        "box": [
+          353.0,
+          266.0,
+          379.0,
+          360.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 158,
+        "class": "person",
+        "box": [
+          441.0,
+          263.0,
+          471.0,
+          364.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 159,
+        "class": "person",
+        "box": [
+          539.0,
+          274.0,
+          559.0,
+          366.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 160,
+        "class": "person",
+        "box": [
+          628.0,
+          277.0,
+          658.0,
+          367.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 161,
+        "class": "person",
+        "box": [
+          564.0,
+          271.0,
+          597.0,
+          367.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_033.jpg": {
+    "source": "117",
+    "source_image_id": 17,
+    "sha256": "1734c4840ff48001ff8812d7960ad95d5d594bbcbf953d8e5a88ff1c5dbc0a48",
+    "size": [
+      960,
+      640
+    ],
+    "objects": []
+  },
+  "img_034.jpg": {
+    "source": "133",
+    "source_image_id": 17,
+    "sha256": "1fcbf2466e3d35c948c324f3d7d92ef68a2b3a55c7794b9d525b8c0a0e79e7c8",
+    "size": [
+      960,
+      540
+    ],
+    "objects": [
+      {
+        "source_id": 236,
+        "class": "person",
+        "box": [
+          270.0,
+          235.0,
+          284.0,
+          269.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 237,
+        "class": "person",
+        "box": [
+          359.0,
+          163.0,
+          505.0,
+          436.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 238,
+        "class": "person",
+        "box": [
+          863.0,
+          160.0,
+          960.0,
+          466.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 239,
+        "class": "person",
+        "box": [
+          643.0,
+          229.0,
+          680.0,
+          302.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 240,
+        "class": "motorcycle",
+        "box": [
+          49.0,
+          248.0,
+          96.0,
+          290.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 241,
+        "class": "person",
+        "box": [
+          151.0,
+          233.0,
+          174.0,
+          267.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 242,
+        "class": "person",
+        "box": [
+          771.0,
+          230.0,
+          806.0,
+          302.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 243,
+        "class": "person",
+        "box": [
+          597.0,
+          227.0,
+          622.0,
+          298.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 244,
+        "class": "person",
+        "box": [
+          825.0,
+          221.0,
+          869.0,
+          281.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 245,
+        "class": "motorcycle",
+        "box": [
+          249.0,
+          253.0,
+          284.0,
+          288.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 246,
+        "class": "car",
+        "box": [
+          449.0,
+          228.0,
+          595.0,
+          311.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 247,
+        "class": "motorcycle",
+        "box": [
+          282.0,
+          250.0,
+          309.0,
+          284.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 248,
+        "class": "motorcycle",
+        "box": [
+          646.0,
+          269.0,
+          677.0,
+          317.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 249,
+        "class": "motorcycle",
+        "box": [
+          884.0,
+          352.0,
+          960.0,
+          537.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 250,
+        "class": "motorcycle",
+        "box": [
+          161.0,
+          255.0,
+          203.0,
+          288.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 251,
+        "class": "person",
+        "box": [
+          61.0,
+          227.0,
+          93.0,
+          282.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 252,
+        "class": "motorcycle",
+        "box": [
+          826.0,
+          276.0,
+          869.0,
+          338.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 253,
+        "class": "motorcycle",
+        "box": [
+          775.0,
+          270.0,
+          807.0,
+          316.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 254,
+        "class": "person",
+        "box": [
+          171.0,
+          234.0,
+          193.0,
+          281.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 255,
+        "class": "person",
+        "box": [
+          185.0,
+          232.0,
+          197.0,
+          261.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 256,
+        "class": "person",
+        "box": [
+          736.0,
+          241.0,
+          754.0,
+          286.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 257,
+        "class": "person",
+        "box": [
+          715.0,
+          255.0,
+          729.0,
+          279.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 258,
+        "class": "motorcycle",
+        "box": [
+          736.0,
+          260.0,
+          755.0,
+          286.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 259,
+        "class": "person",
+        "box": [
+          248.0,
+          236.0,
+          283.0,
+          278.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 260,
+        "class": "ignore_region",
+        "box": [
+          149.0,
+          244.0,
+          165.0,
+          286.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 261,
+        "class": "person",
+        "box": [
+          286.0,
+          234.0,
+          308.0,
+          282.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_035.jpg": {
+    "source": "117",
+    "source_image_id": 18,
+    "sha256": "b01d3cbf176ca7a009628b69456e6f7ee1f8843a951e29cbb5b9d572f902c34c",
+    "size": [
+      960,
+      720
+    ],
+    "objects": [
+      {
+        "source_id": 162,
+        "class": "person",
+        "box": [
+          412.0,
+          223.0,
+          479.0,
+          277.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 163,
+        "class": "tuk_tuk",
+        "box": [
+          383.0,
+          182.0,
+          553.0,
+          412.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 164,
+        "class": "tuk_tuk",
+        "box": [
+          747.0,
+          212.0,
+          840.0,
+          407.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 165,
+        "class": "motorcycle",
+        "box": [
+          946.0,
+          264.0,
+          960.0,
+          297.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 166,
+        "class": "person",
+        "box": [
+          222.0,
+          208.0,
+          234.0,
+          238.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 167,
+        "class": "person",
+        "box": [
+          555.0,
+          261.0,
+          583.0,
+          287.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 168,
+        "class": "person",
+        "box": [
+          652.0,
+          235.0,
+          665.0,
+          257.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 169,
+        "class": "person",
+        "box": [
+          570.0,
+          224.0,
+          589.0,
+          252.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 170,
+        "class": "person",
+        "box": [
+          247.0,
+          209.0,
+          262.0,
+          238.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 171,
+        "class": "person",
+        "box": [
+          665.0,
+          236.0,
+          691.0,
+          272.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 172,
+        "class": "person",
+        "box": [
+          939.0,
+          239.0,
+          960.0,
+          297.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 173,
+        "class": "person",
+        "box": [
+          333.0,
+          230.0,
+          373.0,
+          316.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 174,
+        "class": "motorcycle",
+        "box": [
+          648.0,
+          312.0,
+          786.0,
+          502.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 175,
+        "class": "car",
+        "box": [
+          545.0,
+          251.0,
+          658.0,
+          365.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 176,
+        "class": "motorcycle",
+        "box": [
+          293.0,
+          267.0,
+          383.0,
+          336.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 177,
+        "class": "car",
+        "box": [
+          839.0,
+          245.0,
+          948.0,
+          308.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 178,
+        "class": "person",
+        "box": [
+          645.0,
+          210.0,
+          773.0,
+          456.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_036.jpg": {
+    "source": "084",
+    "source_image_id": 18,
+    "sha256": "cdff16cb883755e3e552be7b5de914f5f5f75fb8f444a5ebe6380ef35b09ddfc",
+    "size": [
+      960,
+      720
+    ],
+    "objects": [
+      {
+        "source_id": 237,
+        "class": "motorcycle",
+        "box": [
+          783.0,
+          199.0,
+          896.0,
+          292.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 238,
+        "class": "motorcycle",
+        "box": [
+          761.0,
+          185.0,
+          846.0,
+          293.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 239,
+        "class": "car",
+        "box": [
+          15.0,
+          151.0,
+          87.0,
+          190.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 240,
+        "class": "motorcycle",
+        "box": [
+          941.0,
+          268.0,
+          960.0,
+          323.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 241,
+        "class": "motorcycle",
+        "box": [
+          0.0,
+          184.0,
+          47.0,
+          295.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 242,
+        "class": "motorcycle",
+        "box": [
+          890.0,
+          198.0,
+          960.0,
+          327.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 243,
+        "class": "car",
+        "box": [
+          0.0,
+          154.0,
+          24.0,
+          181.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 244,
+        "class": "motorcycle",
+        "box": [
+          41.0,
+          235.0,
+          101.0,
+          332.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 245,
+        "class": "motorcycle",
+        "box": [
+          14.0,
+          190.0,
+          90.0,
+          310.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 246,
+        "class": "motorcycle",
+        "box": [
+          836.0,
+          200.0,
+          910.0,
+          326.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 247,
+        "class": "truck",
+        "box": [
+          80.0,
+          34.0,
+          885.0,
+          692.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 248,
+        "class": "person",
+        "box": [
+          722.0,
+          150.0,
+          745.0,
+          188.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_037.jpg": {
+    "source": "117",
+    "source_image_id": 19,
+    "sha256": "e380d89e08435cf7ebafb68891d7fbdd250c69cc11e052395d33c4f55e1cfb61",
+    "size": [
+      960,
+      720
+    ],
+    "objects": [
+      {
+        "source_id": 179,
+        "class": "bus",
+        "box": [
+          713.0,
+          234.0,
+          766.0,
+          352.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 180,
+        "class": "truck",
+        "box": [
+          221.0,
+          136.0,
+          724.0,
+          494.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 181,
+        "class": "bus",
+        "box": [
+          0.0,
+          218.0,
+          235.0,
+          390.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 182,
+        "class": "person",
+        "box": [
+          28.0,
+          297.0,
+          75.0,
+          407.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_038.jpg": {
+    "source": "133",
+    "source_image_id": 19,
+    "sha256": "58c7932fb805d4ddd035fd6366772e1ae06b3728035595ec36bb63601482b9d4",
+    "size": [
+      960,
+      503
+    ],
+    "objects": []
+  },
+  "img_039.jpg": {
+    "source": "117",
+    "source_image_id": 20,
+    "sha256": "a365c96735aa053247ccb5b6dcd96c5367d781c2b1d8f83a6802bd0fcef305a7",
+    "size": [
+      960,
+      540
+    ],
+    "objects": [
+      {
+        "source_id": 183,
+        "class": "motorcycle",
+        "box": [
+          935.0,
+          463.0,
+          960.0,
+          530.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 184,
+        "class": "car",
+        "box": [
+          784.0,
+          409.0,
+          835.0,
+          436.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 185,
+        "class": "person",
+        "box": [
+          863.0,
+          402.0,
+          889.0,
+          498.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 186,
+        "class": "person",
+        "box": [
+          627.0,
+          412.0,
+          659.0,
+          491.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 187,
+        "class": "motorcycle",
+        "box": [
+          499.0,
+          420.0,
+          526.0,
+          474.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 188,
+        "class": "van",
+        "box": [
+          645.0,
+          411.0,
+          670.0,
+          441.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 189,
+        "class": "motorcycle",
+        "box": [
+          522.0,
+          427.0,
+          549.0,
+          470.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 190,
+        "class": "person",
+        "box": [
+          679.0,
+          417.0,
+          695.0,
+          450.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 191,
+        "class": "motorcycle",
+        "box": [
+          733.0,
+          439.0,
+          786.0,
+          506.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 192,
+        "class": "motorcycle",
+        "box": [
+          679.0,
+          427.0,
+          697.0,
+          456.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 193,
+        "class": "motorcycle",
+        "box": [
+          17.0,
+          416.0,
+          55.0,
+          496.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 194,
+        "class": "motorcycle",
+        "box": [
+          606.0,
+          431.0,
+          624.0,
+          466.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 195,
+        "class": "person",
+        "box": [
+          567.0,
+          414.0,
+          584.0,
+          490.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 196,
+        "class": "person",
+        "box": [
+          841.0,
+          407.0,
+          861.0,
+          495.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 197,
+        "class": "motorcycle",
+        "box": [
+          463.0,
+          419.0,
+          501.0,
+          483.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 198,
+        "class": "person",
+        "box": [
+          584.0,
+          415.0,
+          612.0,
+          490.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 199,
+        "class": "motorcycle",
+        "box": [
+          617.0,
+          431.0,
+          660.0,
+          500.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 200,
+        "class": "person",
+        "box": [
+          547.0,
+          412.0,
+          569.0,
+          490.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 201,
+        "class": "person",
+        "box": [
+          697.0,
+          412.0,
+          727.0,
+          490.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 202,
+        "class": "person",
+        "box": [
+          734.0,
+          405.0,
+          791.0,
+          503.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 203,
+        "class": "motorcycle",
+        "box": [
+          68.0,
+          412.0,
+          167.0,
+          535.0
+        ],
+        "attributes": {
+          "occluded_level": "0",
+          "truncated": "no",
+          "can_review": false
+        }
+      }
+    ]
+  },
+  "img_040.jpg": {
+    "source": "133",
+    "source_image_id": 20,
+    "sha256": "e16ee9a3cfe6ea33457e7562b7f7d5bea9f63eee5cce42180ba25282dc004e95",
+    "size": [
+      960,
+      640
+    ],
+    "objects": [
+      {
+        "source_id": 275,
+        "class": "bus",
+        "box": [
+          101.0,
+          0.0,
+          470.0,
+          113.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 276,
+        "class": "person",
+        "box": [
+          488.0,
+          103.0,
+          821.0,
+          639.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 277,
+        "class": "car",
+        "box": [
+          183.0,
+          79.0,
+          403.0,
+          257.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 278,
+        "class": "tuk_tuk",
+        "box": [
+          72.0,
+          95.0,
+          189.0,
+          238.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "no",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 279,
+        "class": "bus",
+        "box": [
+          323.0,
+          68.0,
+          835.0,
+          404.0
+        ],
+        "attributes": {
+          "occluded_level": "2",
+          "truncated": "no",
+          "can_review": true
+        }
+      },
+      {
+        "source_id": 280,
+        "class": "car",
+        "box": [
+          15.8,
+          196.0,
+          960.0,
+          639.0
+        ],
+        "attributes": {
+          "occluded_level": "1",
+          "truncated": "yes",
+          "can_review": false
+        }
+      },
+      {
+        "source_id": 281,
+        "class": "bus",
+        "box": [
+          0.0,
+          118.0,
+          70.0,
+          211.0
+        ],
+        "attributes": {
+          "occluded_level": "3",
+          "truncated": "yes",
+          "can_review": true
+        }
+      }
+    ]
+  }
+}

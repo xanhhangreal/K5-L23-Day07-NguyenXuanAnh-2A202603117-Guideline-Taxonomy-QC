@@ -1,3 +1,11 @@
+# Gói nộp hiện hành — 17/11/2026
+
+[day07_submission_2026-11-17.zip](day07_submission_2026-11-17.zip) chứa repo cần chạy lại, dữ liệu 40 ảnh, nhãn/báo cáo sau xử lý và overlay. Không chứa work/, trọng số hoặc thông tin đăng nhập. Nhãn sau sửa trong gói có hỗ trợ AI và còn Hold; đọc SUBMISSION_STATUS.md và QC_REPORT.md.
+
+Đã nhận 150 nên không cần làm gói bổ sung 7/7/6 để bù thiếu thành viên nữa. Các gói đó và IAA 20 ảnh phía dưới là **lịch sử**, không phải kết quả hiện hành. SHA-256 tất cả ZIP ở [SHA256SUMS.txt](SHA256SUMS.txt).
+
+---
+
 # Gói gán nhãn Day07 — v1.0
 
 Guideline chính thức: [guideline_v1.0_agreed.md](../guidelines/guideline_v1.0_agreed.md). Bản v1.0 đã khóa theo chỉ đạo người điều phối, tổng hợp từ 117/133/150; không chờ guideline 084. Cả bốn thành viên vẫn tham gia gán.

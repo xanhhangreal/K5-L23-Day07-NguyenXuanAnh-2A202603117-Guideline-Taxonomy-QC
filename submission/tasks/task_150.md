@@ -39,3 +39,6 @@
 - [ ] `img_036.jpg`
 - [ ] `img_038.jpg`
 - [ ] `img_040.jpg`
+
+## Bài đã nhận 17/11/2026
+Đã nhận coco_day07_150.zip: đúng 20 ảnh, 303 annotation. Thiếu hai thuộc tính ở toàn bộ box; bản gốc và bản bổ sung thuộc tính có nguồn AI được lưu riêng. Chưa truy cập CVAT local của 150, không xác nhận trạng thái Job. Xem QC_REPORT.md cho bản bàn giao hiện hành.

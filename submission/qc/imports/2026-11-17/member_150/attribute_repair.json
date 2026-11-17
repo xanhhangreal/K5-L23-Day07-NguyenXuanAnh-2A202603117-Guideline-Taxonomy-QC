@@ -1,0 +1,2431 @@
+{
+  "method": "AI-assisted schema repair; all 303 objects flagged; attribute IAA is not independent",
+  "original_sha256": "0b905cd0c5daa8c3db1c0e26857ad26a604e217706a6adf270aef86c2471209c",
+  "repaired_sha256": "156f2c4d3a2ecdb9457de48744357a110ffdbc668a309110b34fb93b7a300307",
+  "annotations": [
+    {
+      "annotation_id": 1,
+      "image": "img_002.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 2,
+      "image": "img_002.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9907407407407407,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 3,
+      "image": "img_002.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.950204081632653,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 4,
+      "image": "img_002.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 5,
+      "image": "img_002.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9473684210526315,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 6,
+      "image": "img_002.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 7,
+      "image": "img_002.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9920634920634921,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 8,
+      "image": "img_002.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9810872492504464,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 9,
+      "image": "img_002.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9732620320855615,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 10,
+      "image": "img_002.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 11,
+      "image": "img_002.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 12,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 13,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 14,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 15,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 16,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 17,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 18,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 19,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 20,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 21,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.8987609329446065,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 22,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 23,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 24,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 25,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 26,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 27,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 28,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 29,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 30,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 31,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 32,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 33,
+      "image": "img_003.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.4563386524822695,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 34,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 35,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 36,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 37,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 38,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 39,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 40,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 41,
+      "image": "img_003.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 42,
+      "image": "img_003.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.34728682170542635,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 43,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9895399469897767,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 44,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9968847352024922,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 45,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 46,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9846017503046416,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 47,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9900990099009901,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 48,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9672691744015632,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 49,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9649213043925522,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 50,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.8194590202782762,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 51,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 52,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9727809414346168,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 53,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9861111111111112,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 54,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.6766530134581626,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 55,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 56,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9593220338983051,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 57,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.8470588235294118,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 58,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.7139983542104782,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 59,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9722222222222222,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 60,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9022088561650938,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 61,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.6453334880247849,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 62,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9502347417840376,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 63,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9565217391304348,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 64,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.546875,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 65,
+      "image": "img_006.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.230151503921924,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 66,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9922480620155039,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 67,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.7953216374269005,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 68,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9014423076923077,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 69,
+      "image": "img_006.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 70,
+      "image": "img_006.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.002186739282914552,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 71,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9230769230769231,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 72,
+      "image": "img_006.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 73,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 74,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.8079229122055674,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 75,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.995475113122172,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 76,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.7655707425193942,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 77,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.8891675025075225,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 78,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.6753909990424514,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 79,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9891304347826086,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 80,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.6968514906659237,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 81,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 82,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 83,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9347442680776014,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 84,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.896814404432133,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 85,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9411764705882353,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 86,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.6414073071718539,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 87,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9866666666666667,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 88,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9779542491406898,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 89,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 90,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 91,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9431818181818182,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 92,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.7301587301587301,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 93,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9599018003273322,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 94,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.936497175141243,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 95,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9523809523809523,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 96,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9534391534391534,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 97,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9850746268656716,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 98,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 99,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.8742690058479532,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 100,
+      "image": "img_008.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.861244019138756,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 101,
+      "image": "img_010.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 102,
+      "image": "img_010.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 103,
+      "image": "img_010.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 104,
+      "image": "img_010.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 105,
+      "image": "img_010.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9191176470588235,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 106,
+      "image": "img_010.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.7950819672131147,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 107,
+      "image": "img_010.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 108,
+      "image": "img_010.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.5717673511690411,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 109,
+      "image": "img_010.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.17153547525778629,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 110,
+      "image": "img_010.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.31177606177606176,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 111,
+      "image": "img_010.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.6327421171171171,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 112,
+      "image": "img_012.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9942857142857143,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 113,
+      "image": "img_012.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 114,
+      "image": "img_012.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9910017697350383,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 115,
+      "image": "img_012.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.8777777777777778,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 116,
+      "image": "img_013.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 117,
+      "image": "img_013.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 118,
+      "image": "img_013.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 119,
+      "image": "img_013.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 120,
+      "image": "img_013.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 121,
+      "image": "img_013.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.5384615384615384,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 122,
+      "image": "img_013.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 123,
+      "image": "img_016.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 124,
+      "image": "img_016.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 125,
+      "image": "img_016.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.0547071736052379,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 126,
+      "image": "img_016.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 127,
+      "image": "img_016.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 128,
+      "image": "img_016.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 129,
+      "image": "img_016.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 130,
+      "image": "img_016.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 131,
+      "image": "img_016.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 132,
+      "image": "img_016.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 133,
+      "image": "img_016.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.6494084758646621,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 134,
+      "image": "img_016.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 135,
+      "image": "img_017.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 136,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 137,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 138,
+      "image": "img_019.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 139,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 140,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 141,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 142,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 143,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 144,
+      "image": "img_019.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 145,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 146,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 147,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 148,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 149,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 150,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 151,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 152,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 153,
+      "image": "img_019.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.17241855709983145,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 154,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 155,
+      "image": "img_019.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 156,
+      "image": "img_019.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 157,
+      "image": "img_022.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.6056001309972163,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 158,
+      "image": "img_022.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.5151465531357459,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 159,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 160,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 161,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 162,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 163,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 164,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 165,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 166,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 167,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 168,
+      "image": "img_023.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.02311111111111111,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 169,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 170,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.7835820895522388,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 171,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 172,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.533135509396637,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 173,
+      "image": "img_023.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.4445407279029463,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 174,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.6383948928408573,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 175,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 176,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 177,
+      "image": "img_023.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 178,
+      "image": "img_023.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.448068669527897,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 179,
+      "image": "img_026.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.7130154977672708,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 180,
+      "image": "img_026.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.8235294117647058,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 181,
+      "image": "img_026.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.4765957446808511,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 182,
+      "image": "img_027.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 183,
+      "image": "img_027.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 184,
+      "image": "img_027.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 185,
+      "image": "img_029.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 186,
+      "image": "img_029.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 187,
+      "image": "img_029.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 188,
+      "image": "img_029.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 189,
+      "image": "img_029.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 190,
+      "image": "img_029.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 191,
+      "image": "img_029.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 192,
+      "image": "img_029.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 193,
+      "image": "img_029.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.591044776119403,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 194,
+      "image": "img_029.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.34545454545454546,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 195,
+      "image": "img_029.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.7135135135135136,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 196,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 197,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 198,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 199,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 200,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 201,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 202,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 203,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 204,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 205,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 206,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 207,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 208,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 209,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 210,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 211,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 212,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 213,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 214,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 215,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 216,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 217,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 218,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 219,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 220,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 221,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 222,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 223,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 224,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 225,
+      "image": "img_032.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 226,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 227,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 228,
+      "image": "img_032.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.48253676470588236,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 229,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 230,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 231,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.6781789638932496,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 232,
+      "image": "img_032.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 233,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 234,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 235,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 236,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 237,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 238,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 239,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 240,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 241,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 242,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 243,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 244,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 245,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 246,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 247,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 248,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 249,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 250,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 251,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 252,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 253,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 254,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 255,
+      "image": "img_034.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.0641158221302999,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 256,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 257,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 258,
+      "image": "img_034.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 259,
+      "image": "img_034.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 260,
+      "image": "img_036.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.5560637741766858,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 261,
+      "image": "img_036.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.8261594001666204,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 262,
+      "image": "img_036.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9672131147540983,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 263,
+      "image": "img_036.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9285714285714286,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 264,
+      "image": "img_036.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.627906976744186,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 265,
+      "image": "img_036.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9178395496129487,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 266,
+      "image": "img_036.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.9818181818181818,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 267,
+      "image": "img_036.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 268,
+      "image": "img_036.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.6085794414673005,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 269,
+      "image": "img_036.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.8762886597938144,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 270,
+      "image": "img_036.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 0.8160463455281327,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 271,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 272,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 273,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 274,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 275,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 276,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 277,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 278,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 279,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 280,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 281,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 282,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 283,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 284,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 285,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 286,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 287,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 288,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 289,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 290,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 291,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 292,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 293,
+      "image": "img_038.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 294,
+      "image": "img_040.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 295,
+      "image": "img_040.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 296,
+      "image": "img_040.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.42929076796772303,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 297,
+      "image": "img_040.jpg",
+      "occluded_level_method": "derived from matching submitted geometry; not independent attribute evidence",
+      "matching_iou": 1.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 298,
+      "image": "img_040.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 299,
+      "image": "img_040.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.22011646561941028,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 300,
+      "image": "img_040.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.48612582080067773,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 301,
+      "image": "img_040.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 302,
+      "image": "img_040.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.04124919435167282,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    },
+    {
+      "annotation_id": 303,
+      "image": "img_040.jpg",
+      "occluded_level_method": "provisional 0; no confident match",
+      "matching_iou": 0.0,
+      "truncated_method": "image border contact heuristic; visual confirmation pending",
+      "human_review_complete": false
+    }
+  ]
+}

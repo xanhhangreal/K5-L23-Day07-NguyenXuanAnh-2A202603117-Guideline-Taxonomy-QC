@@ -1,0 +1,14 @@
+{
+  "human_review_complete": false,
+  "reviewer_code": "999",
+  "reviewer_identity": "AI assistant; reserved technical code, not a group member",
+  "human_group_calibration_confirmed": false,
+  "independent_human_qc": false,
+  "final_labels_sha256": "92e2c2779d8c3486595f2403fac12f6704b2d18943ec7e1eda3dd457a2cfeb21",
+  "source150_original": "submission/qc/imports/2026-11-17/member_150/original_150.json",
+  "source150_attributes": "Derived from submitted matching boxes or provisional zero; border heuristic for truncation. Not independent evidence. All source150 boxes flagged.",
+  "calibration_rows": "784 IAA proposals and 40 image review proposals; not group sign-off",
+  "final_review_flags": 128,
+  "final_flagged_images": 27,
+  "decision": "Hold"
+}

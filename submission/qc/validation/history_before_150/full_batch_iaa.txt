@@ -1,0 +1,7 @@
+$ python scripts/qc_compare.py
+
+
+LỖI: Lượt gán thiếu: [('img_002.jpg', '150'), ('img_003.jpg', '150'), ('img_006.jpg', '150'), ('img_008.jpg', '150'), ('img_010.jpg', '150'), ('img_012.jpg', '150'), ('img_013.jpg', '150'), ('img_016.jpg', '150'), ('img_017.jpg', '150'), ('img_019.jpg', '150'), ('img_022.jpg', '150'), ('img_023.jpg', '150'), ('img_026.jpg', '150'), ('img_027.jpg', '150'), ('img_029.jpg', '150'), ('img_032.jpg', '150'), ('img_034.jpg', '150'), ('img_036.jpg', '150'), ('img_038.jpg', '150'), ('img_040.jpg', '150')]; lượt gán ngoài phân công: [].
+
+
+Exit code: 2

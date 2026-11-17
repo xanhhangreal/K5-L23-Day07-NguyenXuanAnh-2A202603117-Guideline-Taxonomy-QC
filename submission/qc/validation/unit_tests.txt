@@ -22,7 +22,7 @@ test_unflagged_qc_correction_rebuilds_both_formats (test_workflow.WorkflowTest.t
 test_zero_candidates_supports_handoff_and_unreviewed_is_hold (test_workflow.WorkflowTest.test_zero_candidates_supports_handoff_and_unreviewed_is_hold) ... ok
 
 ----------------------------------------------------------------------
-Ran 20 tests in 12.120s
+Ran 20 tests in 11.143s
 
 OK
 

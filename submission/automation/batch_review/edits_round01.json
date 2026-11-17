@@ -1,0 +1,713 @@
+{
+  "img_001.jpg": {
+    "modify": {
+      "3": {
+        "box": [
+          125,
+          118,
+          229,
+          405
+        ],
+        "occluded_level": "1"
+      }
+    },
+    "add": [
+      {
+        "class": "person",
+        "box": [
+          91,
+          98,
+          153,
+          248
+        ],
+        "occluded_level": "2",
+        "can_review": true
+      }
+    ],
+    "note": "Tách hai người bên trái, không gộp hai khuôn mặt trong một box. Phần thân người sau còn bị che, cần người kiểm lại."
+  },
+  "img_002.jpg": {
+    "modify": {
+      "4": {
+        "box": [
+          138,
+          139,
+          923,
+          535
+        ],
+        "occluded_level": "1"
+      },
+      "1": {
+        "occluded_level": "1"
+      },
+      "7": {
+        "occluded_level": "1"
+      },
+      "8": {
+        "occluded_level": "1"
+      },
+      "9": {
+        "can_review": true
+      },
+      "10": {
+        "can_review": true
+      },
+      "6": {
+        "can_review": true
+      }
+    },
+    "note": "Mở box xe vận chuyển tới đuôi rơ-moóc. Xe được chở xét riêng; ba xe trắng bên phải cần xác nhận kết cấu SUV/bán tải."
+  },
+  "img_003.jpg": {
+    "note": "Đối chiếu người thật, người bán hàng, xe máy, xe đạp và hàng rời. Giữ các phân biệt v1.0; vật xa và phần xe bị che còn cờ review nguồn."
+  },
+  "img_004.jpg": {
+    "modify": {
+      "0": {
+        "box": [
+          189,
+          128,
+          334,
+          418
+        ],
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "3": {
+        "occluded_level": "1"
+      }
+    },
+    "note": "Hai tuk-tuk và hai người lái. Mở box người lái trước để gồm chân nhìn thấy, không chỉ đầu/torso qua kính; liên kết phần chân cần kiểm lại."
+  },
+  "img_005.jpg": {
+    "note": "Xem người đội mũ và xe máy từng instance, van ở nền; giữ các vùng bị che và mép ảnh của bản 117, không gộp người vào box xe."
+  },
+  "img_006.jpg": {
+    "modify": {
+      "5": {
+        "occluded_level": "1"
+      },
+      "27": {
+        "occluded_level": "1"
+      },
+      "24": {
+        "occluded_level": "0"
+      },
+      "16": {
+        "occluded_level": "1"
+      },
+      "19": {
+        "occluded_level": "1"
+      },
+      "3": {
+        "occluded_level": "1"
+      },
+      "4": {
+        "occluded_level": "3",
+        "can_review": true
+      }
+    },
+    "note": "Rà ảnh đông xe: ba xe máy chính giữ riêng, không thêm box xe đạp. Chỉnh mức che người/xe chính; phần người nền nhỏ cần kiểm lại."
+  },
+  "img_007.jpg": {
+    "note": "Hai xe tải thật gồm bán tải có thùng cao, không tạo thêm xe cho thùng gắn liền."
+  },
+  "img_008.jpg": {
+    "modify": {
+      "27": {
+        "occluded_level": "1"
+      },
+      "4": {
+        "can_review": true
+      },
+      "6": {
+        "can_review": true
+      },
+      "16": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "26": {
+        "occluded_level": "1"
+      }
+    },
+    "note": "Giữ người và xe máy riêng, các người nhỏ phía sau người áo đỏ là instance khác. Cặp box xe giữa ảnh và dãy xe phải cần xác nhận tránh tách cùng xe hoặc gộp nhiều xe."
+  },
+  "img_009.jpg": {
+    "modify": {
+      "11": {
+        "occluded_level": "1"
+      },
+      "3": {
+        "occluded_level": "2"
+      },
+      "10": {
+        "occluded_level": "2"
+      },
+      "12": {
+        "occluded_level": "2"
+      }
+    },
+    "add": [
+      {
+        "class": "person",
+        "box": [
+          716,
+          416,
+          769,
+          468
+        ],
+        "occluded_level": "1",
+        "can_review": true
+      }
+    ],
+    "note": "Bus thật và xe máy riêng. Bổ sung người điều khiển xe giữa phía phải; vị trí người/xe nhỏ cần kiểm lại. Hành khách qua kính bị thân xe che."
+  },
+  "img_010.jpg": {
+    "note": "Người bán rau và người trên xe tách riêng. Xe đạp chở rau ngoài taxonomy; giữ xe máy thật và phần người cắt mép phải."
+  },
+  "img_011.jpg": {
+    "note": "Predator và xe từ phế liệu là tượng/mô phỏng, không gán person/motorcycle. Giữ người thật và van nền; các người xa vẫn cần calibration."
+  },
+  "img_012.jpg": {
+    "modify": {
+      "0": {
+        "box": [
+          292,
+          245,
+          960,
+          640
+        ],
+        "can_review": true
+      },
+      "2": {
+        "truncated": "yes"
+      },
+      "3": {
+        "can_review": true
+      }
+    },
+    "note": "Box bán tải trước mở tới mép phải, không bao riêng hàng hóa; không đủ căn cứ xem là xe chủ. Truck nền bị che cần xác nhận extent, SUV trái truncated=yes."
+  },
+  "img_013.jpg": {
+    "note": "Hai người đi bộ và xe thật nền; không gán tượng đá trước quán. Giữ cờ xe xa khó nhìn."
+  },
+  "img_014.jpg": {
+    "modify": {
+      "1": {
+        "box": [
+          452,
+          309,
+          668,
+          503
+        ],
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "4": {
+        "can_review": true
+      },
+      "5": {
+        "can_review": true
+      },
+      "2": {
+        "can_review": true
+      }
+    },
+    "add": [
+      {
+        "class": "person",
+        "box": [
+          480,
+          180,
+          650,
+          359
+        ],
+        "occluded_level": "2",
+        "can_review": true
+      },
+      {
+        "class": "person",
+        "box": [
+          0,
+          180,
+          170,
+          413
+        ],
+        "occluded_level": "2",
+        "truncated": "yes",
+        "can_review": true
+      }
+    ],
+    "note": "Tách người khỏi box xe chuyển động giữa ảnh; bổ sung người mờ phía trái. Hai xe mờ mép phải cần xác nhận liên kết instance, giữ review."
+  },
+  "img_015.jpg": {
+    "note": "Sáu phương tiện, gồm van nền; không gán ảnh phản chiếu trong cửa kính. Hai xe cắt mép giữ truncated."
+  },
+  "img_016.jpg": {
+    "remove": [
+      4
+    ],
+    "modify": {
+      "3": {
+        "can_review": true
+      },
+      "6": {
+        "can_review": true
+      },
+      "5": {
+        "occluded_level": "1"
+      },
+      "10": {
+        "occluded_level": "1"
+      }
+    },
+    "note": "Loại box đầu người trùng với người lái xe tay ga. Giữ hai tuk-tuk và van; phân biệt tuk-tuk trái với bán tải nền cần người kiểm lại."
+  },
+  "img_017.jpg": {
+    "note": "Tượng người cưỡi ngựa, không gán person hay phương tiện. Ảnh giữ rỗng."
+  },
+  "img_018.jpg": {
+    "modify": {
+      "3": {
+        "class": "van",
+        "occluded_level": "1"
+      },
+      "2": {
+        "class": "van",
+        "occluded_level": "1"
+      },
+      "0": {
+        "box": [
+          573,
+          550,
+          837,
+          669
+        ],
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "5": {
+        "box": [
+          744,
+          544,
+          960,
+          670
+        ],
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "6": {
+        "can_review": true
+      }
+    },
+    "note": "Không gán chân dung trên biển. Xe khoang kín liền thân đổi van; sửa extent hai xe sau hàng rào, mảnh xe xa bên phải còn cần xác nhận trùng instance."
+  },
+  "img_019.jpg": {
+    "modify": {
+      "10": {
+        "can_review": false
+      },
+      "16": {
+        "occluded_level": "3"
+      }
+    },
+    "add": [
+      {
+        "class": "person",
+        "box": [
+          821,
+          352,
+          960,
+          643
+        ],
+        "occluded_level": "1",
+        "truncated": "yes",
+        "can_review": true
+      }
+    ],
+    "note": "Xe diễu hành thật có bánh/biển số là car; chú chuột mô phỏng không phải person. Thêm người cắt mép phải, đám đông dày đặc còn cần kiểm bỏ sót và box thân bị che, chưa xác nhận sạch."
+  },
+  "img_020.jpg": {
+    "note": "Chỉ gương xe chủ và phản chiếu; giữ ảnh rỗng theo R-07/R-08."
+  },
+  "img_021.jpg": {
+    "modify": {
+      "0": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "1": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "2": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "3": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "4": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "5": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "6": {
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "7": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "8": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "9": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "10": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "11": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "12": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "13": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "14": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "15": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "16": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "17": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "18": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "19": {
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "20": {
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "21": {
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "22": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "23": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "24": {
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "25": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "26": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "27": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "28": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "29": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "30": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "31": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "32": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "33": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "34": {
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "35": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "36": {
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "37": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "38": {
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "39": {
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "40": {
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "41": {
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "42": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "43": {
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "44": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "45": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "46": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "47": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "48": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "49": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "50": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "51": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "52": {
+        "occluded_level": "1",
+        "can_review": true
+      },
+      "53": {
+        "occluded_level": "3",
+        "can_review": true
+      },
+      "54": {
+        "occluded_level": "1",
+        "can_review": true
+      }
+    },
+    "note": "Ảnh kẹt xe rất dày: mức che 0 cho toàn bộ đám đông không phù hợp. Đặt mức che AI ước lượng theo mức lộ thân nhìn thấy, giữ cờ cho toàn ảnh; chưa kết luận hết bỏ sót/trùng xe. Các xe dưới ngưỡng chuyển ignore ở bước build."
+  },
+  "img_022.jpg": {
+    "note": "Một mô tô kèm sidecar, không tách sidecar thành xe riêng, không có người thật."
+  },
+  "img_023.jpg": {
+    "note": "Xích lô ngoài taxonomy, giữ người đạp riêng; phân biệt người mép phải và dãy xe máy. Giữ cờ mảnh xe khó thấy."
+  },
+  "img_024.jpg": {
+    "modify": {
+      "7": {
+        "can_review": true
+      }
+    },
+    "note": "Giữ xe thật phía dưới; hình xe vàng trên nóc cần xác nhận xe nguyên chiếc hay vỏ rời, giữ review. Người nền cao dưới 20 px chuyển ignore_region theo R-09."
+  },
+  "img_025.jpg": {
+    "modify": {
+      "0": {
+        "class": "truck",
+        "can_review": true
+      },
+      "1": {
+        "can_review": true
+      }
+    },
+    "note": "Phân biệt người thật với ghế bãi biển. Xe trắng bên phải có dấu hiệu bán tải, chuyển truck và giữ cờ; cấu trúc xe máy/xe hàng cạnh đó cần xác nhận. Vật dưới 20 px chuyển ignore."
+  },
+  "img_026.jpg": {
+    "note": "Hai người trên một xe máy thành ba box, không gán hình in trên tường. Giữ box xe gồm gương, truncated ở mép dưới."
+  },
+  "img_027.jpg": {
+    "remove": [
+      0
+    ],
+    "note": "Tượng bán tải trên mộ không gán truck. Vệt đỏ/trắng trái ảnh không đủ bằng chứng là người, bỏ box person suy đoán và ghi vấn đề cấp ảnh để người kiểm lại."
+  },
+  "img_028.jpg": {
+    "note": "Xe tải thật chở tượng ngựa, không bao tượng như vật mục tiêu; SUV đỏ bị truck che, giữ riêng."
+  },
+  "img_029.jpg": {
+    "note": "Xe đạp không gán phương tiện; giữ người trên xe đạp và xe máy thật. Thanh hàng dài không nằm trong box phương tiện; mảnh xe nền giữ review."
+  },
+  "img_030.jpg": {
+    "modify": {
+      "0": {
+        "can_review": true
+      },
+      "2": {
+        "can_review": true
+      },
+      "3": {
+        "can_review": true
+      },
+      "4": {
+        "can_review": true
+      },
+      "5": {
+        "can_review": true
+      },
+      "6": {
+        "can_review": true
+      },
+      "7": {
+        "can_review": true
+      },
+      "8": {
+        "can_review": true
+      },
+      "9": {
+        "can_review": true
+      },
+      "10": {
+        "can_review": true
+      },
+      "12": {
+        "can_review": true
+      },
+      "13": {
+        "can_review": true
+      },
+      "11": {
+        "can_review": true,
+        "occluded_level": "3"
+      }
+    },
+    "note": "Bãi xe có nhiều instance chồng nhau; không gán hình chân dung in phía sau. Giữ hai người có căn cứ, các box xe cần rà liên kết bánh/ghi-đông và loại trùng; chưa xác nhận sạch."
+  },
+  "img_031.jpg": {
+    "note": "Xe bus và ô tô thật dưới ánh đèn; không gán biển quảng cáo. Vật dưới 20 px chuyển ignore, người và xe nhỏ trong tối giữ review khi chưa đủ rõ."
+  },
+  "img_032.jpg": {
+    "note": "Tách người đứng xếp hàng khỏi hình in trên biển; giữ van và xe thật phía sau. Cờ các mảnh xe sau nhiều người được giữ để tránh khẳng định sai instance."
+  },
+  "img_033.jpg": {
+    "note": "Ma-nơ-canh và phản chiếu qua kính; không gán person hoặc xe phản chiếu. Ảnh giữ rỗng."
+  },
+  "img_034.jpg": {
+    "modify": {
+      "2": {
+        "occluded_level": "1"
+      },
+      "13": {
+        "occluded_level": "1"
+      },
+      "10": {
+        "occluded_level": "1"
+      }
+    },
+    "note": "Người đi bộ chính không bị che; người trên xe mép phải và xe bị che một phần. Giữ người/xe xa riêng nếu đủ 20 px, dưới ngưỡng chuyển ignore."
+  },
+  "img_035.jpg": {
+    "note": "Hai tuk-tuk, xe máy và người thật riêng. Hàng chở rời không tính vào box tuk-tuk; người sau kính tối còn giữ cờ."
+  },
+  "img_036.jpg": {
+    "modify": {
+      "11": {
+        "can_review": true
+      }
+    },
+    "note": "Xe tải cabin-thùng tách, không đổi van. Dãy xe máy tách từng xe; mảnh person sau góc cabin cần xác nhận là vật thật thay vì hình in."
+  },
+  "img_037.jpg": {
+    "note": "Bán tải có nắp cao vẫn truck; giữ hai bus, không đổi lớp theo nắp thùng. Người trái riêng."
+  },
+  "img_038.jpg": {
+    "note": "Toàn bộ xe trong tủ là đồ chơi. Bản cuối giữ ảnh rỗng; 23 box car của nguồn 150 không chuyển vào nhãn sau calibration theo R-07."
+  },
+  "img_039.jpg": {
+    "note": "Giữ người đạp xe nhưng loại xe đạp ngoài taxonomy. Phân biệt các xe máy thật ở cửa hàng tối; van và mảnh xe nền vẫn có cờ."
+  },
+  "img_040.jpg": {
+    "modify": {
+      "4": {
+        "class": "tuk_tuk",
+        "occluded_level": "2",
+        "can_review": true
+      },
+      "0": {
+        "box": [
+          103,
+          0,
+          470,
+          245
+        ],
+        "occluded_level": "2"
+      },
+      "1": {
+        "truncated": "yes"
+      },
+      "5": {
+        "occluded_level": "1"
+      }
+    },
+    "note": "Đổi phương tiện vàng/xanh giữa từ bus thành tuk-tuk, giữ cờ ranh giới bị che. Mở box bus nền tới phần thân nhìn thấy dưới; xe taxi và người tách riêng."
+  }
+}

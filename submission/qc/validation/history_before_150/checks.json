@@ -1,0 +1,46 @@
+[
+  {
+    "check": "unit_tests",
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "log": "submission/qc/validation/unit_tests.txt"
+  },
+  {
+    "check": "validate_labels",
+    "command": [
+      "python",
+      "scripts/validate_labels.py",
+      "--all"
+    ],
+    "exit_code": 0,
+    "log": "submission/qc/validation/validate_labels.txt"
+  },
+  {
+    "check": "full_batch_iaa",
+    "command": [
+      "python",
+      "scripts/qc_compare.py"
+    ],
+    "exit_code": 2,
+    "log": "submission/qc/validation/full_batch_iaa.txt"
+  },
+  {
+    "check": "submission_checker",
+    "command": [
+      "python",
+      "scripts/check_submission.py",
+      "--round",
+      "1"
+    ],
+    "exit_code": 1,
+    "log": "submission/qc/validation/submission_checker.txt"
+  }
+]

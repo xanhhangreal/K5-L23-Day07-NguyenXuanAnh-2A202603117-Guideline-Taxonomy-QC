@@ -1,20 +1,12 @@
-# Thông tin nhóm
+# Nhóm Day07
 
-- Tên nhóm: xanh đỏ
-- Mã thành viên trong phân công gốc: 084, 117, 133, 150
-- Mã có nhãn đã nộp trong gói này: 084, 117, 133
-- Thành viên không chờ trong lượt phân tích hiện tại: 150, theo yêu cầu người điều phối
-- Người điều phối: 117
-- Người review bản cuối theo phân công: 133; chưa ghi nhận nghiệm thu nhãn cuối toàn lô
-- Commit chốt bài: xem commit chứa submission/SUBMISSION_STATUS.md trên nhánh guideline-ca-nhan
-
-## Kết quả tóm tắt
-
-- Lượt gán hoàn tất / được giao: 60/80 theo bảng gốc; 40/40 ảnh có ít nhất một nhãn, 20/40 ảnh đủ hai nhãn.
-- IAA trước calibration trên tập con: 214 cặp box của 20 ảnh, IoU TB 0,944, đồng thuận lớp 97,7%; không phải chỉ số cho toàn bộ lô.
-- Số ảnh cần calibration trong tập con: 19/20; 339 dòng cần xem, chưa phải số vật lỗi đã xác nhận.
-- Vòng QC toàn lô: chưa khởi tạo, đã duyệt 0/40 ảnh theo vòng QC; riêng Task 117 đã được AI xem lại 20 ảnh và completed trên CVAT.
-- Tỉ lệ lỗi theo ảnh / đối tượng: N/A vì chưa có vòng QC nhãn cuối; không báo 0%.
-- **Quyết định: Hold** — thiếu 20 lượt gán và bằng chứng calibration/QC. Nộp bằng chứng hiện có theo SUBMISSION.md.
-
-Chi tiết: submission/SUBMISSION_STATUS.md và submission/qc/QC_REPORT.md. Ghi công ảnh giữ nguyên ở data/ATTRIBUTION.csv.
+- Mã thành viên: 084, 117, 133, 150.
+- Điều phối: 117. Reviewer người thật dự kiến: 133, chưa xác nhận nghiệm thu trong phiên này.
+- Reviewer kỹ thuật 999: AI assistant, không phải thành viên hay người thật.
+- Dữ liệu: 40 ảnh; bốn bản nộp 20 ảnh/người, đủ 80/80 lượt theo assignment gốc.
+- Nguồn đã nhận: 084/117/133/150. Kế hoạch bù 7/7/6 trước đó không còn cần để bù bài 150.
+- Nhãn sau xử lý AI: 508 annotation, gồm 495 đối tượng và 13 ignore.
+- IAA: 463 cặp, IoU TB 0,9504, đồng thuận lớp 96,98%; 150 thiếu thuộc tính gốc nên mức đồng thuận thuộc tính không độc lập.
+- QC vòng hiện hành: 3; AI đã rà overlay 40/40 ảnh, cùng AI sửa và kiểm. Không có xác nhận QC người thật.
+- Quyết định: Hold; còn 128 box can_review trên 27 ảnh, xác nhận calibration/QC và ghi chú trải nghiệm 084/150 chưa có.
+- Báo cáo: submission/qc/QC_REPORT.md. Không ghi tên thật, mã học viên hoặc tài khoản tại đây.

@@ -1,16 +1,15 @@
 # Day 07 Lab — Guideline, Taxonomy & QC
 
-## Bàn giao ngày 17/11/2026 — Hold
+## Bản nộp trên main — 17/11/2026
 
-Đã nhận nhãn `084`, `117`, `133`; không chờ `150` theo yêu cầu người điều phối. Có dữ liệu cho 40/40 ảnh nhưng mới đủ **60/80 lượt gán**. Báo cáo đồng thuận chỉ áp dụng cho **20 ảnh đủ hai lượt**, chưa phải nghiệm thu toàn lô.
+Đã nhận đủ COCO `084`, `117`, `133`, `150`: **40/40 ảnh, 80/80 lượt**. Đã chạy IAA toàn lô, tạo v1.1, nhãn COCO/CSV sau sửa, manifest và hồ sơ QC. Phần sửa/kiểm này có AI hỗ trợ và được ghi nguồn.
 
-- [Trạng thái nộp và phần còn thiếu](submission/SUBMISSION_STATUS.md).
-- [Báo cáo QC: Hold](submission/qc/QC_REPORT.md).
-- [IAA một phần và phạm vi](submission/qc/partial_2026-11-17_084_117_133/PARTIAL_IAA_REPORT.md): 214 cặp box, IoU TB 0,944; cùng lớp 97,7%; 339 ca cần xem trên 19 ảnh.
-- [Chuẩn bị calibration](submission/qc/partial_2026-11-17_084_117_133/CALIBRATION_HANDOFF.md).
-- [Gói tải về, ảnh bất đồng và task bổ sung](submission/packages/README.md).
+- [Trạng thái và giới hạn](submission/SUBMISSION_STATUS.md).
+- [Báo cáo QC — Hold](submission/qc/QC_REPORT.md) và [IAA toàn lô](submission/qc/iaa_summary.md).
+- [Nhãn sau xử lý](submission/qc/labels_calibrated.json), [CSV](submission/qc/labels_calibrated.csv), [manifest](submission/qc/batch_manifest.json).
+- [Gói bàn giao và overlay](submission/packages/README.md).
 
-Nhãn 117 có sử dụng YOLO + SAM ViT-B và AI kiểm ảnh theo yêu cầu riêng; không mô tả là gán tay độc lập hoặc đã QC toàn lô. Giữ nguyên nhãn đã nộp và bảng phân công gốc; không tạo dữ liệu thay cho lượt còn thiếu.
+Còn 128 box cần người xác nhận; chưa có QC người thật độc lập. Bản 150 được bổ sung hai thuộc tính thiếu với ghi nguồn AI, giữ bản gốc. Không mô tả đề xuất AI thành việc các thành viên đã thực hiện.
 
 **Nhóm 2–5 người · 4 giờ · 40 ảnh đường phố · gán box bằng CVAT**
 

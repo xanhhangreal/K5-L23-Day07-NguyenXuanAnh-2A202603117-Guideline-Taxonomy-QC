@@ -1,39 +1,36 @@
-# Báo cáo QC — nhóm xanh đỏ — Hold
+# Báo cáo bàn giao Day07 — đủ dữ liệu, còn xác nhận người thật
 
-## 1. Mục đích, dữ liệu và phiên bản
-
-- Mục đích và giới hạn sử dụng: bàn giao bằng chứng hiện có của Day07, chưa nghiệm thu nhãn cuối; chỉ số IAA tính trên tập con 20 ảnh đủ hai lượt gán.
-- Nguồn và phép sử dụng dữ liệu: 40 ảnh starter repo, giữ nguyên `data/ATTRIBUTION.csv` và `data/README.md`.
-- Manifest và checksum nhãn cuối: chưa có batch_manifest.json hoặc nhãn calibrated cuối. Mã băm đầu vào, file bàn giao và export 117 được ghi ở submission_manifest.json; đây không phải manifest nghiệm thu nhãn cuối.
-- Guideline và taxonomy khi gán / khi bàn giao: v1.0 đã khóa, giữ nguyên tám ngưỡng rules. Chưa có v1.1 calibrated hoặc quyết định đổi nghĩa quy tắc đã được nhóm xác nhận.
-
-## 2. Phân công và đồng thuận trước calibration
-
-- Lượt hoàn thành / được giao: 60/80 lượt theo bảng gốc; 40/40 ảnh có ít nhất một file nhãn; 20/40 ảnh có đủ hai người. Đã nhận 084, 117, 133; không chờ 150 theo yêu cầu người điều phối.
-- Số cặp box ghép, IoU TB, đồng thuận lớp và mẫu số: 214 cặp ghép trên 20 ảnh đủ cặp; IoU TB 0,944 và cùng lớp 97,7%. Không ngoại suy sang 20 ảnh chỉ có một lượt gán. Đồng thuận mức che 37,9%; cùng truncated 92,1%.
-- Box chưa ghép, loại do ignore, bất đồng vùng ignore: 20/36 box chưa ghép theo hai phía tổng hợp các cặp; 0 box loại do cả hai cùng ignore; 21 ca bất đồng vùng ignore. Có 339 dòng cần xem trên 19 ảnh, không phải 339 vật lỗi đã được xác nhận.
-- Ca hai người có thể cùng sai sau khi đối chiếu tham chiếu: chưa có bằng chứng đối chiếu ca tham chiếu của coach. Nguồn 117 dùng YOLO + SAM ViT-B và AI; ghi chú 133 cũng nêu dùng pipeline này, nên đồng thuận cao không chứng minh nhãn đúng thực tế.
-
-## 3. Calibration và kiểm lại
-
-- Ca đã xử lý, rule ID, bản sửa và người xác nhận: chưa chốt calibration nhóm. File partial_2026-11-17_084_117_133/calibration_decisions_TEMPLATE.csv có 339 case_id và các cột quyết định để trống; không phải nhật ký quyết định đã duyệt. Việc AI kiểm Task 117 riêng được ghi ở ../automation/117_review_v2.json, không thay cho calibration nhóm.
-- Tác động v1.1 lên nhãn và ảnh: chưa thực hiện, không tạo giả guideline_v1.1_calibrated.md hay guideline_change.json.
-- Tham chiếu bằng chứng khi Rework: chưa có vòng QC toàn lô hoặc quyết định Rework. Có kế hoạch 20 lượt bổ sung độc lập tại partial_2026-11-17_084_117_133/supplemental_assignments.csv, gồm 084: 7, 117: 7, 133: 6 ảnh.
-
-## 4. Kết quả duyệt
-
-- Vòng QC: chưa khởi tạo vì chưa đủ lượt gán, calibration và nhãn cuối toàn lô.
-- Người review và ngày: AI assistant tổng hợp hồ sơ ngày 17/11/2026 theo yêu cầu người điều phối; chưa ghi nhận reviewer người thật nghiệm thu toàn lô.
-- Đã duyệt / cả lô: 0/40 ảnh trong vòng QC toàn lô. Riêng Task 117 đã được AI xem lại 20/20 ảnh và completed trên CVAT; không tính thành nghiệm thu cả nhóm.
-- Ảnh lỗi / ảnh đã duyệt: N/A vì chưa có mẫu số ảnh đã duyệt trong vòng QC toàn lô; không kết luận 0% lỗi.
-- Annotation đối tượng hiện có bị lỗi / annotation đối tượng đã duyệt: N/A, chưa có phiếu QC toàn lô.
-- Vật bỏ sót, ảnh và vùng: chưa có xác nhận QC. Các ca chỉ một phía gán nằm trong calibration_candidates.csv; cần xem ảnh mới kết luận bỏ sót hay gán thừa.
-- Ca khó / phần còn lại, lỗi lặp và ví dụ: ưu tiên img_021, img_030, img_025, img_011, img_005 theo image_scores.csv. Chưa khẳng định lỗi hệ thống đã được nhóm chốt.
-- Một lỗi máy chặn được và một lỗi cần người đọc ảnh: script chặn thiếu 20 lượt gán của 150; box trên tượng/phản chiếu hoặc vật cả hai cùng bỏ sót cần đối chiếu ảnh và guideline.
-
-## 5. Quyết định bàn giao
-
+- Mục đích và giới hạn sử dụng: bài thực hành 40 ảnh đường phố 2D. Bản sửa và lần kiểm này do AI thực hiện; chưa có xác nhận calibration/QC độc lập của nhóm. Không coi là nhãn đã nghiệm thu cho huấn luyện.
+- Manifest và checksum nhãn cuối: submission/qc/batch_manifest.json đối chiếu labels_calibrated.json và labels_calibrated.csv; submission/submission_manifest.json ghi checksum gói bàn giao. Có snapshot riêng cho từng vòng QC.
+- Guideline và taxonomy khi gán / khi bàn giao: guideline_v1.0_agreed.md và taxonomy v1.0 đã khóa; bản bàn giao guideline_v1.1_calibrated.md làm rõ ví dụ, không đổi nghĩa quy tắc hay taxonomy. v1.1 là bản AI biên soạn chờ nhóm xác nhận.
+- Lượt hoàn thành / được giao: 80/80 theo bảng phân công gốc; mỗi ảnh đủ hai nguồn nộp. 084: 274, 117: 203, 133: 281, 150: 303 annotation. Đây là độ phủ file đã nhận, không chứng nhận độc lập của quá trình gán.
+- Vòng QC: 3
+- Người review và ngày: AI assistant, mã kỹ thuật 999 dành riêng cho AI, ngày 17/11/2026. 999 không phải thành viên; người sửa và người kiểm là cùng AI. Chưa có người thật ký nghiệm thu.
+- Đã duyệt / cả lô: AI đã mở overlay và rà 40/40 ảnh sau sửa; 0/40 được reviewer người thật xác nhận trong phiên hỗ trợ này.
 - Quyết định: Hold
-- Lý do, người nhận và phạm vi sử dụng: thiếu 20 lượt gán độc lập, chưa có calibration và QC nhãn cuối. Bàn giao cho coach/nhóm xem bằng chứng và tiếp tục xử lý; không dùng gói này như nhãn đã Release cho huấn luyện.
-- Nếu còn việc: 084/117/133 thực hiện lượt bổ sung theo gói task mới, người điều phối cập nhật phân công có truy vết và chạy lại IAA toàn lô. Nhóm chốt calibration, xuất nhãn cuối, reviewer duyệt đủ 40 ảnh và chạy lại check_submission.py. Mỗi người bổ sung guideline/ghi chú cá nhân còn thiếu bằng nội dung thực tế của mình.
-- Kiểm ngược từ báo cáo tới ảnh, rule và nhãn: case C001 trong partial_2026-11-17_084_117_133/calibration_candidates.csv trỏ img_001.jpg và cặp 117–133, nhãn nguồn trong input_subset/labels/. Đối chiếu ảnh data/images/img_001.jpg, R-01/R-03 trong guideline v1.0 và overlay trong gói IAA; chưa ghi nhận người ngoài nhóm đã kiểm ngược.
+- Lý do, người nhận và phạm vi sử dụng: bàn giao cho nhóm/coach xem và xác nhận; còn 128 box can_review trên 27 ảnh, ghi chú trải nghiệm 084/150 chưa có, calibration mới là đề xuất AI. Không xóa cờ để chuyển thành Release.
+- Kiểm ngược từ báo cáo tới ảnh, rule và nhãn: C001 của IAA toàn lô ở img_001, đối chiếu R-01/R-03, review_log.json và nhãn cuối. Ở vòng 1, box person #4 dừng y405, AI đã mở xuống y432 và giữ cờ tách người; vòng 3 trỏ bản đã sửa. Chưa có người ngoài nhóm kiểm ngược.
+
+## IAA trước sửa
+
+463 cặp box trên 40 ảnh; IoU trung bình 0,9504, đồng thuận lớp 96,98%. Có 784 ca trên 39 ảnh: 106 chỉ một bên gán, 152 bất đồng thuộc tính, 29 bất đồng ignore, 442 cờ review, 41 IoU thấp và 14 sai lớp. Cặp 084–117 chỉ cùng lớp 93,94%; cặp 133–150 chỉ 87,10%, dưới ngưỡng 95% dù trung bình tổng đạt.
+
+Bản gốc 150 thiếu occluded_level và truncated ở cả 303 annotation. Bản gốc được giữ nguyên byte tại imports/2026-11-17/member_150/original_150.json. labels/150.json giữ geometry/lớp và bổ sung thuộc tính có nguồn AI; mức che có sử dụng nhãn đối chiếu khi ghép được box, truncated dùng biên ảnh. Vì vậy đồng thuận thuộc tính có phần phụ thuộc, không dùng nó chứng minh hai người đã gán độc lập. Tất cả box 150 giữ can_review.
+
+## Bản sửa và calibration
+
+Nhãn sau xử lý có 40 ảnh, 508 annotation, gồm 495 box đối tượng và 13 ignore_region. Mỗi ảnh chỉ có một bản kết quả. Nhật ký calibration có đủ 784 case_id của IAA và thêm 40 dòng kiểm toàn ảnh. Mỗi dòng ghi rõ đề xuất AI, rule, ảnh/object IDs, dấu phiên bản sửa và trạng thái chưa được nhóm xác nhận; không phải biên bản họp đã diễn ra.
+
+Đã xử lý: tách hai người ở img_001; mở phần rơ-moóc ở img_002; sửa lớp van/truck ở img_018/img_025; loại box đầu người trùng ở img_016; giữ rỗng các ảnh tượng/phản chiếu/đồ chơi img_017/020/027/033/038; đổi tuk-tuk ở img_040; chuyển vật dưới 20 px sang ignore. Phần xe vàng img_024, đám đông img_019/021, xe máy chồng nhau img_030 và các mảnh xe tối vẫn có cờ.
+
+Hai bên có thể cùng sai: img_001 hai nguồn cùng giữ box không tách đúng hai người trái. Trong nguồn 150, 23 ô tô đồ chơi img_038 không được chuyển sang bản sửa. Chưa có ca tham chiếu do coach cung cấp để kết luận phần đối chiếu đó đã hoàn tất.
+
+## Ý nghĩa phiếu QC
+
+Vòng 1 ghi lỗi box #4 img_001 và được giữ nguyên snapshot. Vòng 2 mở trước khi hoàn thiện mã phiên bản, chưa dùng để kết luận. Vòng 3 là vòng hiện hành. Script ghi 0 lỗi mới được khẳng định / 40 ảnh và 0 / 495 đối tượng từ lượt AI rà; đây không phải ước lượng lỗi thực tế 0%, vì còn 128 câu hỏi mở. Những câu hỏi này được lưu bằng can_review và giữ quyết định Hold.
+
+Hai mục guideline-gap của lệnh QC là hai nhóm việc chưa chốt: (1) xác nhận các ca hình ảnh còn cờ; (2) xác nhận quy trình calibration/QC và ghi chú của người học. Đây không phải hai annotation lỗi. Không thay ngưỡng taxonomy.
+
+## Cần xác nhận để đổi quyết định
+
+Nhóm kiểm các box còn cờ, bổ sung phần tự thuật 084/150 bằng việc thực tế đã làm, và reviewer người thật duyệt bản nhãn có mã băm. Nếu sửa nhãn, cập nhật quyết định và mở vòng mới; giữ các vòng 1–3. Checker 0 lỗi chỉ xác nhận cấu trúc/hồ sơ khớp, không thay quyết định người thật.
