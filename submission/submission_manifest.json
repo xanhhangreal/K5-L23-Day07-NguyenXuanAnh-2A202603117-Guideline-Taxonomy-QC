@@ -6,7 +6,7 @@
   "required_assignments": 80,
   "partial_iaa_images": 20,
   "unit_tests_passed": 20,
-  "submission_checker_errors": 7,
+  "submission_checker_errors": 6,
   "is_final_batch_manifest": false,
   "pending": [
     "20 independent annotation assignments",
@@ -129,15 +129,15 @@
       "bytes": 4030112
     },
     "submission/packages/partial_IAA_084_117_133_2026-11-17.zip": {
-      "sha256": "662c00729428d85d2cb38c45cdefc794417095c20bc0cba85bb7495ff1f10723",
-      "bytes": 21541308
+      "sha256": "e0993c5f0ccc02137de7761929862530ff7a6cbf96b37ad538557aca41e8d838",
+      "bytes": 21541408
     },
     "submission/packages/README.md": {
       "sha256": "099a8d74d6233fcde0a71870be3609f77c31dce197a199159e638a922ef1957a",
       "bytes": 3377
     },
     "submission/packages/SHA256SUMS.txt": {
-      "sha256": "8866bef01adce48b6b56fa9ee933df08e34055c48b714659ddee5360098ac3bc",
+      "sha256": "0b18e140d26755f99447a3ca5d8167f60b720fdad31f3fef93b22c4184342293",
       "bytes": 749
     },
     "submission/packages/supplement_084_2026-11-17.zip": {
@@ -289,8 +289,8 @@
       "bytes": 603
     },
     "submission/qc/validation/submission_checker.txt": {
-      "sha256": "098742e1e9bc927050274bce1e2561285f8ef292ef96b8258589c9f673a80d0c",
-      "bytes": 817
+      "sha256": "e30ee58688667a38261d87c9b42b0223744b4c865e459063b8dd3b161785aa02",
+      "bytes": 734
     },
     "submission/qc/validation/unit_tests.txt": {
       "sha256": "2ec4a8a67cddce160771d996d7ae513c8369b8398083b738e3ef01396c6033f8",
@@ -301,8 +301,8 @@
       "bytes": 946
     },
     "submission/SUBMISSION_STATUS.md": {
-      "sha256": "4b59676d64f971e1487fcb14a3f733aaeeeadd6af1a16304f958ccb5dcb2eabb",
-      "bytes": 3656
+      "sha256": "33699eb3cef94307054cdd5bed10d0a230f96cf3d90f4bd25d7ccfa602d5d595",
+      "bytes": 3897
     },
     "submission/tasks/task_084.md": {
       "sha256": "549b543c7536aa948c40dcc78bffe2360df25939b7213df78f40b8451d8e2014",
@@ -367,6 +367,12 @@
     "tools/day07_legacy/review_finish.py": {
       "sha256": "9441993f0d3604a91340b711c747237b80eab1da3832e195ef9d660b92ccb6bf",
       "bytes": 5296
+    },
+    "submission/guidelines/individual/guideline_084.md": {
+      "sha256": "da44112d57b4782d2ef86b27866fe12b3feee16383caa18247fa6c7acb888bed",
+      "bytes": 13249
     }
-  }
+  },
+  "submission_branch": "main",
+  "merged_main_commit": "88175503cb80d622ada73ed842300a17efe98817"
 }

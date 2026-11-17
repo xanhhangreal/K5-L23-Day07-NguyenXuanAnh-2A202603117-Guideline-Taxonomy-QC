@@ -1,10 +1,12 @@
 # Bàn giao Day07 — Hold — 17/11/2026
 
+Bài nộp nằm trên nhánh mặc định `main`; các nhánh guideline giữ lịch sử làm việc. README/SUBMISSION.md yêu cầu link repo hoặc gói nén, không quy định tên nhánh.
+
 Gói này nộp bằng chứng đã có theo nhánh Hold của `SUBMISSION.md`. Chưa đạt điều kiện bàn giao nhãn cuối và chưa có kết quả checker 0 lỗi. Không thay ngưỡng hay tạo nhãn/biên bản thay người chưa thực hiện.
 
 ## Đã có
 
-- Guideline cá nhân 117/133/150 và guideline nhóm v1.0 đã khóa. Bỏ qua guideline 084 tại bước chốt theo yêu cầu người điều phối, không tạo bản cá nhân thay người đó.
+- Đã có guideline cá nhân 084/117/133/150; guideline 084 được nhận từ commit 8817550 trên main khi hợp nhất bài nộp. Guideline nhóm v1.0 vẫn giữ nguyên bản đã khóa trước đó.
 - COCO 084: 20 ảnh/274 annotation; 117: 20 ảnh/203 annotation; 133: 20 ảnh/281 annotation. Giữ nguyên JSON đã nộp, cả ảnh không có annotation.
 - Task 117 đã chạy công cụ, được AI xem lại toàn bộ, export/validate và completed trên CVAT. Nguồn và lịch sử sửa được giữ ở `automation/` và `exports/history/`.
 - IAA một phần: 20 ảnh đủ hai lượt, 214 cặp box, IoU TB 0,944, cùng lớp 97,7%; 339 ca cần xem trên 19 ảnh.
@@ -15,7 +17,7 @@ Gói này nộp bằng chứng đã có theo nhánh Hold của `SUBMISSION.md`. 
 | Phần thiếu | Trạng thái thực tế | Việc tiếp theo |
 |---|---|---|
 | Đủ lượt gán | 60/80, 20 ảnh chỉ có một người | Ba thành viên làm 20 lượt bổ sung độc lập: 084: 7, 117: 7, 133: 6. |
-| Guideline/ghi chú cá nhân | 084 thiếu guideline và ghi chú; 150 chưa nộp nhãn/ghi chú | Người học tự viết hoặc coach ghi nhận phạm vi loại trừ; không tạo hồ sơ thay. |
+| Guideline/ghi chú cá nhân | 084 thiếu ghi chú; 150 chưa nộp nhãn/ghi chú | Người học tự viết hoặc coach ghi nhận phạm vi loại trừ; không tạo hồ sơ thay. |
 | Calibration | Chưa có quyết định nhóm cho 339 ca trong tập con | Xem overlay, chốt theo rule ID, ghi người chốt/bản sửa/kiểm lại. |
 | v1.1 và nhãn cuối | Chưa có vì calibration chưa xong | Thực hiện pha 5 với bộ đầu vào toàn lô sau bổ sung. |
 | QC toàn lô | Chưa có vòng QC, phiếu hay kết quả | Reviewer duyệt 40 ảnh sau khi có nhãn cuối, ghi đúng vòng và quyết định. |
