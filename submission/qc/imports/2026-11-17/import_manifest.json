@@ -1,0 +1,29 @@
+{
+  "imported_at": "2026-11-17T09:04:37+07:00",
+  "excluded_missing_member": "150",
+  "sources": [
+    {
+      "member": "084",
+      "source_archive": "job_10_annotations_2026_11_16_18_43_45_coco 1.0.zip",
+      "zip_sha256": "2b04c080e9c7e2df86407d3c4b705c78f14908939b3f2975e68eb86f73244d40",
+      "archive_entry": "annotations/instances_default.json",
+      "json_sha256": "2c2810485d1b07169ad240edcddffecfc5dc5bfacdb0db80b8e3aeb51f18ea1a",
+      "destination": "submission/labels/084.json",
+      "images": 20,
+      "annotations": 274,
+      "member_identification": "Exact unique match against original assignment; no manual naming assumption"
+    },
+    {
+      "member": "133",
+      "source_archive": "job_4_annotations_2026_11_16_19_56_15_coco 1.0.zip",
+      "zip_sha256": "cb8e26acefa130a2d9e02a559419b995192ca6423a665ca6b63910226592c1e6",
+      "archive_entry": "annotations/instances_default.json",
+      "json_sha256": "5ae2c489a074c1cef0104c064a1c5e155ee99c8f750ced1c9532800277754a1b",
+      "destination": "submission/labels/133.json",
+      "images": 20,
+      "annotations": 281,
+      "member_identification": "Exact unique match against original assignment; no manual naming assumption"
+    }
+  ],
+  "original_files_modified": false
+}

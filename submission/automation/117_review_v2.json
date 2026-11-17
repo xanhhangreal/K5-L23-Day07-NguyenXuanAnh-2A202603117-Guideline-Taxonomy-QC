@@ -1,0 +1,3548 @@
+{
+  "reviewed_images": 20,
+  "reviewer": "assistant_visual_review",
+  "human_review_complete": false,
+  "before_annotations": 209,
+  "after_annotations": 203,
+  "images": [
+    {
+      "image": "img_001.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Checked seven objects; refine partly hidden seated person and assign per-object occlusion.",
+      "before_count": 7,
+      "after_count": 7,
+      "removed_ids": [],
+      "remaining_questions": {},
+      "objects": [
+        {
+          "previous_id": 1952,
+          "label": "person",
+          "box": [
+            234.0,
+            200.0,
+            385.0,
+            640.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1953,
+          "label": "person",
+          "box": [
+            378.0,
+            114.0,
+            529.0,
+            319.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1954,
+          "label": "person",
+          "box": [
+            220.0,
+            90.0,
+            322.0,
+            240.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1955,
+          "label": "person",
+          "box": [
+            105.0,
+            113.0,
+            228.0,
+            401.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1956,
+          "label": "person",
+          "box": [
+            524.0,
+            114.0,
+            645.0,
+            305.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1957,
+          "label": "person",
+          "box": [
+            324,
+            115,
+            423,
+            309
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1958,
+          "label": "truck",
+          "box": [
+            357.0,
+            95.0,
+            960.0,
+            640.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    },
+    {
+      "image": "img_003.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Restore the distinct white-shirted motorcycle rider; narrow main vendor to her own visible body and trousers. Checked foreground and distant parked vehicles.",
+      "before_count": 29,
+      "after_count": 30,
+      "removed_ids": [],
+      "remaining_questions": {},
+      "objects": [
+        {
+          "previous_id": 1959,
+          "label": "car",
+          "box": [
+            276.0,
+            38.0,
+            357.0,
+            87.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1976,
+          "label": "person",
+          "box": [
+            440.0,
+            13.0,
+            461.0,
+            48.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1975,
+          "label": "person",
+          "box": [
+            739.0,
+            0.0,
+            806.0,
+            57.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1974,
+          "label": "motorcycle",
+          "box": [
+            451.0,
+            44.0,
+            495.0,
+            103.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1973,
+          "label": "motorcycle",
+          "box": [
+            808.0,
+            0.0,
+            901.0,
+            107.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1972,
+          "label": "motorcycle",
+          "box": [
+            477.0,
+            182.0,
+            572.0,
+            341.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1971,
+          "label": "motorcycle",
+          "box": [
+            870.0,
+            13.0,
+            960.0,
+            112.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1970,
+          "label": "person",
+          "box": [
+            113.0,
+            65.0,
+            129.0,
+            107.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1969,
+          "label": "person",
+          "box": [
+            0.0,
+            156.0,
+            81.0,
+            241.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1968,
+          "label": "person",
+          "box": [
+            496,
+            0,
+            706,
+            392
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1967,
+          "label": "person",
+          "box": [
+            95.0,
+            55.0,
+            116.0,
+            111.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1966,
+          "label": "person",
+          "box": [
+            101.0,
+            0.0,
+            311.0,
+            568.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1965,
+          "label": "motorcycle",
+          "box": [
+            924.0,
+            44.0,
+            960.0,
+            113.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1964,
+          "label": "motorcycle",
+          "box": [
+            754.0,
+            39.0,
+            821.0,
+            172.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1963,
+          "label": "person",
+          "box": [
+            186.0,
+            39.0,
+            225.0,
+            110.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1962,
+          "label": "motorcycle",
+          "box": [
+            844.0,
+            0.0,
+            929.0,
+            109.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1961,
+          "label": "person",
+          "box": [
+            450.0,
+            17.0,
+            488.0,
+            102.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1960,
+          "label": "person",
+          "box": [
+            684.0,
+            6.0,
+            783.0,
+            242.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1987,
+          "label": "person",
+          "box": [
+            236.0,
+            63.0,
+            361.0,
+            192.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1986,
+          "label": "person",
+          "box": [
+            239.0,
+            36.0,
+            269.0,
+            121.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1985,
+          "label": "motorcycle",
+          "box": [
+            238.0,
+            74.0,
+            274.0,
+            122.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1984,
+          "label": "person",
+          "box": [
+            406.0,
+            28.0,
+            425.0,
+            51.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1983,
+          "label": "motorcycle",
+          "box": [
+            435.0,
+            55.0,
+            453.0,
+            79.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1982,
+          "label": "motorcycle",
+          "box": [
+            88.0,
+            106.0,
+            166.0,
+            222.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1981,
+          "label": "motorcycle",
+          "box": [
+            27.0,
+            114.0,
+            103.0,
+            249.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1980,
+          "label": "motorcycle",
+          "box": [
+            390.0,
+            36.0,
+            450.0,
+            79.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1979,
+          "label": "car",
+          "box": [
+            254.0,
+            42.0,
+            282.0,
+            75.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1978,
+          "label": "motorcycle",
+          "box": [
+            348.0,
+            40.0,
+            385.0,
+            75.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1977,
+          "label": "person",
+          "box": [
+            391.0,
+            24.0,
+            406.0,
+            49.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": null,
+          "label": "person",
+          "box": [
+            467,
+            56,
+            563,
+            338
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "addition_reason": "White-shirted rider behind the vendor is a separate person, previously merged."
+        }
+      ]
+    },
+    {
+      "image": "img_005.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Remove detections on a reflected rider and van seat/window. Separate the rear pink-helmet passenger from the brown-cap rider; refine the latter's arm extent and motorcycle visible parts.",
+      "before_count": 15,
+      "after_count": 14,
+      "removed_ids": [
+        2001,
+        2002
+      ],
+      "remaining_questions": {
+        "1991": "Dense rider overlap; exact torso ownership remains a calibration case.",
+        "1998": "Only disconnected motorcycle parts visible behind riders; retain for boundary calibration."
+      },
+      "objects": [
+        {
+          "previous_id": 1997,
+          "label": "person",
+          "box": [
+            0.0,
+            333.0,
+            46.0,
+            571.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1996,
+          "label": "person",
+          "box": [
+            321.0,
+            117.0,
+            487.0,
+            274.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1995,
+          "label": "person",
+          "box": [
+            619,
+            77,
+            924,
+            487
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1994,
+          "label": "motorcycle",
+          "box": [
+            0.0,
+            300.0,
+            209.0,
+            639.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1993,
+          "label": "car",
+          "box": [
+            0.0,
+            75.0,
+            80.0,
+            176.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1992,
+          "label": "person",
+          "box": [
+            902.0,
+            102.0,
+            943.0,
+            170.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1991,
+          "label": "person",
+          "box": [
+            424.0,
+            32.0,
+            646.0,
+            588.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": true
+          },
+          "remaining_question": "Dense rider overlap; exact torso ownership remains a calibration case."
+        },
+        {
+          "previous_id": 1990,
+          "label": "person",
+          "box": [
+            540,
+            149,
+            960,
+            640
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1989,
+          "label": "car",
+          "box": [
+            0.0,
+            139.0,
+            93.0,
+            287.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1988,
+          "label": "person",
+          "box": [
+            35.0,
+            222.0,
+            538.0,
+            639.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 1998,
+          "label": "motorcycle",
+          "box": [
+            758,
+            321,
+            960,
+            640
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "yes",
+            "can_review": true
+          },
+          "remaining_question": "Only disconnected motorcycle parts visible behind riders; retain for boundary calibration."
+        },
+        {
+          "previous_id": 1999,
+          "label": "person",
+          "box": [
+            936.0,
+            104.0,
+            960.0,
+            198.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2000,
+          "label": "van",
+          "box": [
+            72.0,
+            28.0,
+            960.0,
+            352.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": null,
+          "label": "person",
+          "box": [
+            604,
+            42,
+            686,
+            155
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "addition_reason": "Distinct sunglasses-wearing passenger under pink helmet, behind brown-cap rider."
+        }
+      ]
+    },
+    {
+      "image": "img_007.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Two real trucks; extend fixed cargo rack and outer mirror, exclude warehouse objects.",
+      "before_count": 2,
+      "after_count": 2,
+      "removed_ids": [],
+      "remaining_questions": {},
+      "objects": [
+        {
+          "previous_id": 2003,
+          "label": "truck",
+          "box": [
+            641,
+            57,
+            960,
+            447
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2004,
+          "label": "truck",
+          "box": [
+            384,
+            131,
+            645,
+            410
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    },
+    {
+      "image": "img_010.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Separate the green-shirt rider, brown-jacket passenger and seller; include the brown passenger's extended hand without merging the seller.",
+      "before_count": 9,
+      "after_count": 9,
+      "removed_ids": [],
+      "remaining_questions": {},
+      "objects": [
+        {
+          "previous_id": 2011,
+          "label": "person",
+          "box": [
+            920.0,
+            267.0,
+            960.0,
+            474.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2013,
+          "label": "person",
+          "box": [
+            238,
+            88,
+            430,
+            347
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2012,
+          "label": "motorcycle",
+          "box": [
+            584.0,
+            244.0,
+            886.0,
+            621.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2005,
+          "label": "person",
+          "box": [
+            562.0,
+            128.0,
+            796.0,
+            587.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2010,
+          "label": "person",
+          "box": [
+            119.0,
+            119.0,
+            313.0,
+            505.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2009,
+          "label": "person",
+          "box": [
+            303,
+            114,
+            439,
+            512
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2008,
+          "label": "motorcycle",
+          "box": [
+            152.0,
+            308.0,
+            313.0,
+            537.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2007,
+          "label": "motorcycle",
+          "box": [
+            781.0,
+            190.0,
+            957.0,
+            442.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2006,
+          "label": "motorcycle",
+          "box": [
+            11.0,
+            162.0,
+            117.0,
+            358.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    },
+    {
+      "image": "img_011.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Metal Predator/motorcycle sculptures remain excluded. Remove tripod and duplicate background people; retain real visitors and background van.",
+      "before_count": 18,
+      "after_count": 15,
+      "removed_ids": [
+        2019,
+        2022,
+        2024
+      ],
+      "remaining_questions": {
+        "2027": "Small, partly hidden background visitor; class retained, silhouette boundary uncertain.",
+        "2031": "Distant visitor partially occluded by scene objects; retain for calibration."
+      },
+      "objects": [
+        {
+          "previous_id": 2014,
+          "label": "person",
+          "box": [
+            101.0,
+            355.0,
+            167.0,
+            471.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2016,
+          "label": "person",
+          "box": [
+            196,
+            335,
+            228,
+            403
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2015,
+          "label": "person",
+          "box": [
+            49.0,
+            365.0,
+            105.0,
+            481.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2017,
+          "label": "person",
+          "box": [
+            266.0,
+            339.0,
+            283.0,
+            391.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2018,
+          "label": "person",
+          "box": [
+            360.0,
+            340.0,
+            385.0,
+            402.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2020,
+          "label": "person",
+          "box": [
+            171,
+            335,
+            191,
+            405
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2021,
+          "label": "van",
+          "box": [
+            516.0,
+            326.0,
+            625.0,
+            407.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2023,
+          "label": "person",
+          "box": [
+            306.0,
+            337.0,
+            321.0,
+            387.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2025,
+          "label": "person",
+          "box": [
+            84.0,
+            337.0,
+            102.0,
+            396.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2026,
+          "label": "person",
+          "box": [
+            32,
+            344,
+            58,
+            403
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2027,
+          "label": "person",
+          "box": [
+            282.0,
+            338.0,
+            297.0,
+            373.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": true
+          },
+          "remaining_question": "Small, partly hidden background visitor; class retained, silhouette boundary uncertain."
+        },
+        {
+          "previous_id": 2028,
+          "label": "person",
+          "box": [
+            421.0,
+            332.0,
+            434.0,
+            382.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2029,
+          "label": "person",
+          "box": [
+            324.0,
+            338.0,
+            339.0,
+            384.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2030,
+          "label": "person",
+          "box": [
+            405.0,
+            335.0,
+            418.0,
+            369.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2031,
+          "label": "person",
+          "box": [
+            496.0,
+            333.0,
+            505.0,
+            359.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": true
+          },
+          "remaining_question": "Distant visitor partially occluded by scene objects; retain for calibration."
+        }
+      ]
+    },
+    {
+      "image": "img_013.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Remove false person on traffic cone; expand parked scooter to visible mirror/rear wheel. Real pedestrians and background cars retained.",
+      "before_count": 7,
+      "after_count": 6,
+      "removed_ids": [
+        2038
+      ],
+      "remaining_questions": {},
+      "objects": [
+        {
+          "previous_id": 2032,
+          "label": "car",
+          "box": [
+            162.0,
+            422.0,
+            198.0,
+            449.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2033,
+          "label": "person",
+          "box": [
+            350.0,
+            423.0,
+            378.0,
+            502.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2034,
+          "label": "person",
+          "box": [
+            380.0,
+            417.0,
+            416.0,
+            499.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2035,
+          "label": "car",
+          "box": [
+            274.0,
+            418.0,
+            328.0,
+            445.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2036,
+          "label": "car",
+          "box": [
+            240.0,
+            420.0,
+            280.0,
+            443.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2037,
+          "label": "motorcycle",
+          "box": [
+            234,
+            434,
+            324,
+            486
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    },
+    {
+      "image": "img_015.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Checked six vehicles and image-border truncation. Dark box-shaped vehicle is van; motion-blurred boundary remains flagged under R-13.",
+      "before_count": 6,
+      "after_count": 6,
+      "removed_ids": [],
+      "remaining_questions": {
+        "2044": "Motion blur overlaps the visible van boundary; use for calibration rather than assume an exact contour."
+      },
+      "objects": [
+        {
+          "previous_id": 2041,
+          "label": "car",
+          "box": [
+            60.0,
+            126.0,
+            219.0,
+            205.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2039,
+          "label": "car",
+          "box": [
+            770.0,
+            61.0,
+            960.0,
+            430.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2040,
+          "label": "car",
+          "box": [
+            0.0,
+            175.0,
+            280.0,
+            542.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2042,
+          "label": "car",
+          "box": [
+            0.0,
+            120.0,
+            56.0,
+            181.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2043,
+          "label": "car",
+          "box": [
+            403.0,
+            122.0,
+            600.0,
+            202.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2044,
+          "label": "van",
+          "box": [
+            230.0,
+            116.0,
+            403.0,
+            205.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": true
+          },
+          "remaining_question": "Motion blur overlaps the visible van boundary; use for calibration rather than assume an exact contour."
+        }
+      ]
+    },
+    {
+      "image": "img_017.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Checked full image: statue, horse sculpture and cone only; no target object boxes.",
+      "before_count": 0,
+      "after_count": 0,
+      "removed_ids": [],
+      "remaining_questions": {},
+      "objects": []
+    },
+    {
+      "image": "img_020.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Checked full image: ego mirror and reflected car/scene; correctly empty under R-07/R-08.",
+      "before_count": 0,
+      "after_count": 0,
+      "removed_ids": [],
+      "remaining_questions": {},
+      "objects": []
+    },
+    {
+      "image": "img_022.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Checked one motorcycle with attached sidecar, no person. Unified visible box retained.",
+      "before_count": 1,
+      "after_count": 1,
+      "removed_ids": [],
+      "remaining_questions": {},
+      "objects": [
+        {
+          "previous_id": 2045,
+          "label": "motorcycle",
+          "box": [
+            489.0,
+            466.0,
+            686.0,
+            621.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    },
+    {
+      "image": "img_023.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Cyclo excluded, rider retained. Split overlapping parked motorcycle proposals into four distinct visible bikes; retain two people at right border.",
+      "before_count": 20,
+      "after_count": 19,
+      "removed_ids": [
+        2065
+      ],
+      "remaining_questions": {
+        "2058": "Small motorcycle fragment at far-right rider; boundary partly outside/occluded."
+      },
+      "objects": [
+        {
+          "previous_id": 2046,
+          "label": "car",
+          "box": [
+            35.0,
+            154.0,
+            429.0,
+            404.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2047,
+          "label": "person",
+          "box": [
+            622.0,
+            9.0,
+            751.0,
+            436.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2048,
+          "label": "person",
+          "box": [
+            506.0,
+            160.0,
+            548.0,
+            272.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2049,
+          "label": "person",
+          "box": [
+            60.0,
+            126.0,
+            104.0,
+            255.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2050,
+          "label": "car",
+          "box": [
+            791.0,
+            176.0,
+            827.0,
+            204.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2051,
+          "label": "motorcycle",
+          "box": [
+            508.0,
+            211.0,
+            549.0,
+            272.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2052,
+          "label": "person",
+          "box": [
+            751.0,
+            164.0,
+            783.0,
+            249.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2053,
+          "label": "person",
+          "box": [
+            897.0,
+            199.0,
+            960.0,
+            309.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2054,
+          "label": "person",
+          "box": [
+            920.0,
+            234.0,
+            960.0,
+            325.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2055,
+          "label": "ignore_region",
+          "box": [
+            782.0,
+            176.0,
+            793.0,
+            189.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2056,
+          "label": "person",
+          "box": [
+            91.0,
+            130.0,
+            118.0,
+            193.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2058,
+          "label": "motorcycle",
+          "box": [
+            901.0,
+            224.0,
+            930.0,
+            288.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": true
+          },
+          "remaining_question": "Small motorcycle fragment at far-right rider; boundary partly outside/occluded."
+        },
+        {
+          "previous_id": 2059,
+          "label": "motorcycle",
+          "box": [
+            427,
+            174,
+            455,
+            224
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2060,
+          "label": "motorcycle",
+          "box": [
+            477,
+            174,
+            495,
+            221
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2057,
+          "label": "motorcycle",
+          "box": [
+            395,
+            177,
+            430,
+            227
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2063,
+          "label": "motorcycle",
+          "box": [
+            814.0,
+            190.0,
+            865.0,
+            237.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2064,
+          "label": "person",
+          "box": [
+            770.0,
+            170.0,
+            785.0,
+            191.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2061,
+          "label": "motorcycle",
+          "box": [
+            454,
+            173,
+            477,
+            222
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2062,
+          "label": "motorcycle",
+          "box": [
+            593.0,
+            183.0,
+            613.0,
+            213.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    },
+    {
+      "image": "img_026.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Two separate people and one motorcycle. Include visible mirror above vehicle body; exclude wall poster.",
+      "before_count": 3,
+      "after_count": 3,
+      "removed_ids": [],
+      "remaining_questions": {},
+      "objects": [
+        {
+          "previous_id": 2067,
+          "label": "motorcycle",
+          "box": [
+            233,
+            718,
+            708,
+            1024
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2068,
+          "label": "person",
+          "box": [
+            273.0,
+            537.0,
+            503.0,
+            1007.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2066,
+          "label": "person",
+          "box": [
+            368.0,
+            541.0,
+            601.0,
+            1007.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    },
+    {
+      "image": "img_028.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Real pickup and red background SUV only; horse statue excluded. Check truck extent and SUV occlusion by pickup.",
+      "before_count": 2,
+      "after_count": 2,
+      "removed_ids": [],
+      "remaining_questions": {},
+      "objects": [
+        {
+          "previous_id": 2070,
+          "label": "truck",
+          "box": [
+            42.0,
+            302.0,
+            930.0,
+            700.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2069,
+          "label": "car",
+          "box": [
+            628.0,
+            335.0,
+            897.0,
+            421.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    },
+    {
+      "image": "img_029.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Bicycles and long aluminium cargo excluded; real people and motorcycle retained. Refine two tiny vehicle fragments as separate left/right vehicles, not duplicate broad box.",
+      "before_count": 11,
+      "after_count": 11,
+      "removed_ids": [],
+      "remaining_questions": {
+        "2080": "Tiny background vehicle behind tree and cyclist; class/boundary needs group calibration.",
+        "2081": "Second tiny vehicle behind tree/cyclist, limited visible structure."
+      },
+      "objects": [
+        {
+          "previous_id": 2071,
+          "label": "person",
+          "box": [
+            616.0,
+            110.0,
+            729.0,
+            395.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2081,
+          "label": "car",
+          "box": [
+            285,
+            195,
+            305,
+            232
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": true
+          },
+          "remaining_question": "Second tiny vehicle behind tree/cyclist, limited visible structure."
+        },
+        {
+          "previous_id": 2080,
+          "label": "car",
+          "box": [
+            250,
+            195,
+            267,
+            223
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": true
+          },
+          "remaining_question": "Tiny background vehicle behind tree and cyclist; class/boundary needs group calibration."
+        },
+        {
+          "previous_id": 2079,
+          "label": "person",
+          "box": [
+            276,
+            190,
+            301,
+            257
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2078,
+          "label": "person",
+          "box": [
+            0.0,
+            191.0,
+            8.0,
+            234.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2077,
+          "label": "person",
+          "box": [
+            218.0,
+            183.0,
+            244.0,
+            257.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2076,
+          "label": "person",
+          "box": [
+            347.0,
+            188.0,
+            368.0,
+            217.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2075,
+          "label": "person",
+          "box": [
+            114.0,
+            181.0,
+            149.0,
+            271.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2074,
+          "label": "person",
+          "box": [
+            183.0,
+            173.0,
+            225.0,
+            297.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2073,
+          "label": "motorcycle",
+          "box": [
+            332.0,
+            198.0,
+            560.0,
+            376.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2072,
+          "label": "person",
+          "box": [
+            412.0,
+            160.0,
+            495.0,
+            377.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    },
+    {
+      "image": "img_032.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Inspected queue in three enlarged strips; real people separated from billboard graphics. Front-facing white van relabelled; vehicle parts behind people flagged where association is uncertain.",
+      "before_count": 36,
+      "after_count": 36,
+      "removed_ids": [],
+      "remaining_questions": {
+        "2109": "Narrow background car fragment behind several people; instance association uncertain.",
+        "2105": "Small distant parked vehicle; boundary partly overlaps other visible fragments.",
+        "2116": "Partly hidden SUV in parking row; retain for cross-annotator instance calibration."
+      },
+      "objects": [
+        {
+          "previous_id": 2085,
+          "label": "person",
+          "box": [
+            659.0,
+            275.0,
+            690.0,
+            367.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2117,
+          "label": "person",
+          "box": [
+            612.0,
+            276.0,
+            630.0,
+            365.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2116,
+          "label": "car",
+          "box": [
+            840,
+            275,
+            892,
+            324
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": true
+          },
+          "remaining_question": "Partly hidden SUV in parking row; retain for cross-annotator instance calibration."
+        },
+        {
+          "previous_id": 2115,
+          "label": "car",
+          "box": [
+            204.0,
+            276.0,
+            255.0,
+            340.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2114,
+          "label": "person",
+          "box": [
+            154.0,
+            263.0,
+            173.0,
+            355.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2113,
+          "label": "person",
+          "box": [
+            0.0,
+            266.0,
+            18.0,
+            318.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2112,
+          "label": "person",
+          "box": [
+            517.0,
+            258.0,
+            545.0,
+            362.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2111,
+          "label": "van",
+          "box": [
+            691.0,
+            270.0,
+            755.0,
+            330.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2110,
+          "label": "car",
+          "box": [
+            920.0,
+            277.0,
+            960.0,
+            336.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2109,
+          "label": "car",
+          "box": [
+            86.0,
+            273.0,
+            107.0,
+            319.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": true
+          },
+          "remaining_question": "Narrow background car fragment behind several people; instance association uncertain."
+        },
+        {
+          "previous_id": 2108,
+          "label": "car",
+          "box": [
+            387.0,
+            270.0,
+            442.0,
+            341.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2107,
+          "label": "person",
+          "box": [
+            494.0,
+            270.0,
+            524.0,
+            365.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2106,
+          "label": "person",
+          "box": [
+            41.0,
+            258.0,
+            68.0,
+            334.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2105,
+          "label": "car",
+          "box": [
+            882.0,
+            282.0,
+            904.0,
+            314.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": true
+          },
+          "remaining_question": "Small distant parked vehicle; boundary partly overlaps other visible fragments."
+        },
+        {
+          "previous_id": 2104,
+          "label": "person",
+          "box": [
+            59.0,
+            272.0,
+            90.0,
+            340.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2103,
+          "label": "person",
+          "box": [
+            378.0,
+            274.0,
+            405.0,
+            362.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2102,
+          "label": "person",
+          "box": [
+            593.0,
+            269.0,
+            616.0,
+            366.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2101,
+          "label": "person",
+          "box": [
+            102.0,
+            260.0,
+            122.0,
+            346.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2100,
+          "label": "person",
+          "box": [
+            338.0,
+            268.0,
+            356.0,
+            356.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2099,
+          "label": "person",
+          "box": [
+            285.0,
+            260.0,
+            315.0,
+            359.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2098,
+          "label": "person",
+          "box": [
+            112.0,
+            258.0,
+            140.0,
+            356.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2096,
+          "label": "person",
+          "box": [
+            135.0,
+            264.0,
+            165.0,
+            356.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2097,
+          "label": "person",
+          "box": [
+            249.0,
+            263.0,
+            283.0,
+            360.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2082,
+          "label": "car",
+          "box": [
+            0.0,
+            313.0,
+            152.0,
+            463.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2083,
+          "label": "person",
+          "box": [
+            399.0,
+            268.0,
+            427.0,
+            364.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2084,
+          "label": "person",
+          "box": [
+            782.0,
+            272.0,
+            818.0,
+            369.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2086,
+          "label": "person",
+          "box": [
+            205.0,
+            271.0,
+            233.0,
+            356.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2087,
+          "label": "person",
+          "box": [
+            833.0,
+            281.0,
+            863.0,
+            371.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2088,
+          "label": "person",
+          "box": [
+            312.0,
+            264.0,
+            345.0,
+            362.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2089,
+          "label": "person",
+          "box": [
+            171.0,
+            260.0,
+            198.0,
+            356.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2090,
+          "label": "person",
+          "box": [
+            471.0,
+            266.0,
+            498.0,
+            363.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2091,
+          "label": "person",
+          "box": [
+            353.0,
+            266.0,
+            379.0,
+            360.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2092,
+          "label": "person",
+          "box": [
+            441.0,
+            263.0,
+            471.0,
+            364.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2093,
+          "label": "person",
+          "box": [
+            539.0,
+            274.0,
+            559.0,
+            366.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2094,
+          "label": "person",
+          "box": [
+            628.0,
+            277.0,
+            658.0,
+            367.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2095,
+          "label": "person",
+          "box": [
+            564.0,
+            271.0,
+            597.0,
+            367.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    },
+    {
+      "image": "img_033.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Checked full window: mannequin and reflections only, no real target objects.",
+      "before_count": 0,
+      "after_count": 0,
+      "removed_ids": [],
+      "remaining_questions": {},
+      "objects": []
+    },
+    {
+      "image": "img_035.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Two tuk-tuks retained; fixed roof included, removable cargo stack excluded. Checked individual riders and partial drivers through glass.",
+      "before_count": 17,
+      "after_count": 17,
+      "removed_ids": [],
+      "remaining_questions": {
+        "2130": "Possible driver behind dark/reflected car windshield; retain as uncertain under R-10."
+      },
+      "objects": [
+        {
+          "previous_id": 2123,
+          "label": "person",
+          "box": [
+            412.0,
+            223.0,
+            479.0,
+            277.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2134,
+          "label": "tuk_tuk",
+          "box": [
+            383,
+            182,
+            553,
+            412
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2133,
+          "label": "tuk_tuk",
+          "box": [
+            747.0,
+            212.0,
+            840.0,
+            407.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2132,
+          "label": "motorcycle",
+          "box": [
+            946.0,
+            264.0,
+            960.0,
+            297.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2131,
+          "label": "person",
+          "box": [
+            222.0,
+            208.0,
+            234.0,
+            238.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2130,
+          "label": "person",
+          "box": [
+            555.0,
+            261.0,
+            583.0,
+            287.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": true
+          },
+          "remaining_question": "Possible driver behind dark/reflected car windshield; retain as uncertain under R-10."
+        },
+        {
+          "previous_id": 2129,
+          "label": "person",
+          "box": [
+            652.0,
+            235.0,
+            665.0,
+            257.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2128,
+          "label": "person",
+          "box": [
+            570.0,
+            224.0,
+            589.0,
+            252.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2127,
+          "label": "person",
+          "box": [
+            247.0,
+            209.0,
+            262.0,
+            238.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2126,
+          "label": "person",
+          "box": [
+            665.0,
+            236.0,
+            691.0,
+            272.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2125,
+          "label": "person",
+          "box": [
+            939.0,
+            239.0,
+            960.0,
+            297.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2124,
+          "label": "person",
+          "box": [
+            333.0,
+            230.0,
+            373.0,
+            316.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2122,
+          "label": "motorcycle",
+          "box": [
+            648.0,
+            312.0,
+            786.0,
+            502.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2121,
+          "label": "car",
+          "box": [
+            545.0,
+            251.0,
+            658.0,
+            365.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2120,
+          "label": "motorcycle",
+          "box": [
+            293.0,
+            267.0,
+            383.0,
+            336.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2119,
+          "label": "car",
+          "box": [
+            839.0,
+            245.0,
+            948.0,
+            308.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2118,
+          "label": "person",
+          "box": [
+            645.0,
+            210.0,
+            773.0,
+            456.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    },
+    {
+      "image": "img_037.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Pickup remains truck despite tall cap; both buses retained, including heavily occluded bus behind pickup.",
+      "before_count": 4,
+      "after_count": 4,
+      "removed_ids": [],
+      "remaining_questions": {},
+      "objects": [
+        {
+          "previous_id": 2138,
+          "label": "bus",
+          "box": [
+            713.0,
+            234.0,
+            766.0,
+            352.0
+          ],
+          "attributes": {
+            "occluded_level": "3",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2137,
+          "label": "truck",
+          "box": [
+            221.0,
+            136.0,
+            724.0,
+            494.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2136,
+          "label": "bus",
+          "box": [
+            0.0,
+            218.0,
+            235.0,
+            390.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2135,
+          "label": "person",
+          "box": [
+            28.0,
+            297.0,
+            75.0,
+            407.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    },
+    {
+      "image": "img_039.jpg",
+      "reviewed": true,
+      "reviewer": "assistant_visual_review",
+      "human_review_complete": false,
+      "note": "Checked enlarged dark parked motorcycles and road. Remove non-motorized bicycle/cart; retain real motorcycles, pedestrians and cyclist person. Refine mirrors/handlebars and identify background van.",
+      "before_count": 22,
+      "after_count": 21,
+      "removed_ids": [
+        2157
+      ],
+      "remaining_questions": {
+        "2153": "Distant white parked vehicle has limited pickup/SUV structure; keep car with review flag."
+      },
+      "objects": [
+        {
+          "previous_id": 2152,
+          "label": "motorcycle",
+          "box": [
+            935.0,
+            463.0,
+            960.0,
+            530.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "yes",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2153,
+          "label": "car",
+          "box": [
+            784.0,
+            409.0,
+            835.0,
+            436.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": true
+          },
+          "remaining_question": "Distant white parked vehicle has limited pickup/SUV structure; keep car with review flag."
+        },
+        {
+          "previous_id": 2154,
+          "label": "person",
+          "box": [
+            863.0,
+            402.0,
+            889.0,
+            498.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2155,
+          "label": "person",
+          "box": [
+            627.0,
+            412.0,
+            659.0,
+            491.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2156,
+          "label": "motorcycle",
+          "box": [
+            499,
+            420,
+            526,
+            474
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2158,
+          "label": "van",
+          "box": [
+            645.0,
+            411.0,
+            670.0,
+            441.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2160,
+          "label": "motorcycle",
+          "box": [
+            522.0,
+            427.0,
+            549.0,
+            470.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2159,
+          "label": "person",
+          "box": [
+            679.0,
+            417.0,
+            695.0,
+            450.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2148,
+          "label": "motorcycle",
+          "box": [
+            733,
+            439,
+            786,
+            506
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2149,
+          "label": "motorcycle",
+          "box": [
+            679.0,
+            427.0,
+            697.0,
+            456.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2150,
+          "label": "motorcycle",
+          "box": [
+            17.0,
+            416.0,
+            55.0,
+            496.0
+          ],
+          "attributes": {
+            "occluded_level": "2",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2151,
+          "label": "motorcycle",
+          "box": [
+            606.0,
+            431.0,
+            624.0,
+            466.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2147,
+          "label": "person",
+          "box": [
+            567.0,
+            414.0,
+            584.0,
+            490.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2146,
+          "label": "person",
+          "box": [
+            841.0,
+            407.0,
+            861.0,
+            495.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2145,
+          "label": "motorcycle",
+          "box": [
+            463,
+            419,
+            501,
+            483
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2144,
+          "label": "person",
+          "box": [
+            584.0,
+            415.0,
+            612.0,
+            490.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2143,
+          "label": "motorcycle",
+          "box": [
+            617,
+            431,
+            660,
+            500
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2142,
+          "label": "person",
+          "box": [
+            547.0,
+            412.0,
+            569.0,
+            490.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2141,
+          "label": "person",
+          "box": [
+            697.0,
+            412.0,
+            727.0,
+            490.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2140,
+          "label": "person",
+          "box": [
+            734.0,
+            405.0,
+            791.0,
+            503.0
+          ],
+          "attributes": {
+            "occluded_level": "1",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        },
+        {
+          "previous_id": 2139,
+          "label": "motorcycle",
+          "box": [
+            68.0,
+            412.0,
+            167.0,
+            535.0
+          ],
+          "attributes": {
+            "occluded_level": "0",
+            "truncated": "no",
+            "can_review": false
+          },
+          "remaining_question": null
+        }
+      ]
+    }
+  ]
+}

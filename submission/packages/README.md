@@ -22,3 +22,15 @@ Mỗi người nhận đúng 20 ảnh. Mỗi ảnh trong bộ 40 ảnh có hai n
 Chi tiết: [PHASE3_HANDOFF.md](../../docs/PHASE3_HANDOFF.md). Bảng phân công chung: [assignment.csv](../qc/assignment.csv). SHA-256 các ZIP: [SHA256SUMS.txt](SHA256SUMS.txt).
 
 Task #25 của 117 đã được tạo trên máy 117. Các URL localhost và ID này chỉ áp dụng tại máy đó; mỗi thành viên tự tạo Task trên máy riêng, ID có thể khác.
+
+## Bàn giao bổ sung 17/11/2026 — Hold
+
+Đã nhận 084/117/133, không chờ 150. Toàn lô hiện 60/80 lượt; IAA chỉ tính trên 20 ảnh đủ cặp. [Trạng thái và phần còn thiếu](../SUBMISSION_STATUS.md).
+
+- [ZIP báo cáo IAA một phần, mẫu calibration và 19 ảnh overlay](partial_IAA_084_117_133_2026-11-17.zip).
+- [084: 7 ảnh bổ sung](supplement_084_2026-11-17.zip).
+- [117: 7 ảnh bổ sung](supplement_117_2026-11-17.zip).
+- [133: 6 ảnh bổ sung](supplement_133_2026-11-17.zip).
+- [Phân công bổ sung](../qc/partial_2026-11-17_084_117_133/supplemental_assignments.csv).
+
+Các ZIP bổ sung chỉ có ảnh được giao, cấu hình và hướng dẫn, không có nhãn người đang giữ ảnh đó. Đây là việc mới cần thực hiện, chưa tính là lượt gán hoàn thành. Giữ độc lập trước khi tập hợp.

@@ -1,5 +1,5 @@
 member,task_name,image_count,cvat_instance,status,task_url,output_json
 084,Day07_084_v1.0,20,local_per_member,assigned,,submission/labels/084.json
-117,Day07_117_v1.0,20,local_per_member,cvat_task_created,http://localhost:8080/tasks/25,submission/labels/117.json
+117,Day07_117_v1.0,20,local_per_member,completed_assistant_review_13_calibration_flags,http://localhost:8080/tasks/25,submission/labels/117.json
 133,Day07_133_v1.0,20,local_per_member,assigned,,submission/labels/133.json
 150,Day07_150_v1.0,20,local_per_member,assigned,,submission/labels/150.json

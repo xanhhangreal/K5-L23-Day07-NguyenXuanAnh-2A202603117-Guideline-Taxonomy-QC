@@ -1,0 +1,20 @@
+{
+  "reviewer": "assistant_visual_review",
+  "human_review_complete": false,
+  "images": {
+    "img_001.jpg": {"remove": [7, 8], "modify": {"6": {"box": [357, 95, 960, 640]}, "1": {"occluded_level": "2"}, "2": {"occluded_level": "2"}, "3": {"occluded_level": "1"}, "4": {"occluded_level": "2"}, "5": {"occluded_level": "2"}}, "reason": "R-03/R-04: remove duplicate person/truck proposals; restore visible truck extent."},
+    "img_003.jpg": {"remove": [21, 30], "modify": {"9": {"box": [467, 0, 705, 354], "occluded_level": "1"}}, "reason": "R-03: combine disconnected visible arm with the same foreground person, remove nested motorcycle duplicate."},
+    "img_005.jpg": {"remove": [15, 16, 17, 18, 19], "modify": {"12": {"class": "van", "box": [72, 28, 960, 352], "occluded_level": "2"}, "10": {"box": [559, 311, 960, 640], "occluded_level": "2"}, "3": {"occluded_level": "2"}, "7": {"occluded_level": "3"}, "8": {"occluded_level": "3"}}, "reason": "R-01/R-03/R-05: merge van fragments under one van; remove vehicle duplicates; preserve separate riders."},
+    "img_007.jpg": {"remove": [2], "modify": {"0": {"box": [653, 57, 960, 447]}}, "reason": "R-03: cabin-only car is part of the existing truck; preserve visible roof."},
+    "img_010.jpg": {"remove": [8, 9], "modify": {"5": {"box": [119, 119, 313, 505]}, "7": {"box": [584, 244, 886, 621], "occluded_level": "1"}, "10": {"box": [238, 88, 314, 291], "occluded_level": "2"}}, "reason": "R-03/R-05: remove duplicated seller face and same-motorcycle fragment; separate rider from passenger."},
+    "img_011.jpg": {"remove": [16, 18, 19, 21], "modify": {"7": {"class": "van"}}, "reason": "R-07: foreground welded motorcycle sculptures are models, not real motorcycles; background van remains."},
+    "img_017.jpg": {"remove_all": true, "reason": "R-07: statue of rider, no real person detected in the scene."},
+    "img_020.jpg": {"remove_all": true, "reason": "R-07/R-08: reflected scene and ego mirror are excluded."},
+    "img_022.jpg": {"remove": [1], "modify": {"0": {"box": [489, 466, 686, 621]}}, "reason": "R-11: motorcycle and attached sidecar are one motorcycle."},
+    "img_026.jpg": {"modify": {"0": {"box": [368, 541, 601, 1007]}, "2": {"box": [273, 537, 503, 1007], "occluded_level": "2"}, "1": {"occluded_level": "1"}}, "reason": "R-03/R-05: correct SAM merged-person masks to distinct driver and passenger extents."},
+    "img_028.jpg": {"remove": [1, 3], "modify": {"2": {"box": [42, 302, 930, 700]}}, "reason": "R-03/R-12: merge fragmented pickup proposals; exclude the horse statue from the truck box."},
+    "img_032.jpg": {"remove": [32], "reason": "R-03: remove nested duplicate of the same background car."},
+    "img_035.jpg": {"modify": {"16": {"class": "tuk_tuk", "box": [383, 200, 553, 412]}, "15": {"class": "tuk_tuk"}, "5": {"occluded_level": "3"}, "8": {"occluded_level": "3"}}, "reason": "R-01/R-12: two tuk-tuks, exclude the large removable cargo stack; retain visible drivers separately."},
+    "img_037.jpg": {"modify": {"3": {"class": "bus", "occluded_level": "3"}}, "reason": "R-01: partially visible bus behind pickup remains bus, not truck."}
+  }
+}

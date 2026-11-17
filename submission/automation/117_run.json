@@ -1,0 +1,36 @@
+{
+  "task_id": 25,
+  "job_id": 25,
+  "task_url": "http://localhost:8080/tasks/25",
+  "status": "auto_annotated_exported_validated",
+  "human_review_complete": false,
+  "source": "YOLO11l + SAM ViT-B CPU with assistant visual corrections",
+  "images": 20,
+  "annotations": 209,
+  "export_request": "action=export&target=task&target_id=25&user_id=1&format=COCO_1~0&subresource=annotations",
+  "exported_at": "2026-11-16T16:19:01.514346+00:00",
+  "coco_sha256": "a0423bc7c5de807f946f600407ab2dc92babd9b40e689bba2ed48037328297ce",
+  "zip_sha256": "640eff506ee94b4943725a2e4620195f99630d80d8832a2a8d48178dfdcbdce5",
+  "classes": {
+    "person": 120,
+    "truck": 5,
+    "car": 30,
+    "motorcycle": 46,
+    "van": 2,
+    "ignore_region": 2,
+    "tuk_tuk": 2,
+    "bus": 2
+  },
+  "objects_requiring_review": 207,
+  "source_config": {
+    "backend": "YOLO11l + SAM ViT-B CPU",
+    "weights_sha256": "9ebd0e09d59811db4b1d61e2bc6730649608b1ac47f8dd01e2da6bca7c20023f",
+    "ultralytics": "8.4.210",
+    "torch": "2.14.1+cpu",
+    "imgsz": 1280,
+    "confidence": 0.25,
+    "iou": 0.5,
+    "sam_endpoint": "http://nuclio-nuclio-pth-facebookresearch-sam-vit-b-cpu:8080"
+  },
+  "corrections_sha256": "0857a405c65969ef2fbb8e8025983ce1fba3e5d272422d854184233f3012fac7"
+}
