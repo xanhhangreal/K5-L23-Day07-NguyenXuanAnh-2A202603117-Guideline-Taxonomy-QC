@@ -1,5 +1,17 @@
 # Day 07 Lab — Guideline, Taxonomy & QC
 
+## Bàn giao ngày 17/11/2026 — Hold
+
+Đã nhận nhãn `084`, `117`, `133`; không chờ `150` theo yêu cầu người điều phối. Có dữ liệu cho 40/40 ảnh nhưng mới đủ **60/80 lượt gán**. Báo cáo đồng thuận chỉ áp dụng cho **20 ảnh đủ hai lượt**, chưa phải nghiệm thu toàn lô.
+
+- [Trạng thái nộp và phần còn thiếu](submission/SUBMISSION_STATUS.md).
+- [Báo cáo QC: Hold](submission/qc/QC_REPORT.md).
+- [IAA một phần và phạm vi](submission/qc/partial_2026-11-17_084_117_133/PARTIAL_IAA_REPORT.md): 214 cặp box, IoU TB 0,944; cùng lớp 97,7%; 339 ca cần xem trên 19 ảnh.
+- [Chuẩn bị calibration](submission/qc/partial_2026-11-17_084_117_133/CALIBRATION_HANDOFF.md).
+- [Gói tải về, ảnh bất đồng và task bổ sung](submission/packages/README.md).
+
+Nhãn 117 có sử dụng YOLO + SAM ViT-B và AI kiểm ảnh theo yêu cầu riêng; không mô tả là gán tay độc lập hoặc đã QC toàn lô. Giữ nguyên nhãn đã nộp và bảng phân công gốc; không tạo dữ liệu thay cho lượt còn thiếu.
+
 **Nhóm 2–5 người · 4 giờ · 40 ảnh đường phố · gán box bằng CVAT**
 
 Bạn nhận một guideline **sơ sài** và 40 ảnh chứa nhiều tình huống mà nó không nói tới.

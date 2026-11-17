@@ -1,0 +1,29 @@
+$ python -m unittest discover -s tests -v
+
+test_assignment_rejects_unsafe_member_and_symlink_destination (test_workflow.WorkflowTest.test_assignment_rejects_unsafe_member_and_symlink_destination) ... ok
+test_build_rejects_final_output_as_corrected_input (test_workflow.WorkflowTest.test_build_rejects_final_output_as_corrected_input) ... ok
+test_calibration_cannot_drop_legacy_class (test_workflow.WorkflowTest.test_calibration_cannot_drop_legacy_class) ... ok
+test_changed_iaa_cannot_reuse_old_calibration_decisions (test_workflow.WorkflowTest.test_changed_iaa_cannot_reuse_old_calibration_decisions) ... ok
+test_compare_rejects_missing_assigned_image_and_annotator (test_workflow.WorkflowTest.test_compare_rejects_missing_assigned_image_and_annotator) ... ok
+test_empty_images_are_valid_with_no_box_agreement_value (test_workflow.WorkflowTest.test_empty_images_are_valid_with_no_box_agreement_value) ... ok
+test_full_cli_handoff_checks_final_decision_and_rejects_tampering (test_workflow.WorkflowTest.test_full_cli_handoff_checks_final_decision_and_rejects_tampering) ... ok
+test_ignore_disagreement_is_actionable (test_workflow.WorkflowTest.test_ignore_disagreement_is_actionable) ... ok
+test_matched_ignore_regions_do_not_hide_asymmetric_coverage (test_workflow.WorkflowTest.test_matched_ignore_regions_do_not_hide_asymmetric_coverage) ... ok
+test_omissions_are_counted_separately_and_review_rounds_preserved (test_workflow.WorkflowTest.test_omissions_are_counted_separately_and_review_rounds_preserved) ... ok
+test_qc_overlay_failure_can_retry_same_round (test_workflow.WorkflowTest.test_qc_overlay_failure_can_retry_same_round) ... ok
+test_qc_rejects_corrupt_image_without_leaving_round (test_workflow.WorkflowTest.test_qc_rejects_corrupt_image_without_leaving_round) ... ok
+test_review_is_bound_to_the_final_labels (test_workflow.WorkflowTest.test_review_is_bound_to_the_final_labels) ... ok
+test_review_rejects_changed_calibration_snapshot (test_workflow.WorkflowTest.test_review_rejects_changed_calibration_snapshot) ... ok
+test_revised_decision_rejects_previous_export_for_same_scope (test_workflow.WorkflowTest.test_revised_decision_rejects_previous_export_for_same_scope) ... ok
+test_sample_demo_cannot_release (test_workflow.WorkflowTest.test_sample_demo_cannot_release) ... ok
+test_schema_rejects_invalid_default_and_changed_threshold (test_workflow.WorkflowTest.test_schema_rejects_invalid_default_and_changed_threshold) ... ok
+test_semantic_guideline_change_requires_all_images (test_workflow.WorkflowTest.test_semantic_guideline_change_requires_all_images) ... ok
+test_unflagged_qc_correction_rebuilds_both_formats (test_workflow.WorkflowTest.test_unflagged_qc_correction_rebuilds_both_formats) ... ok
+test_zero_candidates_supports_handoff_and_unreviewed_is_hold (test_workflow.WorkflowTest.test_zero_candidates_supports_handoff_and_unreviewed_is_hold) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 12.120s
+
+OK
+
+Exit code: 0

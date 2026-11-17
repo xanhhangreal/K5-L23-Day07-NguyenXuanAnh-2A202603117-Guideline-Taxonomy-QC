@@ -11,10 +11,22 @@ from __future__ import annotations
 import argparse
 import random
 import shutil
+import stat
 import sys
 from collections import Counter
 
 from common import IMAGES_DIR, MEMBER_RE, ROOT, QC_DIR, WORK_DIR, die, list_images, rel, write_csv
+
+
+def is_redirected(path) -> bool:
+    """Reject symlinks and Windows reparse points (including junctions)."""
+    if path.is_symlink():
+        return True
+    try:
+        attributes = getattr(path.lstat(), "st_file_attributes", 0)
+    except FileNotFoundError:
+        return False
+    return bool(attributes & getattr(stat, "FILE_ATTRIBUTE_REPARSE_POINT", 0))
 
 
 def main() -> None:
@@ -77,13 +89,13 @@ def main() -> None:
             destinations.extend([member_dir, photos])
             destinations.extend(photos / image for image, codes in assign.items() if member in codes)
     for destination in destinations:
-        if destination.is_symlink():
-            die(f"Đường dẫn đầu ra không được là symlink: {rel(destination)}.")
+        if is_redirected(destination):
+            die(f"Đường dẫn đầu ra không được là symlink hoặc reparse point: {rel(destination)}.")
     if args.copy_images:
         for member in members:
             photos = WORK_DIR / member / "images"
             if photos.is_dir() and any(
-                photo.is_symlink() or not photo.is_file() or photo.name not in all_images
+                is_redirected(photo) or not photo.is_file() or photo.name not in all_images
                 for photo in photos.iterdir()
             ):
                 die(f"{rel(photos)} chứa file ngoài danh mục ảnh. Dời chúng trước khi chia ảnh.")

@@ -235,9 +235,22 @@ class WorkflowTest(unittest.TestCase):
         self.run_script("split_assign", "--members", "../data,102", "--copy-images", success=False)
         output = self.root / "work"
         output.mkdir()
-        (output / "101").symlink_to(self.root / "data", target_is_directory=True)
-        self.run_script("split_assign", "--members", "101,102", "--copy-images", success=False)
+        redirected = output / "101"
+        try:
+            redirected.symlink_to(self.root / "data", target_is_directory=True)
+        except OSError as error:
+            if sys.platform != "win32" or error.winerror != 1314:
+                raise
+            # CPython's Windows junction helper needs no symlink privilege.
+            import _winapi
+            _winapi.CreateJunction(str(self.root / "data"), str(redirected))
+        before = {path.name: path.read_bytes() for path in self.images.iterdir()}
+        message = self.run_script("split_assign", "--members", "101,102", "--copy-images", success=False)
+        self.assertIn("Đường dẫn đầu ra không được", message)
+        self.assertFalse((self.qc / "assignment.csv").exists())
         self.assertEqual(sorted(path.name for path in self.images.iterdir()), self.names)
+        self.assertEqual({path.name: path.read_bytes() for path in self.images.iterdir()}, before)
+        self.assertFalse((self.root / "data" / "images" / "images").exists())
 
     def test_full_cli_handoff_checks_final_decision_and_rejects_tampering(self):
         (self.root / "guideline").mkdir()
@@ -247,6 +260,12 @@ class WorkflowTest(unittest.TestCase):
         (self.sub / "individual_notes").mkdir()
         self.run_script("split_assign", "--members", "101,102", "--copy-images")
         self.run_script("make_cvat_labels")
+        generated = json.loads((self.root / "cvat" / "labels_generated.json").read_text(encoding="utf-8"))
+        for label in generated:
+            self.assertEqual(label["type"], "rectangle")
+            for attribute in label["attributes"]:
+                if attribute["input_type"] == "checkbox":
+                    self.assertEqual(attribute["values"], [attribute["default_value"]])
         for member in ("101", "102"):
             self.coco(self.sub / "labels" / f"{member}.json")
             (self.sub / "guidelines" / "individual" / f"guideline_{member}.md").write_text("R-01", encoding="utf-8")

@@ -1,0 +1,19 @@
+{
+  "member": "117",
+  "task_id": 25,
+  "job_id": 25,
+  "reviewer": "assistant_visual_review",
+  "reviewed_images": 20,
+  "human_review_complete": false,
+  "before_annotations": 209,
+  "after_annotations": 203,
+  "calibration_questions": 13,
+  "job_stage": "acceptance",
+  "job_state": "completed",
+  "task_status": "completed",
+  "completed_at": "2026-11-16T16:36:04.985101+00:00",
+  "coco_sha256": "c45fcfd73fc965eb97099c5b3f06743af8dd2b303a4200e70960a9d0704216a0",
+  "zip_sha256": "e47f9581661b132e4ee5922156d0e688d8622053560209b4be9a61e904aae592",
+  "before_snapshot_sha256": "4be3bade3bb2d7a330b30e252ab58cfdb4d3ca54bf9d7acf637b31252fee9789",
+  "source": "YOLO11l + SAM ViT-B, then assistant inspection of all 20 images"
+}

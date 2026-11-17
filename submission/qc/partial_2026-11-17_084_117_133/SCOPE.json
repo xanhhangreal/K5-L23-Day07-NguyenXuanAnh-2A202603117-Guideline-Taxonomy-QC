@@ -1,0 +1,33 @@
+{
+  "status": "HOLD_FULL_BATCH_INCOMPLETE",
+  "active_members": [
+    "084",
+    "117",
+    "133"
+  ],
+  "excluded_missing_member": "150",
+  "full_batch_images": 40,
+  "full_batch_completed_assignments": 60,
+  "full_batch_required_assignments": 80,
+  "images_with_at_least_one_submission": 40,
+  "partial_iaa_images": 20,
+  "partial_iaa_assignments": 40,
+  "single_annotator_images": 20,
+  "warning": "All iaa_summary metrics in this directory apply ONLY to the 20-image subset. 40/40 assignments in that summary means 40/40 within the subset, not 80/80 for the original batch.",
+  "source_hashes": {
+    "submission/labels/084.json": "2c2810485d1b07169ad240edcddffecfc5dc5bfacdb0db80b8e3aeb51f18ea1a",
+    "submission/labels/117.json": "c45fcfd73fc965eb97099c5b3f06743af8dd2b303a4200e70960a9d0704216a0",
+    "submission/labels/133.json": "5ae2c489a074c1cef0104c064a1c5e155ee99c8f750ced1c9532800277754a1b",
+    "submission/qc/assignment.csv": "4e87cebe33554361f27a5b74c877a4ba495b0df67755cf93d4e05d838e60e61c"
+  },
+  "partial_subset_labels_are_derived_not_original_submissions": true,
+  "original_labels_and_assignment_modified": false,
+  "replay_workspace": "work/partial_iaa_2026-11-17_084_117_133",
+  "source_117": "YOLO + SAM ViT-B with assistant visual review, not a claim of independent human-only annotation",
+  "supplemental_assignments_are_plan_only": true,
+  "planned_final_loads": {
+    "084": 27,
+    "117": 27,
+    "133": 26
+  }
+}
