@@ -24,6 +24,8 @@ Gói này nộp bằng chứng đã có theo nhánh Hold của `SUBMISSION.md`. 
 
 ## Đọc kết quả
 
+- [Kiểm tra tiếp sau bản Hold](qc/assistant_review_2026-11-17.md): lỗi thực tế ở img_001 và sáu điều kiện còn thiếu; chưa coi là calibration đã duyệt.
+
 - [QC_REPORT.md](qc/QC_REPORT.md) ghi Hold và các giới hạn.
 - [PARTIAL_IAA_REPORT.md](qc/partial_2026-11-17_084_117_133/PARTIAL_IAA_REPORT.md) ghi rõ mẫu số. Con số 40/40 trong summary bên trong chỉ là lượt của tập con 20 ảnh, không phải toàn lô.
 - [CALIBRATION_HANDOFF.md](qc/partial_2026-11-17_084_117_133/CALIBRATION_HANDOFF.md) và `calibration_decisions_TEMPLATE.csv` chuẩn bị cho buổi chốt thực tế.

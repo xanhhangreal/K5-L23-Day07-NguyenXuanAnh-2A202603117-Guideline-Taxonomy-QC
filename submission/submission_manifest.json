@@ -85,8 +85,8 @@
       "bytes": 7434
     },
     "submission/individual_notes/117.md": {
-      "sha256": "926a1eec9e337ab67eb0d70faede4e6ae40baf6f012cd327e3801526eccffc02",
-      "bytes": 1993
+      "sha256": "254d0dbac6fe11266b9ccd8d47e4954a29ca6c785deb1fde61ffbfaee67a662d",
+      "bytes": 2657
     },
     "submission/individual_notes/133.md": {
       "sha256": "680de4c292fd75de372fd71edd7ccc790726936c0be24fc1d0d31d16a88eeba5",
@@ -129,15 +129,15 @@
       "bytes": 4030112
     },
     "submission/packages/partial_IAA_084_117_133_2026-11-17.zip": {
-      "sha256": "e0993c5f0ccc02137de7761929862530ff7a6cbf96b37ad538557aca41e8d838",
-      "bytes": 21541408
+      "sha256": "f2ca7bd4a2f881e78afa2b17aa25ecd208ab9e629545df01c8983ab93c288473",
+      "bytes": 21543169
     },
     "submission/packages/README.md": {
       "sha256": "099a8d74d6233fcde0a71870be3609f77c31dce197a199159e638a922ef1957a",
       "bytes": 3377
     },
     "submission/packages/SHA256SUMS.txt": {
-      "sha256": "0b18e140d26755f99447a3ca5d8167f60b720fdad31f3fef93b22c4184342293",
+      "sha256": "379121763f6e1a42fff24f31b8e32e7eff68a418b2ec66c99bb6bb30babc50fd",
       "bytes": 749
     },
     "submission/packages/supplement_084_2026-11-17.zip": {
@@ -301,8 +301,8 @@
       "bytes": 946
     },
     "submission/SUBMISSION_STATUS.md": {
-      "sha256": "33699eb3cef94307054cdd5bed10d0a230f96cf3d90f4bd25d7ccfa602d5d595",
-      "bytes": 3897
+      "sha256": "a9a0b44b254af05020fc533825d1cf12355a2d93a0aef4ffc63c7f5031f273b3",
+      "bytes": 4081
     },
     "submission/tasks/task_084.md": {
       "sha256": "549b543c7536aa948c40dcc78bffe2360df25939b7213df78f40b8451d8e2014",
@@ -371,6 +371,10 @@
     "submission/guidelines/individual/guideline_084.md": {
       "sha256": "da44112d57b4782d2ef86b27866fe12b3feee16383caa18247fa6c7acb888bed",
       "bytes": 13249
+    },
+    "submission/qc/assistant_review_2026-11-17.md": {
+      "sha256": "94bb1dbfb8082a34bd0a3899efb741607caf1f5610bd0ab5917028ed4b0bc4cb",
+      "bytes": 3089
     }
   },
   "submission_branch": "main",
